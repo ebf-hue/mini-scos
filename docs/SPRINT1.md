@@ -53,7 +53,7 @@ We change direction if necessary components are incompatible or exceed our agree
 - **Python:** proposed for later image analysis; libraries and camera software will be selected after compatibility checks.
 - **CAD software:** to be selected for the printed jig after we establish the geometry.
 
-Supporting work includes 8–10 related-paper summaries (#6), 2–3 relevant BU faculty and specific questions (#5), and a crossed review of this plan by two different AI models (#4). Findings and review links will be saved under `docs/`.
+The [related-work shortlist](RELATED_WORK.md) contains ten papers with their contributions and open questions (#6). Supporting work also includes 2–3 relevant BU faculty and specific questions (#5), and a crossed review of this plan by two different AI models (#4). Findings and review links will be saved under `docs/`.
 
 ## Risks and Deliverable
 
