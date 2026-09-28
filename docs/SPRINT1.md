@@ -16,6 +16,7 @@ We have a Raspberry Pi 5, power supply, and IMX296 global-shutter camera. We wil
 
 - Confirm existing hardware specifications and compatibility.
 - Research camera, laser, and lens requirements using papers and manufacturer documentation.
+- Specify setup variables: exposure time, window size, and speckle size.
 - Compare purchase options by price, availability, compatibility, and uncertainty.
 - Outline the geometry for a skin-contact jig; detailed CAD and printing come later.
 - Recommend a parts list and first experiment using an inanimate target.
