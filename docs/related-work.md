@@ -1,0 +1,24 @@
+# Related Work
+
+Ten papers to guide hardware selection and the first feasibility experiments. The open questions below are our interpretation for mini-scos, not claims that the papers attempted our exact setup. LSCI papers are useful precedents for speckle imaging, but do not by themselves validate diffuse SCOS measurements through skin.
+
+| Paper | What it does and what it leaves open for us |
+|---|---|
+| [Low-cost laser speckle contrast imaging of blood flow using a webcam](https://pmc.ncbi.nlm.nih.gov/articles/PMC3799684/) (2013, Biomedical Optics Express) | Demonstrates a consumer webcam, inexpensive lenses, and laser-pointer setup in flow phantoms and a mouse model; supports a low-cost first experiment, but does not establish that our IMX296 and skin-contact geometry will work. |
+| [Speckle contrast optical spectroscopy, a non-invasive, diffuse optical method for measuring microvascular blood flow in tissue](https://pmc.ncbi.nlm.nih.gov/articles/PMC4133004/) (2014, Biomedical Optics Express) | Introduces SCOS with phantom and forearm measurements, diffusion modeling, and noise corrections; we still need to establish whether our source-detector geometry and signal quality support that model. |
+| [Compact, multi-exposure speckle contrast optical spectroscopy (SCOS) device for measuring deep tissue blood flow](https://pmc.ncbi.nlm.nih.gov/articles/PMC5772585/) (2018, Biomedical Optics Express) | Demonstrates compact multi-exposure SCOS with a SPAD array and comparison against DCS; provides a validation example, but its detector is different from our CMOS camera. |
+| [Choosing a laser for laser speckle contrast imaging](https://www.nature.com/articles/s41598-019-39137-x) (2019, Scientific Reports) | Shows experimentally and through simulation that laser spectral width affects contrast and signal quality; an inexpensive red pointer's wavelength and power alone do not establish adequate coherence. |
+| [Wearable, low-cost device for monitoring cerebral blood flow with speckle contrast optical spectroscopy](https://opg.optica.org/abstract.cfm?uri=OCT-2020-JTu3A.13) (2020, Biophotonics Congress conference paper) | Presents a wearable SCOS design and measurements; motivates compact hardware, but this short conference report does not validate our camera, laser, or budget. |
+| [Choosing a model for laser speckle contrast imaging](https://pmc.ncbi.nlm.nih.gov/articles/PMC8221943/) (2021, Biomedical Optics Express) | Examines how scattering and motion assumptions affect conversion of contrast into flow estimates; we should report contrast first rather than assume it is an absolute blood-flow measurement. |
+| [Simultaneous photoplethysmography and blood flow measurements towards the estimation of blood pressure using speckle contrast optical spectroscopy](https://pmc.ncbi.nlm.nih.gov/articles/PMC10110303/) (2023, Biomedical Optics Express) | Explores simultaneous volume and flow information for blood-pressure estimation; motivates recording both intensity and contrast, but our low-cost setup still needs independent signal validation. |
+| [Choosing a camera and optimizing system parameters for speckle contrast optical spectroscopy](https://pmc.ncbi.nlm.nih.gov/articles/PMC11126420/) (2024, Scientific Reports) | Compares cameras and describes gain, dark-offset, read-noise, exposure, and speckle-sampling characterization; gives us a practical evaluation approach without establishing the suitability of the IMX296. |
+| [Compact and cost-effective laser-powered speckle contrast optical spectroscopy fiber-free device for measuring cerebral blood flow](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140771/) (2024, Journal of Biomedical Optics) | Demonstrates a fiber-free laser-and-board-camera architecture; supports investigating simple mounting, but its selected source and detector are not interchangeable with arbitrary hobbyist parts. |
+| [Speckle contrast optical spectroscopy for cuffless blood pressure estimation based on microvascular blood flow and volume oscillations](https://pubmed.ncbi.nlm.nih.gov/40809974/) (2025, Biomedical Optics Express) | Studies whether combined flow and volume waveforms improve cuffless blood-pressure estimation; supports the project's motivation, while reproducing blood-pressure accuracy remains outside our scope. |
+
+## Start Here
+
+Read the webcam paper, laser-selection paper, and camera-selection paper first. Together they address the purchasing question: what can inexpensive components demonstrate, and which specifications or calibration steps matter?
+
+Our immediate question is whether a Raspberry Pi 5, IMX296 camera, and affordable laser can provide repeatable speckle measurements. These papers support testing that question; they do not answer it for our exact hardware.
+
+This is a sourced literature shortlist, not a record that both team members have completed the reading. The team should reconcile it with their Project 1 papers before submission.
