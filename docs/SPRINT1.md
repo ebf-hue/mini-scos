@@ -8,15 +8,15 @@ The primary user is a student experimenter who wants to explore optical sensing 
 
 ## Sprint Goal
 
-Research feasibility and decide what to purchase. Purchasing and physical experiments come afterward. A complete device remains a stretch goal.
+Research feasibility and decide what to purchase. Then start experimenting with components. A complete device remains a stretch goal.
 
-We have a Raspberry Pi 5, power supply, and IMX296 global-shutter camera. We will document the setup, including the lens and cables, as evidence of access. Speckle capture is not yet demonstrated.
+We have a Raspberry Pi 5, power supply, and IMX296 global-shutter camera. We will research and purchase the remaining most essential components, including the lens, laser, and filter. We will document the setup, including the lens and cables, as evidence of access. Speckle capture is not yet demonstrated.
 
 ## Work This Sprint
 
 - Confirm existing hardware specifications and compatibility.
 - Research camera, laser, and lens requirements using papers and manufacturer documentation.
-- Specify setup variables: exposure time, window size, and speckle size.
+- Explore setup variables: exposure time, window size, and speckle size.
 - Compare purchase options by price, availability, compatibility, and uncertainty.
 - Outline the geometry for a skin-contact jig; detailed CAD and printing come later.
 - Recommend a parts list and first experiment using an inanimate target.
