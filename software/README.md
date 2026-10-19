@@ -24,6 +24,14 @@ Open `results/demo/measurements.png` and `results/demo/measurements.csv`. Each r
 
 ## Analyze a frame
 
+### Desktop window
+
+With the environment activated, run `python ui.py`. Choose frames, optionally enable an ROI, choose a results folder, and click **Analyze**. **Run simulated demo** loads the two example frames and runs the analysis immediately. The window shows the measurements and plot and saves the same CSV/PNG outputs as the CLI.
+
+The UI uses Python's Tkinter. On Raspberry Pi OS, install `python3-tk` using apt if needed. A desktop/display session is required; the CLI remains available for a headless Pi. The UI does not control the camera yet.
+
+### Command line
+
 ```sh
 python analyze.py capture.npy --roi 20 30 100 80 --output results/trial01
 ```
