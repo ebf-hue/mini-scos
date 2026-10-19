@@ -26,9 +26,15 @@ Open `results/demo/measurements.png` and `results/demo/measurements.csv`. Each r
 
 ### Desktop window
 
-With the environment activated, run `python ui.py`. Choose frames, optionally enable an ROI, choose a results folder, and click **Analyze**. **Run simulated demo** loads the two example frames and runs the analysis immediately. The window shows the measurements and plot and saves the same CSV/PNG outputs as the CLI.
+With the environment activated, run `python ui.py`. The workspace opens with four bundled demo images. Choose one in the image list, then drag a rectangle on the preview or enter pixel coordinates and press **Apply**. Contrast, mean and standard deviation update immediately. **Full frame** resets the region. Each image retains its own region, shown in the comparison table.
+
+**Open images** adds your own single-channel PNG/TIFF or NumPy frames. **Preview brightness** changes only the displayed image, not measurements; it can clip bright spots on screen. **Export results** saves all loaded images' current measurements and ROI coordinates as `measurements.csv`, plus the comparison plot `measurements.png`. Existing files with those names in the chosen folder are replaced. Preview selections and brightness changes never alter source files.
 
 The UI uses Python's Tkinter. On Raspberry Pi OS, install `python3-tk` using apt if needed. A desktop/display session is required; the CLI remains available for a headless Pi. The UI does not control the camera yet.
+
+### Bundled demo images
+
+The four [16-bit PNG images](examples/images/README.md) are included in the repository; no downloads or generation step is needed to try the UI. They are simulated inputs with mean intensity approximately 1000. High, medium and low contrast illustrate averaging 1, 4 and 16 independent realizations. The uniform reference has zero contrast. These are not prototype captures or physiological measurements.
 
 ### Command line
 
