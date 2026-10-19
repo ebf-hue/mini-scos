@@ -1,0 +1,20 @@
+{
+  "rail_segment_length": 180,
+  "rail_width": 120,
+  "axis_height_above_rail": 67,
+  "camera_hole_pitch": 30,
+  "camera_hole_clearance": 2.8,
+  "camera_standoff": 5,
+  "laser_diameter": 10,
+  "laser_diametral_clearance": 0.4,
+  "filter_frame_outer": 60,
+  "filter_aperture": 48,
+  "filter_slot": 4.6,
+  "hood_length": 80,
+  "camera_x": 28,
+  "lens_front_offset": 70,
+  "filter_x": 126,
+  "laser_x": 235,
+  "target_x": 330,
+  "laser_y": 22
+}

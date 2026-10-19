@@ -1,0 +1,143 @@
+{
+  "rail_segment": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 166035.99,
+    "bounding_box_mm": [
+      180.0,
+      132.0,
+      16.0
+    ]
+  },
+  "rail_join_plate": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1659.05,
+    "bounding_box_mm": [
+      32.0,
+      14.0,
+      4.0
+    ]
+  },
+  "camera_bracket": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 50795.17,
+    "bounding_box_mm": [
+      50.0,
+      84.0,
+      100.0
+    ]
+  },
+  "camera_spacer": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 130.06,
+    "bounding_box_mm": [
+      6.4,
+      6.4,
+      5.0
+    ]
+  },
+  "laser_carrier": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 24705.41,
+    "bounding_box_mm": [
+      50.0,
+      84.0,
+      6.0
+    ]
+  },
+  "laser_yaw_clevis": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 15648.11,
+    "bounding_box_mm": [
+      36.0,
+      36.0,
+      47.0
+    ]
+  },
+  "laser_clamp_lower": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 9472.7,
+    "bounding_box_mm": [
+      32.0,
+      30.0,
+      28.0
+    ]
+  },
+  "laser_clamp_upper": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 7877.65,
+    "bounding_box_mm": [
+      32.0,
+      30.0,
+      10.0
+    ]
+  },
+  "filter_holder": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 45779.97,
+    "bounding_box_mm": [
+      50.0,
+      84.0,
+      101.0
+    ]
+  },
+  "filter_frame": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 3547.65,
+    "bounding_box_mm": [
+      2.0,
+      60.0,
+      60.0
+    ]
+  },
+  "target_holder": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 56776.44,
+    "bounding_box_mm": [
+      50.0,
+      84.0,
+      98.0
+    ]
+  },
+  "camera_hood": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 47864.44,
+    "bounding_box_mm": [
+      80.0,
+      78.0,
+      107.0
+    ]
+  },
+  "laser_fit_coupon": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 2868.62,
+    "bounding_box_mm": [
+      12.0,
+      18.0,
+      18.0
+    ]
+  },
+  "camera_hole_coupon": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 5218.11,
+    "bounding_box_mm": [
+      3.0,
+      42.0,
+      42.0
+    ]
+  },
+  "_assembly_interferences": []
+}
