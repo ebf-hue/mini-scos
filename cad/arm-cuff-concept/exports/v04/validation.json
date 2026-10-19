@@ -1,0 +1,306 @@
+{
+  "forearm_reference": {
+    "valid": true,
+    "bbox_mm": [
+      260.0,
+      86.0,
+      72.02
+    ]
+  },
+  "open_saddle": {
+    "valid": true,
+    "bbox_mm": [
+      106.0,
+      72.92,
+      21.0
+    ]
+  },
+  "contact_padding": {
+    "valid": true,
+    "bbox_mm": [
+      72.0,
+      64.77,
+      11.22
+    ]
+  },
+  "camera_housing_HQ_proxy": {
+    "valid": true,
+    "bbox_mm": [
+      38.0,
+      40.7,
+      13.06
+    ]
+  },
+  "camera_PCB_HQ_proxy": {
+    "valid": true,
+    "bbox_mm": [
+      38.0,
+      38.5,
+      4.6
+    ]
+  },
+  "16mm_lens_drawing_reconstruction": {
+    "valid": true,
+    "bbox_mm": [
+      39.0,
+      39.0,
+      50.0
+    ]
+  },
+  "lens_glass": {
+    "valid": true,
+    "bbox_mm": [
+      29.4,
+      29.4,
+      1.0
+    ]
+  },
+  "macro_spacer_UNRESOLVED": {
+    "valid": true,
+    "bbox_mm": [
+      30.0,
+      30.0,
+      9.0
+    ]
+  },
+  "filter_frame": {
+    "valid": true,
+    "bbox_mm": [
+      48.0,
+      48.0,
+      3.0
+    ]
+  },
+  "red_gel": {
+    "valid": true,
+    "bbox_mm": [
+      27.6,
+      27.6,
+      0.35
+    ]
+  },
+  "laser_clamp": {
+    "valid": true,
+    "bbox_mm": [
+      26.88,
+      18.0,
+      30.22
+    ]
+  },
+  "laser_clamp_support": {
+    "valid": true,
+    "bbox_mm": [
+      22.0,
+      24.0,
+      32.0
+    ]
+  },
+  "camera_mount": {
+    "valid": true,
+    "bbox_mm": [
+      58.0,
+      60.0,
+      18.0
+    ]
+  },
+  "ribbon_reference": {
+    "valid": true,
+    "bbox_mm": [
+      16.0,
+      60.47,
+      35.03
+    ]
+  },
+  "FFC_blue_stiffener": {
+    "valid": true,
+    "bbox_mm": [
+      16.0,
+      10.51,
+      8.92
+    ]
+  },
+  "cyan_lens_index_ring": {
+    "valid": true,
+    "bbox_mm": [
+      34.4,
+      34.4,
+      1.0
+    ]
+  },
+  "filter_pull_tab": {
+    "valid": true,
+    "bbox_mm": [
+      12.0,
+      14.0,
+      3.0
+    ]
+  },
+  "lens_lock_screw_0": {
+    "valid": true,
+    "bbox_mm": [
+      5.0,
+      6.0,
+      5.0
+    ]
+  },
+  "lens_lock_screw_1": {
+    "valid": true,
+    "bbox_mm": [
+      5.0,
+      6.0,
+      5.0
+    ]
+  },
+  "slotted_camera_upright_0": {
+    "valid": true,
+    "bbox_mm": [
+      8.0,
+      8.0,
+      87.0
+    ]
+  },
+  "slotted_camera_upright_1": {
+    "valid": true,
+    "bbox_mm": [
+      8.0,
+      8.0,
+      87.0
+    ]
+  },
+  "Adafruit1054_0": {
+    "valid": true,
+    "bbox_mm": [
+      22.92,
+      10.0,
+      33.95
+    ]
+  },
+  "Adafruit1054_1": {
+    "valid": true,
+    "bbox_mm": [
+      21.11,
+      8.0,
+      33.11
+    ]
+  },
+  "Adafruit1054_2": {
+    "valid": true,
+    "bbox_mm": [
+      2.76,
+      2.8,
+      1.89
+    ]
+  },
+  "Adafruit1054_3": {
+    "valid": true,
+    "bbox_mm": [
+      3.9,
+      1.5,
+      6.07
+    ]
+  },
+  "Adafruit1054_4": {
+    "valid": true,
+    "bbox_mm": [
+      3.9,
+      1.5,
+      6.07
+    ]
+  },
+  "camera_screw_7_-15": {
+    "valid": true,
+    "bbox_mm": [
+      5.0,
+      5.0,
+      7.5
+    ]
+  },
+  "camera_screw_7_15": {
+    "valid": true,
+    "bbox_mm": [
+      5.0,
+      5.0,
+      7.5
+    ]
+  },
+  "camera_screw_37_-15": {
+    "valid": true,
+    "bbox_mm": [
+      5.0,
+      5.0,
+      7.5
+    ]
+  },
+  "camera_screw_37_15": {
+    "valid": true,
+    "bbox_mm": [
+      5.0,
+      5.0,
+      7.5
+    ]
+  },
+  "height_adjustment_knob_4": {
+    "valid": true,
+    "bbox_mm": [
+      9.0,
+      13.0,
+      9.0
+    ]
+  },
+  "height_adjustment_knob_40": {
+    "valid": true,
+    "bbox_mm": [
+      9.0,
+      13.0,
+      9.0
+    ]
+  },
+  "PCB_component_0": {
+    "valid": true,
+    "bbox_mm": [
+      4.0,
+      3.0,
+      1.8
+    ]
+  },
+  "PCB_component_1": {
+    "valid": true,
+    "bbox_mm": [
+      4.0,
+      3.0,
+      1.8
+    ]
+  },
+  "PCB_component_2": {
+    "valid": true,
+    "bbox_mm": [
+      4.0,
+      3.0,
+      1.8
+    ]
+  },
+  "PCB_component_3": {
+    "valid": true,
+    "bbox_mm": [
+      4.0,
+      3.0,
+      1.8
+    ]
+  },
+  "PCB_component_4": {
+    "valid": true,
+    "bbox_mm": [
+      4.0,
+      3.0,
+      1.8
+    ]
+  },
+  "FFC_connector": {
+    "valid": true,
+    "bbox_mm": [
+      20.0,
+      5.0,
+      3.0
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+# Preserve source geometry bytes and keep generated meshes out of text diffs.
+*.step -text -diff
+*.stl -text -diff
