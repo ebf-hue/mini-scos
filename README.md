@@ -8,6 +8,8 @@ Speckle Contrast Optical Spectroscopy (SCOS) is a research technique to measure 
 ## How to reproduce this project ##
 Check the hardware and software requirements to get started. See /docs for detailed documentation.
 
+The [contrast-analysis tool](software/README.md) runs on a laptop or Raspberry Pi OS. Start with its simulated example to produce a CSV and plot; camera capture and hardware validation are still pending.
+
 ## CAD concepts
 
 The [CAD folder](cad/README.md) contains Fusion-compatible STEP assemblies, editable generators, and previews for an adjustable bench fixture and an open arm-saddle concept. These are unprinted designs; physical fit and optical performance remain untested.
