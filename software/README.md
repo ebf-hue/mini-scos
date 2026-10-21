@@ -6,7 +6,7 @@ Raspberry Pi OS (64-bit) is the target for future Pi camera capture. This analys
 
 ## Fresh clone setup
 
-You need Git, uv, an internet connection for the first setup, and a desktop session to use the window. No camera, laser, API key or account configuration is needed for the demos. GitHub access to the repository is required if its visibility is restricted.
+You need Git, uv, an internet connection for the first setup, and a desktop session to use the window. No camera, laser, API key or account configuration is needed for the demos.
 
 ### Install the tools
 
