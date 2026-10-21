@@ -2,11 +2,49 @@
 
 First software milestone: load a single-channel frame, select a rectangular region, calculate mean intensity and spatial contrast, and save CSV results and a plot. No camera is needed yet.
 
-Raspberry Pi OS (64-bit) is the target for future Pi camera capture. This analysis tool also runs on a laptop with Python 3.10 or newer. It has not been tested on the physical Pi yet.
+Raspberry Pi OS (64-bit) is the target for future Pi camera capture. This analysis tool also runs on a laptop with Python 3.10–3.13. The default development runtime is Python 3.12. It has not been tested on the physical Pi yet.
+
+## Launch with uv
+
+From `software/`, with [uv installed](https://docs.astral.sh/uv/getting-started/installation/):
+
+```sh
+uv run --managed-python ui.py
+```
+
+uv downloads its own Python 3.12 if needed, creates `.venv`, and installs the dependencies from `uv.lock`. No environment activation is needed. `--managed-python` avoids accidentally selecting Apple's, Homebrew's or Conda's Python/Tk runtime. `pyproject.toml` is the dependency source of truth; `requirements.txt` is retained for the pip workflow below.
+
+On Raspberry Pi OS, use the OS Python and its Tk package instead:
+
+```sh
+sudo apt install python3-tk
+uv run --python /usr/bin/python3 ui.py
+```
+
+This deliberately overrides the development Python pin so the interpreter uses the OS-provided Tk installation. A desktop/display session is required; physical Pi validation is still pending.
+
+### macOS runtime aborts
+
+An error such as `macOS 15 (1507) or later required, have instead 15 (1506)` is a native runtime abort, not a minimum macOS version declared by this app. A bare `python3 ui.py` can select a different Python/Tk installation than expected. Try the managed uv command above rather than assuming an OS upgrade is needed. Do not set a fake macOS version or disable runtime checks.
+
+To identify the interpreter and Tk version without launching the window:
+
+```sh
+uv run --managed-python python -c 'import sys, tkinter; print(sys.executable); print(sys.version); print("Tk", tkinter.TkVersion)'
+```
 
 ## Run the example
 
 From this folder:
+
+With uv:
+
+```sh
+uv run --managed-python examples/generate.py
+uv run --managed-python analyze.py examples/generated/high.npy examples/generated/low.npy --output results/demo
+```
+
+Or with a known working Python/Tk installation and pip:
 
 ```sh
 python3 -m venv .venv
@@ -56,6 +94,14 @@ For the color IMX296 sensor, extract one consistent Bayer color-site grid before
 This measures raw spatial intensity variation only. Exposure, sampling, illumination and sensor noise all affect contrast. It does not estimate blood flow or blood pressure. Preserve original captures separately and hold camera settings and geometry fixed when comparing real trials.
 
 ## Checks
+
+With uv:
+
+```sh
+uv run --managed-python python -m unittest discover -s tests -v
+```
+
+Or in an activated environment:
 
 ```sh
 python -m unittest discover -s tests -v
