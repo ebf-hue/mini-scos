@@ -10,7 +10,7 @@ You need Git, uv, an internet connection for the first setup, and a desktop sess
 
 ### Install the tools
 
-Install [Git](https://git-scm.com/downloads) if `git --version` is not recognized. Choose a uv installation method from its [official installation guide](https://docs.astral.sh/uv/getting-started/installation/):
+Install [Git](https://git-scm.com/downloads) if `git --version` is not recognized. uv is a free tool that installs the right Python version and this project's dependencies for you. Choose a uv installation method from its [official installation guide](https://docs.astral.sh/uv/getting-started/installation/):
 
 - **macOS with Homebrew:** `brew install uv`.
 - **Windows PowerShell:** `winget install --id=astral-sh.uv -e`.
@@ -18,9 +18,11 @@ Install [Git](https://git-scm.com/downloads) if `git --version` is not recognize
 
 After installing, reopen the terminal if needed and check `uv --version`. macOS users without Homebrew can use uv's official standalone installer too.
 
-### macOS and Windows desktop
+The commands below need a recent version of uv. If uv says it doesn't recognize `--managed-python`, update it with `uv self update` (or `brew upgrade uv` if you installed it with Homebrew).
 
-In Terminal on macOS or PowerShell on Windows:
+### macOS, Windows and Linux desktop
+
+In Terminal on macOS or Linux, or PowerShell on Windows:
 
 ```sh
 git clone https://github.com/ebf-hue/mini-scos.git
@@ -30,7 +32,7 @@ uv run --locked --managed-python ui.py
 
 If you already cloned the repo, open a terminal in its `software` folder and run only the last command. To get later updates from the repository, return to your checkout and use your normal Git update workflow; do not clone a second copy over existing work.
 
-uv downloads its own Python 3.12 if needed, creates `.venv`, and installs dependencies from `uv.lock`. No environment activation is needed. `--managed-python` avoids accidentally selecting Apple's, Homebrew's or Conda's Python/Tk runtime. `--locked` ensures the committed dependency lockfile is used without updating it. `pyproject.toml` is the dependency source of truth; `requirements.txt` is retained for the optional pip workflow below.
+uv downloads its own Python 3.12 if needed, creates `.venv`, and installs dependencies from `uv.lock`. No environment activation is needed. `--managed-python` makes uv use its own Python instead of one already on your computer (Apple's, Homebrew's or Conda's), which can come with a broken or incompatible Tk window library. `--locked` makes everyone use the exact dependency versions recorded in `uv.lock`, without updating them.
 
 Expected result: the **mini-scos — Image workspace** window opens with High contrast, Medium contrast, Low contrast and Uniform reference in its image list. The demo images ship with the repo; there is no download button or generation step.
 
@@ -46,7 +48,9 @@ cd mini-scos/software
 uv run --locked --python /usr/bin/python3 ui.py
 ```
 
-This deliberately overrides the development Python pin so the interpreter uses the OS-provided Tk installation. A desktop/display session is required; physical Pi validation is still pending.
+This deliberately uses the Pi's own Python instead of uv's, because the Pi's Python comes with a Tk window library built for the Pi. A desktop/display session is required; physical Pi validation is still pending.
+
+The app supports Python 3.10–3.13. Check the Pi's version with `python3 --version`. If it is 3.14 or newer, uv will refuse to run until the version limit in `pyproject.toml` (`requires-python`) is raised and the app is retested.
 
 All remaining examples assume your terminal is in `software/`. On the Pi, replace `--managed-python` with `--python /usr/bin/python3` in uv commands below.
 
@@ -62,7 +66,7 @@ To reopen the app later, return to `software/` and run the same uv launch comman
 
 ### macOS runtime aborts
 
-An error such as `macOS 15 (1507) or later required, have instead 15 (1506)` is a native runtime abort, not a minimum macOS version declared by this app. A bare `python3 ui.py` can select a different Python/Tk installation than expected. Try the managed uv command above rather than assuming an OS upgrade is needed. Do not set a fake macOS version or disable runtime checks.
+An error such as `macOS 15 (1507) or later required, have instead 15 (1506)` is a native runtime abort, not a minimum macOS version declared by this app. It usually means a bare `python3 ui.py` picked up Apple's built-in Python, whose Tk window library refuses to start. Use the uv command above instead; you don't need to upgrade macOS. Do not set a fake macOS version or disable runtime checks.
 
 To identify the interpreter and Tk version without launching the window:
 
@@ -75,13 +79,15 @@ uv run --locked --managed-python python -c "import sys, tkinter; print(sys.execu
 | Symptom | What to check |
 |---|---|
 | `uv: command not found` / not recognized | Reopen the terminal after installation; use the PATH instructions printed by the official installer. |
+| uv doesn't recognize `--managed-python` | Your uv is too old. Run `uv self update` (or `brew upgrade uv`). |
 | `ui.py` or `pyproject.toml` not found | Change into the cloned repository's `software` folder. |
 | `_tkinter` missing | On Mac/Windows use `--managed-python`. On the Pi install `python3-tk` and explicitly select `/usr/bin/python3`. Installing a package called tkinter with pip is not the fix. |
+| uv says the Python version isn't supported | The app supports Python 3.10–3.13. On the Pi, see the version note above. |
 | No display / `$DISPLAY` error over SSH | Use a desktop session for the window, or use the headless CLI below. |
 | `--locked` reports an outdated lockfile | Check that `pyproject.toml` and `uv.lock` come from the same repository revision. Do not regenerate the lockfile just to hide a mismatched checkout. |
 | Image rejected | Use a single-channel PNG/TIFF or unpacked 2D `.npy`; RGB, JPEG, packed RAW10 and DNG are unsupported. |
 
-The managed macOS workflow, six tests and example CSV/plot output have been checked locally. Windows instructions and the Pi workflow are provided for setup but have not been validated on those machines. If reporting a problem, include the command, full error, OS, `uv --version`, and the interpreter/Tk diagnostic above (use the Pi interpreter override there too).
+The managed workflow has been checked on macOS and Linux, and the Pi-style system-Python workflow on Linux. Windows and a physical Pi have not been validated yet. If reporting a problem, include the command, full error, OS, `uv --version`, and the interpreter/Tk diagnostic above (use the Pi interpreter override there too).
 
 ## Headless analysis (no window)
 
@@ -92,8 +98,8 @@ From this folder:
 With uv:
 
 ```sh
-uv run --managed-python examples/generate.py
-uv run --managed-python analyze.py examples/generated/high.npy examples/generated/low.npy --output results/demo
+uv run --locked --managed-python examples/generate.py
+uv run --locked --managed-python analyze.py examples/generated/high.npy examples/generated/low.npy --output results/demo
 ```
 
 Or with a known working Python/Tk installation and pip:
@@ -106,7 +112,7 @@ python examples/generate.py
 python analyze.py examples/generated/high.npy examples/generated/low.npy --output results/demo
 ```
 
-On Raspberry Pi OS, install `python3-venv` with apt if creating the environment reports it is missing. Keep pip packages inside the virtual environment.
+On Windows, activate with `.venv\Scripts\activate` instead of `. .venv/bin/activate`. On Raspberry Pi OS, install `python3-venv` with apt if creating the environment reports it is missing. Keep pip packages inside the virtual environment.
 
 The example generates deterministic simulated coherent speckle fields. The low-contrast frame averages 16 independent realizations; both frames have mean intensity 1000 in arbitrary units. Expect high contrast near 1 and low contrast near 0.25. These are illustrative numerical inputs, not measured blood-flow data or a realistic camera/noise model.
 
@@ -129,8 +135,10 @@ The four [16-bit PNG images](examples/images/README.md) are included in the repo
 ### Command line
 
 ```sh
-python analyze.py capture.npy --roi 20 30 100 80 --output results/trial01
+uv run --locked --managed-python analyze.py capture.npy --roi 20 30 100 80 --output results/trial01
 ```
+
+(In an activated pip environment, use `python analyze.py ...` instead.)
 
 ROI arguments are **x, y, width, height** in input-array pixels, with the origin at the top left. Omit them to use the entire frame. Out-of-bounds ROIs, fewer than two pixels, negative/nonfinite intensities and zero mean are rejected.
 
@@ -150,7 +158,7 @@ This measures raw spatial intensity variation only. Exposure, sampling, illumina
 With uv:
 
 ```sh
-uv run --managed-python python -m unittest discover -s tests -v
+uv run --locked --managed-python python -m unittest discover -s tests -v
 ```
 
 Or in an activated environment:
@@ -160,3 +168,8 @@ python -m unittest discover -s tests -v
 ```
 
 Checks use analytically known contrast values, a cropped ROI, high-bit-depth input, invalid frames, and an end-to-end CSV/plot run.
+
+### Notes for contributors
+
+- **Dependencies are listed in two places.** `pyproject.toml` (used by uv, with exact versions locked in `uv.lock`) is the main list; `requirements.txt` is kept for the pip workflow. If you add or change a dependency, update both and run `uv lock`, so pip users and uv users get the same packages.
+- **Test UI changes on both Tk versions.** uv's Python on macOS, Windows and Linux uses Tk 9, while the Pi's system Python uses Tk 8.6. Run the window both ways (`--managed-python` and `--python /usr/bin/python3`) when changing `ui.py`.
