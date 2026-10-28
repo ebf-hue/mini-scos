@@ -25,6 +25,8 @@ uv run --locked --managed-python ui.py
 
 The window opens with four simulated images ready to inspect. No camera or laser is needed. The first run downloads Python and dependencies; you do not need to choose or activate a Python environment.
 
+![GUI window with image selection, brightness slider, output values, and import/export buttons.](software/demo-gui.png)
+
 See the [setup and usage instructions](software/README.md#fresh-clone-setup) for macOS, Windows, Raspberry Pi OS, headless analysis, and troubleshooting. The uv desktop launch and tests have been checked on macOS; Windows and physical Pi testing are still pending.
 
 ## CAD concepts
