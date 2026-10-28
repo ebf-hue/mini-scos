@@ -1,0 +1,204 @@
+{
+  "WristSaddle": {
+    "valid": true,
+    "solids": 1,
+    "volume": 27118.402241742086,
+    "bbox": [
+      -38.0000001,
+      -28.00000070000002,
+      49.999999899999985,
+      38.0000001,
+      28.000000699999994,
+      92.4
+    ]
+  },
+  "CameraKeeper": {
+    "valid": true,
+    "solids": 1,
+    "volume": 325.8075420595819,
+    "bbox": [
+      -6.75,
+      -14.4,
+      85.0,
+      26.750000000000004,
+      -8.8,
+      92.4
+    ]
+  },
+  "LaserCap": {
+    "valid": true,
+    "solids": 1,
+    "volume": 1289.0851081694102,
+    "bbox": [
+      -24.925514036825813,
+      -8.500000000000002,
+      73.40972400982389,
+      -6.187184335382289,
+      8.500000000000002,
+      92.14805371126742
+    ]
+  },
+  "BeamReference": {
+    "valid": true,
+    "solids": 1,
+    "volume": 1.52053084433746,
+    "bbox": [
+      -7.226631303726516,
+      -0.22,
+      60.844436508138955,
+      0.15556349186104046,
+      0.22,
+      68.22663130372652
+    ]
+  },
+  "SpotReference": {
+    "valid": true,
+    "solids": 1,
+    "volume": 0.24127431579569442,
+    "bbox": [
+      -0.8,
+      -0.8,
+      61.0,
+      0.8,
+      0.8,
+      61.12
+    ]
+  },
+  "CameraAxisReference": {
+    "valid": true,
+    "solids": 1,
+    "volume": 1.082677578956193,
+    "bbox": [
+      9.87,
+      -0.13,
+      59.957871187497744,
+      10.13,
+      0.13,
+      80.35
+    ]
+  },
+  "ArmReference": {
+    "valid": true,
+    "solids": 1,
+    "volume": 494800.8429403924,
+    "bbox": [
+      -35.0,
+      -90.0,
+      11.0,
+      35.0,
+      90.0,
+      61.0
+    ]
+  },
+  "LaserHousing": {
+    "valid": true,
+    "solids": 1,
+    "volume": 927.3981513397085,
+    "bbox": [
+      -33.79970414071697,
+      -5.0,
+      64.53553390593274,
+      -3.5355339059327378,
+      5.0,
+      94.79970414071697
+    ]
+  },
+  "LaserInsert": {
+    "valid": true,
+    "solids": 1,
+    "volume": 1633.0638160530175,
+    "bbox": [
+      -33.09259735953042,
+      -4.0,
+      65.24264068711929,
+      -4.242640687119286,
+      4.0,
+      94.09259735953042
+    ]
+  },
+  "LaserAperture": {
+    "valid": true,
+    "solids": 1,
+    "volume": 5.542992595266685,
+    "bbox": [
+      -8.76812408671319,
+      -1.4000001,
+      67.32964645562816,
+      -6.3296463556281655,
+      1.4000001,
+      69.7681240867132
+    ]
+  },
+  "LaserWireRed": {
+    "valid": true,
+    "solids": 1,
+    "volume": 10.602875205865606,
+    "bbox": [
+      -35.56747109368333,
+      -2.75000002980232,
+      90.20351006300442,
+      -30.26417023478423,
+      -1.2500000298023202,
+      95.50681092190352
+    ]
+  },
+  "LaserWireBlack": {
+    "valid": true,
+    "solids": 1,
+    "volume": 10.602875205865612,
+    "bbox": [
+      -34.506810921903515,
+      -2.75000002980232,
+      91.26417023478423,
+      -29.20351006300441,
+      -1.2500000298023202,
+      96.56747109368334
+    ]
+  },
+  "camera_insertion": {
+    "method": "conservative continuous swept component bounding boxes",
+    "source_solids": 590,
+    "travel_mm": 35,
+    "keeper_removed": true,
+    "intersections": []
+  },
+  "assembly": {
+    "wrist_overlap_mm3": 0.0,
+    "laser_overlap_mm3": 0.0,
+    "cap_overlap_mm3": 0.0,
+    "keeper_overlap_mm3": 0.0,
+    "beam_holder_overlap_mm3": 0.0,
+    "laser_wrist_overlap_mm3": 0.0
+  },
+  "laser_aim": {
+    "direction": [
+      0.7071067811865476,
+      0.0,
+      -0.7071067811865476
+    ],
+    "emitting_aperture_mm": [
+      -7.0710678118654755,
+      0.0,
+      68.07106781186548
+    ],
+    "skin_target_mm": [
+      0.0,
+      0.0,
+      61.0
+    ],
+    "camera_skin_center_mm": [
+      10,
+      0,
+      59.957871187497744
+    ],
+    "lateral_source_camera_spacing_mm": 10,
+    "beam_length_mm": 10,
+    "direction_toward_camera_in_X": true,
+    "supplier_front": "original STEP Z=0 aperture; rear wires distinguish orientation"
+  },
+  "retention": {
+    "camera_keeper": "two tapered 2.05-to-1.8 mm pegs in 2.2 mm sockets",
+    "laser_cap": "two tapered 1.7-to-1.44 mm pegs in 1.9 mm sockets",
+    "physical_fit": "unverified; first print is a fit test"
+  }
+}
