@@ -3,7 +3,7 @@ This project builds a low-cost, DIY version of a SCOS sensor using affordable, h
 
 ### Background ###
 #### SCOS ####
-Speckle Contrast Optical Spectroscopy (SCOS) is a research technique to measure blood flow. It uses coherent laser light that forms a grainy interference pattern in tissue, which can then be measured by a camera sensor. As blood flows, the camera detects how the interference pattern changes.
+Speckle Contrast Optical Spectroscopy (SCOS) is an optical technique for measuring both blood flow and volume, which has various advantages over photoplethysmography (PPG) and other imaging techniques in a variety of clinical applications. It uses coherent laser light that, when scattered by blood molecules in tissue, forms a grainy interference pattern which can be measured by a camera sensor. As blood flows, the camera detects how the interference pattern of the detected light changes. Faster blood flow "blurs" the pattern and lowers the image contrast. Capturing and analyzing images with a specific wavelength, exposure time, and other parameters enables the computation of average intensity, contrast, and blood flow index (BFI).
 
 ## How to reproduce this project ##
 Check the hardware and software requirements to get started. See /docs for detailed documentation.
