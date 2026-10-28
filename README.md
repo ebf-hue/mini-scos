@@ -5,7 +5,8 @@ This project builds a low-cost, DIY version of a SCOS sensor using affordable, h
 #### SCOS ####
 Speckle Contrast Optical Spectroscopy (SCOS) is an optical technique for measuring both blood flow and volume, which has various advantages over photoplethysmography (PPG) and other imaging techniques in a variety of clinical applications. It uses coherent laser light that, when scattered by blood molecules in tissue, forms a grainy interference pattern which can be measured by a camera sensor. As blood flows, the camera detects how the interference pattern of the detected light changes. Faster blood flow "blurs" the pattern and lowers the image contrast. Capturing and analyzing images with a specific wavelength, exposure time, and other parameters enables the computation of average intensity, contrast, and blood flow index (BFI).
 
-![Block diagram showing laser, lens, camera, Raspberry Pi, and output monitor with contrast (K) and blood flow index (BFI).](docs/laser-speckle-system-over.png)
+#### System Overview ####
+![Block diagram showing laser, lens, camera, Raspberry Pi, and output monitor with contrast (K) and blood flow index (BFI).](docs/laser-speckle-system-overview.png)
 
 ## How to reproduce this project ##
 Check the hardware and software requirements to get started. See /docs for detailed documentation.
