@@ -23,7 +23,7 @@ cd mini-scos/software
 uv run --locked --managed-python ui.py
 ```
 
-The window opens with four simulated images ready to inspect. No camera or laser is needed. The first run downloads Python and dependencies; you do not need to choose or activate a Python environment.
+The window opens with four simulated images ready to inspect. No camera or laser is needed.
 
 ![GUI window with image selection, brightness slider, output values, and import/export buttons.](software/demo-gui.png)
 
