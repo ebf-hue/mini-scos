@@ -10,9 +10,9 @@ Check the hardware and software requirements to get started. See /docs for detai
 
 The [contrast-analysis tool](software/README.md) runs on a laptop or Raspberry Pi OS. Start with its simulated example to produce a CSV and plot; camera capture and hardware validation are still pending.
 
-## Run the demo application
-
-Install [Git](https://git-scm.com/downloads) and [uv](https://docs.astral.sh/uv/getting-started/installation/), then open a terminal (PowerShell on Windows):
+## Running the demo application without hardware
+You can view more detailed documentation in the [contrast-analysis tool](software/README.md) README. 
+To get started, install [Git](https://git-scm.com/downloads) and [uv](https://docs.astral.sh/uv/getting-started/installation/), then open a terminal (PowerShell on Windows):
 
 ```sh
 git clone https://github.com/ebf-hue/mini-scos.git
