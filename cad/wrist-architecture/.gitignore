@@ -1,0 +1,13 @@
+__pycache__/
+sources/Camera_module_3_std_model_simple.stp
+*.bak
+parts/OfficialCM3_*.step
+parts/Laser*.step
+!parts/LaserCap.step
+parts/*Reference.step
+insertion/*.step
+insertion/step-*.png
+print/a1_mini_machine.json
+print/generic_pla.json
+print/pla_process.json
+print/wrist-inward-fit-test/

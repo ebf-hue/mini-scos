@@ -1,0 +1,38 @@
+{
+  "WristSaddle": {
+    "orientation": "Flat Y end on bed",
+    "size_mm": [
+      76.00000019999999,
+      42.40000010000024,
+      56.00000020000001
+    ],
+    "bed_contact_mm2": 185.97122071684964,
+    "triangles": 43078,
+    "watertight": true,
+    "one_connected_mesh": true
+  },
+  "LaserCap": {
+    "orientation": "Flat annular end on bed; cradle axis vertical",
+    "size_mm": [
+      11.300000000002953,
+      17.0,
+      18.000000000001627
+    ],
+    "bed_contact_mm2": 71.01570193439724,
+    "triangles": 12100,
+    "watertight": true,
+    "one_connected_mesh": true
+  },
+  "CameraKeeper": {
+    "orientation": "Broad XZ face on bed",
+    "size_mm": [
+      33.5,
+      7.400000000000006,
+      5.600000000000004
+    ],
+    "bed_contact_mm2": 139.12000000000012,
+    "triangles": 11116,
+    "watertight": true,
+    "one_connected_mesh": true
+  }
+}
