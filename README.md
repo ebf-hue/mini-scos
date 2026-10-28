@@ -31,3 +31,5 @@ The [CAD folder](cad/README.md) contains Fusion-compatible STEP assemblies, edit
 ## Team ##
 - Elena Berrios eberrios@bu.edu
 - Sean O’Connor ssoc@bu.edu
+## Acknowledgements and AI ##
+Generative AI tools were used to draft images and text.
