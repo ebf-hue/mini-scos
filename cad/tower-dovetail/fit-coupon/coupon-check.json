@@ -1,0 +1,26 @@
+{
+  "purpose": "Physical test of actual 0.25 mm per-side rail allowance and integral release tab; no strength/fatigue claim",
+  "hard_stop": "The cropped receiver is open at its rear; this coupon tests fit and latch only",
+  "parts": {
+    "MaleRailAndLatch": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1809.680000000001,
+      "dimensions_mm": [
+        12.600000000000001,
+        27.0,
+        17.0
+      ]
+    },
+    "FemaleRailAndCatch": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3271.143254832662,
+      "dimensions_mm": [
+        15.500000200000002,
+        30.00000020000001,
+        12.000000199999995
+      ]
+    }
+  }
+}

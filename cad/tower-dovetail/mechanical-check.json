@@ -1,0 +1,154 @@
+{
+  "study_only": true,
+  "camera_source": "user confirmed IMX296 With CS.stp",
+  "parameters_mm": {
+    "joint_clearance_per_side": 0.25,
+    "camera_origin_z": 165,
+    "wrist_top_z": 61,
+    "lens_front_gap": 31.774,
+    "carrier_aperture_diameter": 42,
+    "source_board_width": 39,
+    "source_hole_spacing": 34,
+    "source_hole_diameter": 2,
+    "side_frame_spacing": 58,
+    "frame_section": 6,
+    "strap_spacing": 60
+  },
+  "optics": "Compact fit position; 0.20 m listed lens minimum object distance not established. Measure before fixing optical height.",
+  "load_case": {
+    "assumed_total_top_mass_kg": 0.2,
+    "lateral_acceleration_g": 3,
+    "lateral_force_N": 5.886000000000001,
+    "overturning_moment_Nm": 0.6121440000000001,
+    "strap_couple_force_N": 10.202400000000003,
+    "meaning": "Design scenario only; no FEA or strength validation"
+  },
+  "printed_parts": {
+    "WristBase": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -43.5000001,
+        -40.00000070000003,
+        49.999999899999985,
+        43.5000001,
+        40.00000070000002,
+        70.0000001
+      ]
+    },
+    "BracedFrame": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -34.0,
+        -41.0,
+        61.0,
+        44.0,
+        30.0,
+        160.0
+      ]
+    },
+    "CameraPlate": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -39.0,
+        -35.0,
+        155.5,
+        43.1,
+        35.00000000000001,
+        166.0
+      ]
+    },
+    "CameraRetainer": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -33.0,
+        -28.0,
+        161.5,
+        37.800000000000004,
+        34.0,
+        168.35
+      ]
+    },
+    "LaserBracket": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -41.0,
+        -15.0,
+        61.0,
+        -9.999999999999977,
+        15.0,
+        94.72827919510468
+      ]
+    },
+    "LaserCap": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -32.56155300614688,
+        -9.3,
+        79.63154941677189,
+        -12.409009742330264,
+        9.3,
+        99.7840926805885
+      ]
+    }
+  },
+  "overlaps": [],
+  "retention": "Three main joints and laser foot use integral release tabs; laser cap dovetail grip requires a physical fit test",
+  "camera_loading": {
+    "method": "11 exact-solid samples across a 100 mm vertical insertion path, not a continuous sweep",
+    "retainer_removed": true,
+    "collisions": []
+  },
+  "joint_paths": {
+    "method": "sampled rigid geometry; integral ramp teeth excluded because they intentionally deflect during engagement",
+    "required_tab_deflection_mm": 1.0,
+    "paths": {
+      "frame_into_base": {
+        "entry_offset_mm": [
+          0,
+          -80,
+          0
+        ],
+        "samples": 21
+      },
+      "plate_onto_frame": {
+        "entry_offset_mm": [
+          0,
+          -75,
+          0
+        ],
+        "samples": 21
+      },
+      "retainer_over_camera": {
+        "entry_offset_mm": [
+          0,
+          65,
+          0
+        ],
+        "samples": 21
+      },
+      "laser_bracket_side_entry": {
+        "entry_offset_mm": [
+          -65,
+          0,
+          0
+        ],
+        "samples": 21
+      },
+      "laser_cap_axial_entry_before_installation": {
+        "entry_offset_mm": [
+          -17.67766952966369,
+          -0.0,
+          17.67766952966369
+        ],
+        "samples": 21
+      }
+    },
+    "collisions": []
+  }
+}
