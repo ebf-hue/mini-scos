@@ -1,0 +1,67 @@
+{
+  "printer": "Bambu Lab A1 mini",
+  "nozzle_mm": [
+    "0.4"
+  ],
+  "material": [
+    "PLA"
+  ],
+  "color": [
+    "#000000"
+  ],
+  "layer_height_mm": "0.2",
+  "walls": "4",
+  "infill": "30%",
+  "support": "tree(auto)",
+  "support_build_plate_only": "1",
+  "plate": {
+    "index": "1",
+    "extruder_type": "0",
+    "nozzle_volume_type": "0",
+    "printer_model_id": "",
+    "nozzle_diameters": "0.4",
+    "timelapse_type": "0",
+    "prediction": "6363",
+    "weight": "32.84",
+    "pause_count": "0",
+    "first_layer_time": "0.000000",
+    "outside": "false",
+    "support_used": "true",
+    "label_object_enabled": "true",
+    "support_material_on_wipe_tower": "false",
+    "enable_filament_dynamic_map": "false",
+    "has_filament_switcher": "false",
+    "filament_maps": "1",
+    "limit_filament_maps": "0"
+  },
+  "objects": [
+    {
+      "identify_id": "66",
+      "name": "WristSaddle.stl",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "77",
+      "name": "LaserCap.stl",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "88",
+      "name": "CameraKeeper.stl",
+      "skipped": "false"
+    }
+  ],
+  "warnings": [
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "2",
+      "error_code": "10018003"
+    },
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "3",
+      "error_code": "1000C003"
+    }
+  ],
+  "physical_fit": "Not measured; no hardware fit or optical performance claimed"
+}
