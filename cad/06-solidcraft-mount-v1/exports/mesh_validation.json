@@ -1,0 +1,37 @@
+{
+  "FitCollar.stl": {
+    "triangles": 21506,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "Keeper.stl": {
+    "triangles": 36,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "LaserBand.stl": {
+    "triangles": 6592,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "LockingKey.stl": {
+    "triangles": 44,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "Rest.stl": {
+    "triangles": 16876,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "SpineCamera.stl": {
+    "triangles": 448,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "SpineCamera_standard.stl": {
+    "triangles": 404,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  }
+}

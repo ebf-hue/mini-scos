@@ -1,0 +1,11 @@
+{
+  "changed_bodies": [],
+  "created_bodies": [
+    "CradleSkin"
+  ],
+  "feature": 15,
+  "ms": 13.560542,
+  "name": "RestToCollarG2Blend",
+  "removed_bodies": [],
+  "warning": "the blend's boundary lies up to 0.0058 mm from the edges it was built on"
+}

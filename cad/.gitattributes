@@ -1,3 +1,11 @@
 # Preserve source geometry bytes and keep generated meshes out of text diffs.
 *.step -text -diff
 *.stl -text -diff
+
+# Imported geometry and meshes retain supplier bytes.
+*.stp -text -diff
+*.obj -text -diff
+*.mtl -text -diff
+*.dxf -text -diff
+*.solidcraft -text -diff
+*.3mf -text -diff

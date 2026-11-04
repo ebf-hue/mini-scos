@@ -1,0 +1,175 @@
+{
+  "scope": "Rectangular PCB envelope translation test; geometric stops only. Does not validate physical tolerances, rotation, board flexibility, latch strength or component placement.",
+  "tests": [
+    {
+      "direction": "X+",
+      "translation_mm": [
+        0.31,
+        0,
+        0
+      ],
+      "expected_blocked": true,
+      "blocked": true,
+      "overlap_mm3": {
+        "CameraPlate": 0.0,
+        "CameraRetainer": 0.3359999999999743
+      }
+    },
+    {
+      "direction": "X-",
+      "translation_mm": [
+        -0.31,
+        0,
+        0
+      ],
+      "expected_blocked": true,
+      "blocked": true,
+      "overlap_mm3": {
+        "CameraPlate": 0.0,
+        "CameraRetainer": 0.3359999999999346
+      }
+    },
+    {
+      "direction": "Y+",
+      "translation_mm": [
+        0,
+        0.31,
+        0
+      ],
+      "expected_blocked": true,
+      "blocked": true,
+      "overlap_mm3": {
+        "CameraPlate": 0.25599999999994816,
+        "CameraRetainer": 0.0
+      }
+    },
+    {
+      "direction": "Y-",
+      "translation_mm": [
+        0,
+        -0.31,
+        0
+      ],
+      "expected_blocked": true,
+      "blocked": true,
+      "overlap_mm3": {
+        "CameraPlate": 0.0,
+        "CameraRetainer": 0.1959999999999618
+      }
+    },
+    {
+      "direction": "Z+",
+      "translation_mm": [
+        0,
+        0,
+        0.26
+      ],
+      "expected_blocked": true,
+      "blocked": true,
+      "overlap_mm3": {
+        "CameraPlate": 0.0,
+        "CameraRetainer": 2.439999999997781
+      }
+    },
+    {
+      "direction": "Z-",
+      "translation_mm": [
+        0,
+        0,
+        -0.01
+      ],
+      "expected_blocked": true,
+      "blocked": true,
+      "overlap_mm3": {
+        "CameraPlate": 1.9837093491637947,
+        "CameraRetainer": 0.0
+      }
+    },
+    {
+      "direction": "seated",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "expected_blocked": false,
+      "blocked": false,
+      "overlap_mm3": {
+        "CameraPlate": 0.0,
+        "CameraRetainer": 0.0
+      }
+    },
+    {
+      "direction": "X+ free",
+      "translation_mm": [
+        0.29,
+        0,
+        0
+      ],
+      "expected_blocked": false,
+      "blocked": false,
+      "overlap_mm3": {
+        "CameraPlate": 0.0,
+        "CameraRetainer": 0.0
+      }
+    },
+    {
+      "direction": "X- free",
+      "translation_mm": [
+        -0.29,
+        0,
+        0
+      ],
+      "expected_blocked": false,
+      "blocked": false,
+      "overlap_mm3": {
+        "CameraPlate": 0.0,
+        "CameraRetainer": 0.0
+      }
+    },
+    {
+      "direction": "Y+ free",
+      "translation_mm": [
+        0,
+        0.29,
+        0
+      ],
+      "expected_blocked": false,
+      "blocked": false,
+      "overlap_mm3": {
+        "CameraPlate": 0.0,
+        "CameraRetainer": 0.0
+      }
+    },
+    {
+      "direction": "Y- free",
+      "translation_mm": [
+        0,
+        -0.29,
+        0
+      ],
+      "expected_blocked": false,
+      "blocked": false,
+      "overlap_mm3": {
+        "CameraPlate": 0.0,
+        "CameraRetainer": 0.0
+      }
+    },
+    {
+      "direction": "Z+ free",
+      "translation_mm": [
+        0,
+        0,
+        0.24
+      ],
+      "expected_blocked": false,
+      "blocked": false,
+      "overlap_mm3": {
+        "CameraPlate": 0.0,
+        "CameraRetainer": 0.0
+      }
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

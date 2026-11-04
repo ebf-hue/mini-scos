@@ -1,0 +1,9 @@
+Smithsonian Institution — CC0 1.0 Universal public-domain dedication
+Life Cast of Left Forearm and Hand (fragment, study for Greek Slave)
+Studio of Hiram Powers, ca. 1843
+Asset: 3d_package:7f2659ba-2953-47a5-9358-921da9b0ce16
+Source: https://ids.si.edu/ids/media_view?id=3d_package:7f2659ba-2953-47a5-9358-921da9b0ce16
+Download: https://3d-api.si.edu/content/document/3d_package:7f2659ba-2953-47a5-9358-921da9b0ce16/resources/life-cast-of-left-forearm-and-hand-150k-4096-obj.zip
+License: https://creativecommons.org/publicdomain/zero/1.0/
+Original units: inches. Rendering and exported aligned reference convert to mm.
+Retrieved 2026-10-12. Source metadata labels usage as CC0.

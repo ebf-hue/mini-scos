@@ -1,0 +1,8 @@
+{
+  "method": "Open CASCADE projections and differential surface normals on the finished STEP, 31 interior samples per seam edge",
+  "seam_edges": 4,
+  "max_tangent_plane_angle_degrees": 0.4423376080119929,
+  "max_projection_gap_mm": 0.00021740945931378043,
+  "g1_angle_limit_degrees": 0.5,
+  "exact_g2_continuity_claimed": false
+}

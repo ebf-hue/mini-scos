@@ -1,0 +1,507 @@
+[
+  {
+    "command": "parameters.add",
+    "params": {
+      "name": "working_distance",
+      "expression": "55 mm",
+      "comment": "Mechanical range 55..105 mm. Use 55 for Wide; 105 for Standard. Focus requires bench testing.",
+      "favorite": true
+    }
+  },
+  {
+    "command": "parameters.add",
+    "params": {
+      "name": "board_z",
+      "expression": "43 mm + working_distance + 7.43 mm",
+      "comment": "Derived nominal board front Z"
+    }
+  },
+  {
+    "command": "parameters.add",
+    "params": {
+      "name": "tray_z",
+      "expression": "board_z + 5.5 mm",
+      "comment": "Derived tray underside Z"
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "RestCProfile",
+      "plane": {
+        "origin": [
+          0,
+          35,
+          0
+        ],
+        "x_dir": [
+          1,
+          0,
+          0
+        ],
+        "y_dir": [
+          0,
+          0,
+          1
+        ]
+      }
+    }
+  },
+  {
+    "command": "sketch.arc.center_point",
+    "params": {
+      "center": [
+        0,
+        0
+      ],
+      "start": [
+        47.27077214458598,
+        -8.335112528012656
+      ],
+      "sweep": 200,
+      "connect": false
+    }
+  },
+  {
+    "command": "sketch.arc.center_point",
+    "params": {
+      "center": [
+        0,
+        0
+      ],
+      "start": [
+        -42.34673337952494,
+        -7.466871639678004
+      ],
+      "sweep": -200,
+      "connect": false
+    }
+  },
+  {
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          -47.27077214458598,
+          -8.335112528012656
+        ],
+        [
+          -42.34673337952494,
+          -7.466871639678004
+        ]
+      ],
+      "connect": false,
+      "infer": false
+    }
+  },
+  {
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          42.34673337952494,
+          -7.466871639678004
+        ],
+        [
+          47.27077214458598,
+          -8.335112528012656
+        ]
+      ],
+      "connect": false,
+      "infer": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "a1",
+        "a2",
+        "l1",
+        "l2"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "name": "WideOpenRest",
+      "distance": 70,
+      "operation": "new",
+      "body_name": "Rest"
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "OpticalWindowSketch",
+      "plane": "XY",
+      "offset": 29
+    }
+  },
+  {
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          -17.0,
+          -15.0
+        ],
+        [
+          17.0,
+          -15.0
+        ],
+        [
+          17.0,
+          15.0
+        ],
+        [
+          -17.0,
+          15.0
+        ]
+      ],
+      "closed": true,
+      "connect": false,
+      "infer": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "name": "OpticalWindow",
+      "distance": 28,
+      "operation": "cut",
+      "targets": [
+        "Rest"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "name": "SpineSocketLanding",
+      "length": 32,
+      "width": 12,
+      "height": 11,
+      "corner": [
+        -16.0,
+        23.0,
+        44
+      ],
+      "operation": "join",
+      "targets": [
+        "Rest"
+      ]
+    }
+  },
+  {
+    "command": "solid.cylinder",
+    "params": {
+      "name": "LaserCollarBlank",
+      "radius": 10.5,
+      "height": 8,
+      "base": [
+        -16.252981298685455,
+        0,
+        54.10899938426178
+      ],
+      "axis": [
+        -0.42261826174069944,
+        0,
+        0.9063077870366499
+      ],
+      "body_name": "Collar"
+    }
+  },
+  {
+    "command": "surface.offset",
+    "params": {
+      "body": "Rest",
+      "faces": [
+        [
+          -30,
+          0,
+          37.469987990390386
+        ]
+      ],
+      "distance": 0
+    }
+  },
+  {
+    "command": "surface.offset",
+    "params": {
+      "body": "Collar",
+      "faces": [
+        [
+          -27.459686109533074,
+          0.0,
+          53.29673878413103
+        ]
+      ],
+      "distance": 0
+    }
+  },
+  {
+    "command": "surface.offset",
+    "params": {
+      "body": "Rest",
+      "faces": [
+        [
+          40.41158975943796,
+          24.782808601340975,
+          25.90180327920772
+        ],
+        [
+          16.523156567077677,
+          34.49112796197062,
+          45.066454232165135
+        ],
+        [
+          -16.523156567077763,
+          23.50887203803672,
+          45.06645423216595
+        ],
+        [
+          -42.91948426600371,
+          24.78280860135298,
+          21.492274666502734
+        ],
+        [
+          40.320093567156455,
+          16.613871921475454,
+          26.044002279518207
+        ],
+        [
+          16.534144884816154,
+          22.502831358453776,
+          45.0624239575266
+        ],
+        [
+          2.5547537794915027,
+          21.440925220498638,
+          47.93196462827479
+        ],
+        [
+          -16.4678766889527,
+          22.502831358457033,
+          45.08668359235936
+        ],
+        [
+          -40.32009356716109,
+          21.386128078519203,
+          26.04400227951817
+        ],
+        [
+          18.771200883925193,
+          -2.5790588593969057e-12,
+          44.177392604987425
+        ],
+        [
+          18.737516285861876,
+          -24.999999999997435,
+          44.191690207965905
+        ],
+        [
+          16.514317199551225,
+          -15.518285877203777,
+          45.06969411292476
+        ],
+        [
+          14.160645369601328,
+          -24.99999999999682,
+          45.86366887544391
+        ],
+        [
+          -16.487711853565454,
+          -15.518285877197291,
+          45.079433867716226
+        ],
+        [
+          -18.7375162858793,
+          -24.999999999992138,
+          44.191690207965884
+        ]
+      ],
+      "distance": 0
+    }
+  },
+  {
+    "command": "surface.offset",
+    "params": {
+      "body": "Collar",
+      "faces": [
+        [
+          -11.552030815334605,
+          -9.012893695130337,
+          56.77406243863535
+        ]
+      ],
+      "distance": 0
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "RootBoundary",
+      "plane": {
+        "origin": [
+          -26,
+          0,
+          40.34848200366403
+        ],
+        "x_dir": [
+          0.840593375076334,
+          0,
+          0.5416666666666666
+        ],
+        "y_dir": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "command": "sketch.ellipse",
+    "params": {
+      "center": [
+        0,
+        0
+      ],
+      "major": [
+        0,
+        13
+      ],
+      "minor_radius": 9.5
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "e1"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "surface.trim",
+    "params": {
+      "body": "Body1",
+      "curves": {
+        "sketch": "RootBoundary"
+      },
+      "keep": [
+        -40,
+        25,
+        26.5329983228432
+      ]
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "CollarBoundary",
+      "plane": {
+        "origin": [
+          -27.459686109533074,
+          0.0,
+          53.29673878413103
+        ],
+        "x_dir": [
+          -0.42261826174069944,
+          0,
+          0.9063077870366499
+        ],
+        "y_dir": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "command": "sketch.ellipse",
+    "params": {
+      "center": [
+        0,
+        0
+      ],
+      "major": [
+        0,
+        4.5
+      ],
+      "minor_radius": 3
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "e1"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "surface.trim",
+    "params": {
+      "body": "Body2",
+      "curves": {
+        "sketch": "CollarBoundary"
+      },
+      "keep": [
+        -28.93885002562552,
+        0.0,
+        56.46881603875931
+      ]
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "solid_count": 43,
+  "all_solids_valid": true,
+  "reference_mesh": "forearm_reference_mm.obj",
+  "checks": "Shape validity and STEP reimport only; whole-assembly fit and collision checks not performed."
+}

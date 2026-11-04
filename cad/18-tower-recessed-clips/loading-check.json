@@ -1,0 +1,947 @@
+{
+  "scope": "Continuous conservative envelopes, not physical measurements. Header coordinates and dimensions remain estimated. Flexible ribbon bends and latch strength untested.",
+  "drop_height_mm": 100,
+  "continuous_drop": [
+    {
+      "envelope": "camera solid 0 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 0 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 0 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 0 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 0 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 1 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 1 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 1 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 1 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 1 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 2 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 2 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 2 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 2 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 2 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 3 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 3 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 3 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 3 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 3 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 4 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 4 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 4 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 4 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 4 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 5 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 5 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 5 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 5 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 5 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 6 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 6 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 6 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 6 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 6 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 7 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 7 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 7 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 7 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 7 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 8 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 8 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 8 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 8 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 8 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 9 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 9 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 9 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 9 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 9 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 10 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 10 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 10 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 10 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 10 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 11 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 11 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 11 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 11 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 11 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 12 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 12 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 12 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 12 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 12 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 13 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 13 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 13 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 13 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 13 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 14 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 14 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 14 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 14 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 14 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 15 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 15 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 15 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 15 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 15 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 16 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 16 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 16 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 16 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 16 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 17 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 17 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 17 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 17 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 17 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 18 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 18 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 18 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 18 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 18 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 19 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 19 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 19 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 19 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 19 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 20 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 20 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 20 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 20 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 20 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 21 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 21 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 21 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 21 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 21 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 22 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 22 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 22 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 22 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 22 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 23 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 23 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 23 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 23 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 23 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 24 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 24 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 24 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 24 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 24 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 25 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 25 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 25 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 25 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 25 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 26 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 26 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 26 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 26 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 26 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 27 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 27 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 27 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 27 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 27 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 28 swept AABB",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 28 swept AABB",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 28 swept AABB",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 28 swept AABB",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "camera solid 28 swept AABB",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "PCB envelope swept vertically",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "PCB envelope swept vertically",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "PCB envelope swept vertically",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "PCB envelope swept vertically",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "PCB envelope swept vertically",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "enlarged header envelope swept vertically",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "enlarged header envelope swept vertically",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "enlarged header envelope swept vertically",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "enlarged header envelope swept vertically",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "enlarged header envelope swept vertically",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "enlarged header envelope swept vertically",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "enlarged header envelope swept vertically",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "enlarged header envelope swept vertically",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "enlarged header envelope swept vertically",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "enlarged header envelope swept vertically",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "lens attached, diameter 39 mm swept vertically",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "lens attached, diameter 39 mm swept vertically",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "lens attached, diameter 39 mm swept vertically",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "lens attached, diameter 39 mm swept vertically",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "lens attached, diameter 39 mm swept vertically",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "C adapter swept vertically",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "C adapter swept vertically",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "C adapter swept vertically",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "C adapter swept vertically",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "C adapter swept vertically",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "header_slide_sweeps": [
+    {
+      "envelope": "header sweep relative to sliding clips",
+      "obstacle": "CameraClipLeft",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "header sweep relative to sliding clips",
+      "obstacle": "CameraClipRight",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "header sweep relative to sliding clips",
+      "obstacle": "CameraClipLeft",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "header sweep relative to sliding clips",
+      "obstacle": "CameraClipRight",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "ribbon_corridor": [
+    {
+      "envelope": "25 mm front cable opening",
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "25 mm front cable opening",
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "25 mm front cable opening",
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "25 mm front cable opening",
+      "obstacle": "CameraClipLeft",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "25 mm front cable opening",
+      "obstacle": "CameraClipRight",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "25 mm front cable opening",
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "envelope": "25 mm front cable opening",
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "lens_envelope_containment": [
+    {
+      "part": "LensRearBody",
+      "outside_envelope_mm3": 0.0
+    },
+    {
+      "part": "ApertureRing",
+      "outside_envelope_mm3": 0.0
+    },
+    {
+      "part": "FocusRing",
+      "outside_envelope_mm3": 0.0
+    },
+    {
+      "part": "BlueTrim",
+      "outside_envelope_mm3": 0.0
+    },
+    {
+      "part": "FrontBarrel",
+      "outside_envelope_mm3": 0.0
+    },
+    {
+      "part": "FrontRim",
+      "outside_envelope_mm3": 0.0
+    },
+    {
+      "part": "FrontGlass",
+      "outside_envelope_mm3": 0.0
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

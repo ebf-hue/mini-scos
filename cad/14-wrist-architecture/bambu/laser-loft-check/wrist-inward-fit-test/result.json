@@ -1,0 +1,92 @@
+{
+    "error_string": "Success.",
+    "export_time": 677,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 52,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bridge": 44.17048645019531,
+                "Custom": 354.7362976074219,
+                "Flush": 28.0,
+                "Gap infill": 221.71322631835938,
+                "Inner wall": 1603.2484130859375,
+                "Internal solid infill": 163.9599609375,
+                "Outer wall": 753.1944580078125,
+                "Overhang wall": 153.0417022705078,
+                "Sparse infill": 501.4635009765625,
+                "Support": 934.7774658203125,
+                "Support interface": 62.109588623046875,
+                "Top surface": 86.9171142578125,
+                "Travel": 1471.819580078125,
+                "Undefined": 1453.5150146484375
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 32.83845138549805,
+                    "total_used_g": 32.83845138549805
+                }
+            ],
+            "generate_support_material_time": 538,
+            "id": 1,
+            "infill_time": 79,
+            "layer_filament_change": 0,
+            "main_predication": 5968.5546875,
+            "make_perimeters_time": 174,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 42.39999771118164,
+                        "height": 56.0,
+                        "width": 76.0,
+                        "x": 52.0,
+                        "y": 86.45001220703125,
+                        "z": 0.0
+                    },
+                    "id": 57,
+                    "name": "WristSaddle.stl",
+                    "triangle_count": 43078
+                },
+                {
+                    "bbox": {
+                        "depth": 11.29999828338623,
+                        "height": 18.0,
+                        "width": 16.999998092651367,
+                        "x": 110.98844146728516,
+                        "y": 51.150001525878906,
+                        "z": 0.0
+                    },
+                    "id": 68,
+                    "name": "LaserCap.stl",
+                    "triangle_count": 12100
+                },
+                {
+                    "bbox": {
+                        "depth": 7.399998664855957,
+                        "height": 5.599999904632568,
+                        "width": 33.5,
+                        "x": 53.4769287109375,
+                        "y": 55.049991607666016,
+                        "z": 0.0
+                    },
+                    "id": 79,
+                    "name": "CameraKeeper.stl",
+                    "triangle_count": 11116
+                }
+            ],
+            "sliced_time": 1467,
+            "sliced_time_with_cache": 607,
+            "total_predication": 6360.986328125,
+            "triangle_count": 66294,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 30.0,
+    "wall_loops": 4
+}

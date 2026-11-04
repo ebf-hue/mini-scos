@@ -1,0 +1,80 @@
+[
+  {
+    "command": "file.insert_step",
+    "params": {
+      "path": "/Users/soconnor/Documents/Projects/ec601/mini-scos/cad/bench-architecture/sources/OfficialCM3_PCB.step",
+      "name": "OfficialCM3_PCB"
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "components": [
+        "OfficialCM3_PCB"
+      ],
+      "color": "#168f59"
+    }
+  },
+  {
+    "command": "file.insert_step",
+    "params": {
+      "path": "/Users/soconnor/Documents/Projects/ec601/mini-scos/cad/bench-architecture/sources/OfficialCM3_LensHousing.step",
+      "name": "OfficialCM3_LensHousing"
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "components": [
+        "OfficialCM3_LensHousing"
+      ],
+      "color": "#22272c"
+    }
+  },
+  {
+    "command": "file.insert_step",
+    "params": {
+      "path": "/Users/soconnor/Documents/Projects/ec601/mini-scos/cad/bench-architecture/sources/OfficialCM3_Connector.step",
+      "name": "OfficialCM3_Connector"
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "components": [
+        "OfficialCM3_Connector"
+      ],
+      "color": "#e3ddc9"
+    }
+  },
+  {
+    "command": "file.insert_step",
+    "params": {
+      "path": "/Users/soconnor/Documents/Projects/ec601/mini-scos/cad/bench-architecture/sources/OfficialCM3_Detail.step",
+      "name": "OfficialCM3_Detail"
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "components": [
+        "OfficialCM3_Detail"
+      ],
+      "color": "#bca66c"
+    }
+  },
+  {
+    "command": "browser.visibility",
+    "params": {
+      "folder": "sketches",
+      "visible": false
+    }
+  },
+  {
+    "command": "browser.visibility",
+    "params": {
+      "folder": "origin",
+      "visible": false
+    }
+  }
+]

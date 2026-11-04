@@ -1,0 +1,105 @@
+{
+  "study_only": true,
+  "camera_source": "user confirmed IMX296 With CS.stp",
+  "parameters_mm": {
+    "camera_origin_z": 165,
+    "wrist_top_z": 61,
+    "lens_front_gap": 31.774,
+    "carrier_aperture_diameter": 42,
+    "source_board_width": 39,
+    "source_hole_spacing": 34,
+    "source_hole_diameter": 2,
+    "side_frame_spacing": 58,
+    "frame_section": 6,
+    "strap_spacing": 60
+  },
+  "optics": "Compact fit position; 0.20 m listed lens minimum object distance not established. Measure before fixing optical height.",
+  "load_case": {
+    "assumed_total_top_mass_kg": 0.2,
+    "lateral_acceleration_g": 3,
+    "lateral_force_N": 5.886000000000001,
+    "overturning_moment_Nm": 0.6121440000000001,
+    "strap_couple_force_N": 10.202400000000003,
+    "meaning": "Design scenario only; no FEA or strength validation"
+  },
+  "printed_parts": {
+    "WristBase": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -43.5000001,
+        -40.00000070000003,
+        49.999999899999985,
+        43.5000001,
+        40.00000070000002,
+        70.0000001
+      ]
+    },
+    "BracedFrame": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -32.0,
+        -30.0,
+        60.0,
+        32.0,
+        30.0,
+        162.5
+      ]
+    },
+    "CameraPlate": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -35.0,
+        -35.0,
+        156.4999999,
+        35.0,
+        35.0,
+        162.5000001
+      ]
+    },
+    "CameraRetainer": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -27.0,
+        -27.0,
+        156.5,
+        27.0,
+        27.0,
+        167.35
+      ]
+    },
+    "LaserBracket": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -40.0,
+        -15.0,
+        64.0,
+        -9.999999999999998,
+        15.0,
+        87.66761902332489
+      ]
+    },
+    "LaserCap": {
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        -26.56155300614688,
+        -8.500000000000002,
+        73.63154941677188,
+        -6.409009742330266,
+        8.500000000000002,
+        93.7840926805885
+      ]
+    }
+  },
+  "overlaps": [],
+  "camera_loading": {
+    "method": "11 exact-solid samples across a 100 mm vertical insertion path, not a continuous sweep",
+    "retainer_removed": true,
+    "collisions": []
+  }
+}

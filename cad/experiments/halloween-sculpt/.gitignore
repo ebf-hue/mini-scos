@@ -1,0 +1,9 @@
+__pycache__/
+meshes/ref-*.stl
+meshes/raw-*.stl
+print/machine.json
+print/process.json
+print/pla-*.json
+print/monster-single-colour/
+print/monster-four-colour/
+print/monster-four-colour-source.3mf

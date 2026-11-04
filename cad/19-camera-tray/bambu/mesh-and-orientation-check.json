@@ -1,0 +1,82 @@
+{
+  "WristBase": {
+    "orientation": "Flat rear end on bed; dovetail tracks run vertically",
+    "size_mm": [
+      87.00000019999999,
+      20.00000020000121,
+      80.00000020000002
+    ],
+    "bed_contact_mm2": 606.5370905098499,
+    "triangles": 9674,
+    "watertight": true,
+    "one_connected_mesh": true,
+    "layout_xy_mm": [
+      8,
+      8
+    ]
+  },
+  "CameraPlate": {
+    "orientation": "Flat front end on bed; rail channels run vertically",
+    "size_mm": [
+      92.0000001,
+      11.000000100000001,
+      70.0
+    ],
+    "bed_contact_mm2": 491.7099999999998,
+    "triangles": 35340,
+    "watertight": true,
+    "one_connected_mesh": true,
+    "layout_xy_mm": [
+      8,
+      43
+    ]
+  },
+  "CameraClipLeft": {
+    "orientation": "Broad top face on bed; dovetail groove upward; support release tongue",
+    "size_mm": [
+      20.300000100003334,
+      57.00000000000001,
+      6.850000000000038
+    ],
+    "bed_contact_mm2": 599.9508698674026,
+    "triangles": 5150,
+    "watertight": true,
+    "one_connected_mesh": true,
+    "layout_xy_mm": [
+      110,
+      8
+    ]
+  },
+  "CameraClipRight": {
+    "orientation": "Broad top face on bed; dovetail groove upward; support release tongue",
+    "size_mm": [
+      20.300000100001334,
+      57.00000000000001,
+      6.850000000000038
+    ],
+    "bed_contact_mm2": 599.9508698674061,
+    "triangles": 5150,
+    "watertight": true,
+    "one_connected_mesh": true,
+    "layout_xy_mm": [
+      140,
+      8
+    ]
+  },
+  "LaserBracket": {
+    "orientation": "Flat side of foot on bed; support accessible cradle overhangs",
+    "size_mm": [
+      34.67802676340598,
+      39.7282791951,
+      30.0
+    ],
+    "bed_contact_mm2": 120.0,
+    "triangles": 2176,
+    "watertight": true,
+    "one_connected_mesh": true,
+    "layout_xy_mm": [
+      111,
+      94
+    ]
+  }
+}

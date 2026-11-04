@@ -1,0 +1,74 @@
+{
+  "WristBase": {
+    "orientation": "Flat rear end on bed; dovetail tracks run vertically",
+    "size_mm": [
+      87.00000019999999,
+      20.00000020000121,
+      80.00000020000002
+    ],
+    "bed_contact_mm2": 606.5370905098499,
+    "triangles": 6642,
+    "watertight": true,
+    "one_connected_mesh": true
+  },
+  "BracedFrame": {
+    "orientation": "Broad rear X-brace face on bed; avoid loading the release tab against bed",
+    "size_mm": [
+      78.0,
+      99.0,
+      71.0
+    ],
+    "bed_contact_mm2": 2133.937224711195,
+    "triangles": 388,
+    "watertight": true,
+    "one_connected_mesh": true
+  },
+  "CameraPlate": {
+    "orientation": "Flat front end on bed; rail channels run vertically",
+    "size_mm": [
+      82.10000000000001,
+      10.500000000000197,
+      70.00000000000001
+    ],
+    "bed_contact_mm2": 468.0,
+    "triangles": 1164,
+    "watertight": true,
+    "one_connected_mesh": true
+  },
+  "CameraRetainer": {
+    "orientation": "Broad top face on bed; dovetail grooves face upward",
+    "size_mm": [
+      70.8,
+      62.0,
+      6.849999999999994
+    ],
+    "bed_contact_mm2": 2385.5,
+    "triangles": 204,
+    "watertight": true,
+    "one_connected_mesh": true
+  },
+  "LaserBracket": {
+    "orientation": "Flat side of foot on bed; support accessible cradle overhangs",
+    "size_mm": [
+      31.000000000002263,
+      33.728279195105,
+      30.0
+    ],
+    "bed_contact_mm2": 120.0,
+    "triangles": 1982,
+    "watertight": true,
+    "one_connected_mesh": true
+  },
+  "LaserCap": {
+    "orientation": "Flat axial end on bed; dovetail channels run vertically",
+    "size_mm": [
+      8.500000000003531,
+      18.6,
+      20.000000000003624
+    ],
+    "bed_contact_mm2": 65.52491849794659,
+    "triangles": 904,
+    "watertight": true,
+    "one_connected_mesh": true
+  }
+}

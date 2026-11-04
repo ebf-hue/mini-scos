@@ -1,0 +1,7 @@
+{
+  "pin_count": 12,
+  "pin_interferences_mm3": [],
+  "camera_board_nominal_support_area_mm2": 198.3709349165628,
+  "pin_pullout": "Not validated; headed pins need physical retention testing",
+  "load_case": "Scenario calculation, not FEA or tested capacity"
+}

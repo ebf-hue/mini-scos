@@ -1,0 +1,17 @@
+{
+  "Rest": {
+    "valid_closed_solid": true,
+    "source": "surface_source/RestFinished.step",
+    "volume_mm3": 57121.418673548775
+  },
+  "SpineCamera": {
+    "valid_closed_solid": true,
+    "source": "camera_source/wide/SpineCamera.step",
+    "volume_mm3": 15089.488426034144
+  },
+  "SpineCamera_standard": {
+    "valid_closed_solid": true,
+    "source": "camera_source/standard/SpineCamera.step",
+    "volume_mm3": 21535.212677269395
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "completed": 3,
+  "ok": true,
+  "results": [
+    {
+      "display_value": 105.0,
+      "name": "working_distance",
+      "unit": "mm",
+      "value": 105.0
+    },
+    {
+      "display_value": 155.43,
+      "name": "board_z",
+      "unit": "mm",
+      "value": 155.43
+    },
+    {
+      "display_value": 160.93,
+      "name": "tray_z",
+      "unit": "mm",
+      "value": 160.93
+    }
+  ]
+}

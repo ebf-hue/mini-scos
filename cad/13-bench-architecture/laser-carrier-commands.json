@@ -1,0 +1,234 @@
+[
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 24,
+      "width": 25.8,
+      "height": 24,
+      "corner": [
+        -56.0,
+        0.1999999999999993,
+        158
+      ],
+      "operation": "new",
+      "name": "LaserSaddle",
+      "body_name": "LaserSaddle"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 26,
+      "width": 16,
+      "height": 11,
+      "corner": [
+        -57.0,
+        12.0,
+        157
+      ],
+      "operation": "cut",
+      "name": "SaddleLowerRelief",
+      "targets": [
+        "LaserSaddle"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 26,
+      "width": 16,
+      "height": 4,
+      "corner": [
+        -57.0,
+        12.0,
+        180
+      ],
+      "operation": "cut",
+      "name": "SaddleUpperRelief",
+      "targets": [
+        "LaserSaddle"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 24,
+      "width": 9.8,
+      "height": 24,
+      "corner": [
+        -56.0,
+        -10.0,
+        158
+      ],
+      "operation": "new",
+      "name": "LaserCap",
+      "body_name": "LaserCap"
+    }
+  },
+  {
+    "command": "solid.cylinder",
+    "params": {
+      "radius": 5.2,
+      "height": 43,
+      "base": [
+        -48.47010135258183,
+        0.0,
+        191.03017341577683
+      ],
+      "axis": [
+        0.20791169081775934,
+        0,
+        -0.9781476007338057
+      ],
+      "operation": "cut",
+      "targets": [
+        "LaserSaddle"
+      ],
+      "name": "LaserSaddleBore"
+    }
+  },
+  {
+    "command": "solid.cylinder",
+    "params": {
+      "radius": 5.2,
+      "height": 43,
+      "base": [
+        -48.47010135258183,
+        0.0,
+        191.03017341577683
+      ],
+      "axis": [
+        0.20791169081775934,
+        0,
+        -0.9781476007338057
+      ],
+      "operation": "cut",
+      "targets": [
+        "LaserCap"
+      ],
+      "name": "LaserCapBore"
+    }
+  },
+  {
+    "command": "solid.fillet",
+    "params": {
+      "body": "LaserSaddle",
+      "edges": [
+        [
+          -56,
+          0.2,
+          170
+        ],
+        [
+          -32,
+          0.2,
+          170
+        ]
+      ],
+      "radius": 3,
+      "name": "SaddleFrontRounding"
+    }
+  },
+  {
+    "command": "solid.fillet",
+    "params": {
+      "body": "LaserCap",
+      "edges": [
+        [
+          -56,
+          -10,
+          170
+        ],
+        [
+          -32,
+          -10,
+          170
+        ]
+      ],
+      "radius": 3,
+      "name": "LaserCapRounding"
+    }
+  },
+  {
+    "command": "solid.cylinder",
+    "params": {
+      "radius": 5,
+      "height": 31,
+      "base": [
+        -47.22263120767527,
+        0.0,
+        185.161287811374
+      ],
+      "axis": [
+        0.20791169081775934,
+        0,
+        -0.9781476007338057
+      ],
+      "operation": "new",
+      "body_name": "LaserReference",
+      "name": "Adafruit1054Envelope"
+    }
+  },
+  {
+    "command": "solid.cylinder",
+    "params": {
+      "radius": 0.22,
+      "height": 92,
+      "base": [
+        -40.77736879232473,
+        0.0,
+        154.838712188626
+      ],
+      "axis": [
+        0.20791169081775934,
+        0,
+        -0.9781476007338057
+      ],
+      "operation": "new",
+      "body_name": "BeamReference",
+      "name": "IllustrativeLaserPath"
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "LaserSaddle"
+      ],
+      "color": "#707b86",
+      "opacity": 1
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "LaserCap"
+      ],
+      "color": "#a2abb4",
+      "opacity": 1
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "LaserReference"
+      ],
+      "color": "#bd4941",
+      "opacity": 1
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "BeamReference"
+      ],
+      "color": "#f04c42",
+      "opacity": 0.7
+    }
+  }
+]

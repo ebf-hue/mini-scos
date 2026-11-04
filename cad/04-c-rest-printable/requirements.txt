@@ -1,0 +1,2 @@
+cadquery==2.8.0
+pillow==12.3.0

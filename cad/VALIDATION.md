@@ -1,5 +1,7 @@
 # CAD validation
 
+This historical report covers [01-bench-fixture](01-bench-fixture/README.md) and [02-arm-cuff-concept](02-arm-cuff-concept/README.md). For current hardware, see [19-camera-tray](19-camera-tray/README.md).
+
 Checked October 19, 2026 from a clean copy of the staged contribution, using a fresh Python 3.12 environment and the pinned requirements.
 
 - Both generators completed, including their previews.

@@ -1,0 +1,164 @@
+{
+  "units": "mm",
+  "parts": {
+    "rest": {
+      "valid": true,
+      "connected_solids": 1,
+      "bed_z_min": -0.02953604394491469,
+      "bed_dimensions_mm": [
+        96.0298356002098,
+        60.00069247087286,
+        70.05907228788982
+      ]
+    },
+    "laser_clip": {
+      "valid": true,
+      "connected_solids": 1,
+      "bed_z_min": -0.003724258905380082,
+      "bed_dimensions_mm": [
+        38.4017897254744,
+        34.00000020000002,
+        25.383588438606132
+      ]
+    },
+    "tower_wide_55mm": {
+      "valid": true,
+      "connected_solids": 1,
+      "bed_z_min": -0.0006683586982584767,
+      "bed_dimensions_mm": [
+        52.0006025626076,
+        84.63030138130384,
+        10.001336717396523
+      ]
+    },
+    "tower_standard_105mm": {
+      "valid": true,
+      "connected_solids": 1,
+      "bed_z_min": -0.0006683586982707186,
+      "bed_dimensions_mm": [
+        52.0006025626076,
+        134.6303013813038,
+        10.001336717396542
+      ]
+    },
+    "camera_cassette": {
+      "valid": true,
+      "connected_solids": 1,
+      "bed_z_min": -1.0000000710542735e-07,
+      "bed_dimensions_mm": [
+        50.00000020000002,
+        43.40096418112483,
+        16.900000200000022
+      ]
+    },
+    "camera_keeper": {
+      "valid": true,
+      "connected_solids": 1,
+      "bed_z_min": -1.0000000088817842e-07,
+      "bed_dimensions_mm": [
+        37.0000002,
+        5.000000200000002,
+        3.2000002000000043
+      ]
+    },
+    "locking_pin_20mm": {
+      "valid": true,
+      "connected_solids": 1,
+      "bed_z_min": -0.0013987809963286826,
+      "bed_dimensions_mm": [
+        9.002797561992658,
+        9.000000200000004,
+        23.01254091614388
+      ]
+    },
+    "laser_pin_19mm": {
+      "valid": true,
+      "connected_solids": 1,
+      "bed_z_min": -0.0013987809963286826,
+      "bed_dimensions_mm": [
+        9.002797561992658,
+        9.000000200000004,
+        22.01252196871623
+      ]
+    },
+    "fit_coupon": {
+      "valid": true,
+      "connected_solids": 1,
+      "bed_z_min": -0.0006683586982491409,
+      "bed_dimensions_mm": [
+        40.00000020000002,
+        28.000000200000017,
+        18.000668458698254
+      ]
+    }
+  },
+  "configurations": {
+    "wide": {
+      "working_distance_mm": 55,
+      "rigid_intersections_mm3": {
+        "rest/laser_clip": 0,
+        "rest/tower": 0,
+        "rest/cassette": 0,
+        "rest/keeper": 0,
+        "rest/PCB": 0,
+        "rest/lens_envelope": 0,
+        "rest/connector": 0,
+        "laser_clip/tower": 0,
+        "laser_clip/cassette": 0,
+        "laser_clip/keeper": 0,
+        "laser_clip/PCB": 0,
+        "laser_clip/lens_envelope": 0,
+        "laser_clip/connector": 0,
+        "tower/cassette": 0,
+        "tower/keeper": 0,
+        "tower/PCB": 0,
+        "tower/lens_envelope": 0,
+        "tower/connector": 0,
+        "cassette/keeper": 0,
+        "cassette/PCB": 0,
+        "cassette/lens_envelope": 0,
+        "cassette/connector": 0,
+        "keeper/PCB": 0,
+        "keeper/lens_envelope": 0,
+        "keeper/connector": 0
+      },
+      "STEP_solids_valid": 20
+    },
+    "standard": {
+      "working_distance_mm": 105,
+      "rigid_intersections_mm3": {
+        "rest/laser_clip": 0,
+        "rest/tower": 0,
+        "rest/cassette": 0,
+        "rest/keeper": 0,
+        "rest/PCB": 0,
+        "rest/lens_envelope": 0,
+        "rest/connector": 0,
+        "laser_clip/tower": 0,
+        "laser_clip/cassette": 0,
+        "laser_clip/keeper": 0,
+        "laser_clip/PCB": 0,
+        "laser_clip/lens_envelope": 0,
+        "laser_clip/connector": 0,
+        "tower/cassette": 0,
+        "tower/keeper": 0,
+        "tower/PCB": 0,
+        "tower/lens_envelope": 0,
+        "tower/connector": 0,
+        "cassette/keeper": 0,
+        "cassette/PCB": 0,
+        "cassette/lens_envelope": 0,
+        "cassette/connector": 0,
+        "keeper/PCB": 0,
+        "keeper/lens_envelope": 0,
+        "keeper/connector": 0
+      },
+      "STEP_solids_valid": 20
+    }
+  },
+  "fit": "Unprinted; friction fits and flexible jaws require coupon testing.",
+  "PCB_slot_height_mm": 1.72,
+  "PCB_nominal_thickness_mm": 1.12,
+  "joint_socket_clearance_per_side_mm": 0.2,
+  "pin_fit": "4.5 to 4.0 tapered split shaft, 4.3 hole; interference is intentional."
+}

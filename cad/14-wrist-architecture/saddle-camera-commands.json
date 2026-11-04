@@ -1,0 +1,580 @@
+[
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "WristShellSection",
+      "plane": {
+        "origin": [
+          0,
+          -28,
+          36
+        ],
+        "x_dir": [
+          1,
+          0,
+          0
+        ],
+        "y_dir": [
+          0,
+          0,
+          -1
+        ]
+      }
+    }
+  },
+  {
+    "command": "sketch.ellipse",
+    "params": {
+      "center": [
+        0,
+        0
+      ],
+      "major": [
+        38,
+        0
+      ],
+      "minor_radius": 28
+    }
+  },
+  {
+    "command": "sketch.ellipse",
+    "params": {
+      "center": [
+        0,
+        0
+      ],
+      "major": [
+        35.3,
+        0
+      ],
+      "minor_radius": 25.3
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "distance": 56,
+      "operation": "new",
+      "body_name": "WristSaddle",
+      "name": "CurvedWristSaddle"
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "OpenUndersideProfile",
+      "plane": "XY",
+      "offset": -20
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        -50.0,
+        -30.0
+      ],
+      "p1": [
+        50.0,
+        30.0
+      ]
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "distance": 70,
+      "operation": "cut",
+      "targets": [
+        "WristSaddle"
+      ],
+      "name": "OpenUnderside"
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "CameraCheek0Section0",
+      "plane": "XY",
+      "offset": 49
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        -9.35,
+        -15.0
+      ],
+      "p1": [
+        -0.34999999999999964,
+        21.0
+      ]
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "CameraCheek0Section1",
+      "plane": "XY",
+      "offset": 66
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        -8.35,
+        -13.5
+      ],
+      "p1": [
+        -1.3499999999999996,
+        19.5
+      ]
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "CameraCheek0Section2",
+      "plane": "XY",
+      "offset": 85
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        -7.324999999999999,
+        -12.0
+      ],
+      "p1": [
+        -2.3749999999999996,
+        18.0
+      ]
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.loft",
+    "params": {
+      "sections": [
+        {
+          "sketch": "CameraCheek0Section0"
+        },
+        {
+          "sketch": "CameraCheek0Section1"
+        },
+        {
+          "sketch": "CameraCheek0Section2"
+        }
+      ],
+      "operation": "join",
+      "targets": [
+        "WristSaddle"
+      ],
+      "name": "CameraCheek0"
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "CameraCheek1Section0",
+      "plane": "XY",
+      "offset": 49
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        20.35,
+        -15.0
+      ],
+      "p1": [
+        29.35,
+        21.0
+      ]
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "CameraCheek1Section1",
+      "plane": "XY",
+      "offset": 66
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        21.35,
+        -13.5
+      ],
+      "p1": [
+        28.35,
+        19.5
+      ]
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "CameraCheek1Section2",
+      "plane": "XY",
+      "offset": 85
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        22.375,
+        -12.0
+      ],
+      "p1": [
+        27.325000000000003,
+        18.0
+      ]
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.loft",
+    "params": {
+      "sections": [
+        {
+          "sketch": "CameraCheek1Section0"
+        },
+        {
+          "sketch": "CameraCheek1Section1"
+        },
+        {
+          "sketch": "CameraCheek1Section2"
+        }
+      ],
+      "operation": "join",
+      "targets": [
+        "WristSaddle"
+      ],
+      "name": "CameraCheek1"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "name": "CameraRearBridge",
+      "length": 33.5,
+      "width": 8,
+      "height": 7.4,
+      "corner": [
+        -6.75,
+        16.0,
+        85
+      ],
+      "operation": "join",
+      "targets": [
+        "WristSaddle"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "name": "CameraGuideWall-1",
+      "length": 3.8,
+      "width": 30,
+      "height": 7.4,
+      "corner": [
+        -6.75,
+        -12.0,
+        85
+      ],
+      "operation": "join",
+      "targets": [
+        "WristSaddle"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "name": "CameraGuideLower-1",
+      "length": 4.95,
+      "width": 30,
+      "height": 1.95,
+      "corner": [
+        -6.75,
+        -12.0,
+        85
+      ],
+      "operation": "join",
+      "targets": [
+        "WristSaddle"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "name": "CameraGuideUpper-1",
+      "length": 4.95,
+      "width": 30,
+      "height": 1.95,
+      "corner": [
+        -6.75,
+        -12.0,
+        88.35
+      ],
+      "operation": "join",
+      "targets": [
+        "WristSaddle"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "name": "CameraGuideWall1",
+      "length": 3.8,
+      "width": 30,
+      "height": 7.4,
+      "corner": [
+        22.950000000000003,
+        -12.0,
+        85
+      ],
+      "operation": "join",
+      "targets": [
+        "WristSaddle"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "name": "CameraGuideLower1",
+      "length": 4.95,
+      "width": 30,
+      "height": 1.95,
+      "corner": [
+        21.799999999999997,
+        -12.0,
+        85
+      ],
+      "operation": "join",
+      "targets": [
+        "WristSaddle"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "name": "CameraGuideUpper1",
+      "length": 4.95,
+      "width": 30,
+      "height": 1.95,
+      "corner": [
+        21.799999999999997,
+        -12.0,
+        88.35
+      ],
+      "operation": "join",
+      "targets": [
+        "WristSaddle"
+      ]
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "CameraSkinWindowProfile",
+      "plane": "XY",
+      "offset": 40
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        -4.0,
+        -16.0
+      ],
+      "p1": [
+        24.0,
+        16.0
+      ]
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "distance": 30,
+      "operation": "cut",
+      "targets": [
+        "WristSaddle"
+      ],
+      "name": "CameraSkinWindow"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "name": "StrapEar-1",
+      "length": 11,
+      "width": 22,
+      "height": 4,
+      "corner": [
+        -38.0,
+        4.0,
+        50
+      ],
+      "operation": "join",
+      "targets": [
+        "WristSaddle"
+      ]
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "StrapSlot-1Profile",
+      "plane": "XY",
+      "offset": 49
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        -35.5,
+        7.0
+      ],
+      "p1": [
+        -32.5,
+        23.0
+      ]
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "distance": 6,
+      "operation": "cut",
+      "targets": [
+        "WristSaddle"
+      ],
+      "name": "StrapSlot-1"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "name": "StrapEar1",
+      "length": 11,
+      "width": 22,
+      "height": 4,
+      "corner": [
+        27.0,
+        4.0,
+        50
+      ],
+      "operation": "join",
+      "targets": [
+        "WristSaddle"
+      ]
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "StrapSlot1Profile",
+      "plane": "XY",
+      "offset": 49
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        32.5,
+        7.0
+      ],
+      "p1": [
+        35.5,
+        23.0
+      ]
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "distance": 6,
+      "operation": "cut",
+      "targets": [
+        "WristSaddle"
+      ],
+      "name": "StrapSlot1"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "name": "CameraKeeper",
+      "length": 33.5,
+      "width": 2.2,
+      "height": 3.2,
+      "corner": [
+        -6.75,
+        -14.4,
+        85
+      ],
+      "operation": "new",
+      "body_name": "CameraKeeper"
+    }
+  }
+]

@@ -1,0 +1,88 @@
+{
+    "error_string": "Success.",
+    "export_time": 373,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 68,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Custom": 355.1017761230469,
+                "Flush": 28.0,
+                "Gap infill": 76.7332763671875,
+                "Inner wall": 177.4864959716797,
+                "Internal solid infill": 2.9650375843048096,
+                "Outer wall": 183.69422912597656,
+                "Sparse infill": 1.4234575033187866,
+                "Top surface": 13.100492477416992,
+                "Travel": 124.17511749267578,
+                "Undefined": 105.82838439941406
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 1.6426609754562378,
+                    "total_used_g": 1.6426609754562378
+                }
+            ],
+            "generate_support_material_time": 11,
+            "id": 1,
+            "infill_time": 12,
+            "layer_filament_change": 0,
+            "main_predication": 551.57861328125,
+            "make_perimeters_time": 54,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 6.000000476837158,
+                        "height": 2.0,
+                        "width": 36.0,
+                        "x": 81.36817932128906,
+                        "y": 107.49909973144531,
+                        "z": 0.0
+                    },
+                    "id": 79,
+                    "name": "LockingKey.stl",
+                    "triangle_count": 44
+                },
+                {
+                    "bbox": {
+                        "depth": 23.28465461730957,
+                        "height": 3.0,
+                        "width": 23.284658432006836,
+                        "x": 97.22637176513672,
+                        "y": 63.35768127441406,
+                        "z": 0.0
+                    },
+                    "id": 68,
+                    "name": "LaserBand.stl",
+                    "triangle_count": 6592
+                },
+                {
+                    "bbox": {
+                        "depth": 13.999999046325684,
+                        "height": 12.0,
+                        "width": 13.837397575378418,
+                        "x": 62.631832122802734,
+                        "y": 70.80767059326172,
+                        "z": 0.0
+                    },
+                    "id": 57,
+                    "name": "FitCollar.stl",
+                    "triangle_count": 21506
+                }
+            ],
+            "sliced_time": 235,
+            "sliced_time_with_cache": 148,
+            "total_predication": 944.3336791992188,
+            "triangle_count": 28142,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 30.0,
+    "wall_loops": 4
+}

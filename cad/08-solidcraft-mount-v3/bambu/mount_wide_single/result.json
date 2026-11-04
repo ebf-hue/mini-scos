@@ -1,0 +1,95 @@
+{
+    "error_string": "Success.",
+    "export_time": 265,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 39,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 93.6702651977539,
+                "Bridge": 149.05007934570313,
+                "Custom": 354.8569030761719,
+                "Flush": 28.0,
+                "Gap infill": 140.15060424804688,
+                "Inner wall": 2972.789306640625,
+                "Internal solid infill": 386.4158020019531,
+                "Outer wall": 1127.38623046875,
+                "Overhang wall": 108.94561004638672,
+                "Sparse infill": 2130.364501953125,
+                "Support": 810.369140625,
+                "Support interface": 42.73800277709961,
+                "Top surface": 197.15274047851563,
+                "Travel": 1660.923095703125,
+                "Undefined": 1642.5516357421875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 74.49081420898438,
+                    "total_used_g": 74.49081420898438
+                }
+            ],
+            "generate_support_material_time": 447,
+            "id": 1,
+            "infill_time": 91,
+            "layer_filament_change": 0,
+            "main_predication": 9791.494140625,
+            "make_perimeters_time": 167,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 76.73075103759766,
+                        "height": 70.0,
+                        "width": 95.99488830566406,
+                        "x": 12.000001907348633,
+                        "y": 8.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Rest.stl",
+                    "triangle_count": 31690
+                },
+                {
+                    "bbox": {
+                        "depth": 32.0,
+                        "height": 35.48223876953125,
+                        "width": 79.19286346435547,
+                        "x": 18.0,
+                        "y": 125.0,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "SpineCamera.stl",
+                    "triangle_count": 548
+                }
+            ],
+            "sliced_time": 1371,
+            "sliced_time_with_cache": 462,
+            "total_predication": 10183.9794921875,
+            "triangle_count": 32238,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 30.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1S 0.4 nozzle",
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

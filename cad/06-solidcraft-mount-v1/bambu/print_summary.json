@@ -1,0 +1,76 @@
+{
+  "mount_standard": [
+    {
+      "plate": "1",
+      "seconds": 7542,
+      "grams": 55.37,
+      "objects": [
+        "Rest.stl",
+        "Keeper.stl",
+        "LaserBand.stl"
+      ],
+      "warnings": [
+        "not_support_traditional_timelapse",
+        "not_support_traditional_timelapse"
+      ]
+    },
+    {
+      "plate": "2",
+      "seconds": 3837,
+      "grams": 20.64,
+      "objects": [
+        "SpineCamera_standard.stl",
+        "LockingKey.stl"
+      ],
+      "warnings": [
+        "not_support_traditional_timelapse",
+        "not_support_traditional_timelapse"
+      ]
+    }
+  ],
+  "fit_test": [
+    {
+      "plate": "1",
+      "seconds": 944,
+      "grams": 1.64,
+      "objects": [
+        "LockingKey.stl",
+        "LaserBand.stl",
+        "FitCollar.stl"
+      ],
+      "warnings": [
+        "not_support_traditional_timelapse",
+        "not_support_traditional_timelapse"
+      ]
+    }
+  ],
+  "mount_wide": [
+    {
+      "plate": "1",
+      "seconds": 7546,
+      "grams": 55.37,
+      "objects": [
+        "Rest.stl",
+        "Keeper.stl",
+        "LaserBand.stl"
+      ],
+      "warnings": [
+        "not_support_traditional_timelapse",
+        "not_support_traditional_timelapse"
+      ]
+    },
+    {
+      "plate": "2",
+      "seconds": 3304,
+      "grams": 14.17,
+      "objects": [
+        "SpineCamera.stl",
+        "LockingKey.stl"
+      ],
+      "warnings": [
+        "not_support_traditional_timelapse",
+        "not_support_traditional_timelapse"
+      ]
+    }
+  ]
+}

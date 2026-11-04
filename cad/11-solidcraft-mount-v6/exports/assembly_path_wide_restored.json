@@ -1,0 +1,495 @@
+{
+  "method": "40 mm straight translation from -Y to seated camera, gate/ribbon removed; conservative continuous envelopes for all module components",
+  "blocked_pairs": [],
+  "native_result": {
+    "interferences": [
+      {
+        "a": "SpineCamera",
+        "area_mm2": 82.11920412194354,
+        "b": "LockingKey",
+        "bbox": {
+          "max": [
+            3.552713678800501e-15,
+            31.088235294117645,
+            51.2
+          ],
+          "min": [
+            -10.000000000000007,
+            26.911764705882355,
+            49.2
+          ]
+        },
+        "center": [
+          -6.6666666666666705,
+          29.000000000000014,
+          50.2
+        ],
+        "volume_mm3": 1.764705882352904
+      },
+      {
+        "a": "LockingKey",
+        "area_mm2": 50.007256037706455,
+        "b": "Rest",
+        "bbox": {
+          "max": [
+            -10.2,
+            31.14117647058815,
+            51.20000000000001
+          ],
+          "min": [
+            -15.999999999991013,
+            26.858823529411847,
+            49.19999999999999
+          ]
+        },
+        "center": [
+          -13.313994910936238,
+          28.999999999999847,
+          50.20000000000001
+        ],
+        "volume_mm3": 2.6816470588182804
+      },
+      {
+        "a": "PathPCB",
+        "area_mm2": 1171.8400000000001,
+        "b": "PathHousing",
+        "bbox": {
+          "max": [
+            5.6,
+            5.600000000000001,
+            105.53000000000002
+          ],
+          "min": [
+            -5.600000000000001,
+            -45.6,
+            105.33000000000001
+          ]
+        },
+        "center": [
+          1.8569801780931162e-16,
+          -20.0,
+          105.43
+        ],
+        "volume_mm3": 114.68800000000162
+      },
+      {
+        "a": "PathPCB",
+        "area_mm2": 1871.770200000001,
+        "b": "PathConnector",
+        "bbox": {
+          "max": [
+            10.005000000000003,
+            9.661999999999999,
+            106.65
+          ],
+          "min": [
+            -10.005000000000003,
+            -36.44800000000001,
+            106.44999999999999
+          ]
+        },
+        "center": [
+          4.476856963571802e-14,
+          -13.392999999999763,
+          106.55
+        ],
+        "volume_mm3": 184.53222000001028
+      },
+      {
+        "a": "PathHousing",
+        "area_mm2": 739.2579999999995,
+        "b": "PathLens",
+        "bbox": {
+          "max": [
+            3.675,
+            3.6750000000000043,
+            101.4
+          ],
+          "min": [
+            -3.675,
+            -43.675000000000004,
+            101.00500000000001
+          ]
+        },
+        "center": [
+          -8.614588467761567e-18,
+          -19.999999999999993,
+          101.20250000000001
+        ],
+        "volume_mm3": 137.46888749999863
+      },
+      {
+        "a": "Rest",
+        "b": "LaserBand",
+        "volume_mm3": 15.182658700084259,
+        "method": "Open CASCADE solid intersection of STEP exports"
+      }
+    ],
+    "count": 6,
+    "unchecked": [],
+    "budget_exceeded": false,
+    "truncated": false,
+    "native_reports": [
+      {
+        "boolean_ms": 469.862,
+        "budget_exceeded": false,
+        "budget_s": 120.0,
+        "checked": 8,
+        "count": 5,
+        "interferences": [
+          {
+            "a": "SpineCamera",
+            "area_mm2": 82.11920412194354,
+            "b": "LockingKey",
+            "bbox": {
+              "max": [
+                3.552713678800501e-15,
+                31.088235294117645,
+                51.2
+              ],
+              "min": [
+                -10.000000000000007,
+                26.911764705882355,
+                49.2
+              ]
+            },
+            "center": [
+              -6.6666666666666705,
+              29.000000000000014,
+              50.2
+            ],
+            "volume_mm3": 1.764705882352904
+          },
+          {
+            "a": "LockingKey",
+            "area_mm2": 50.007256037706455,
+            "b": "Rest",
+            "bbox": {
+              "max": [
+                -10.2,
+                31.14117647058815,
+                51.20000000000001
+              ],
+              "min": [
+                -15.999999999991013,
+                26.858823529411847,
+                49.19999999999999
+              ]
+            },
+            "center": [
+              -13.313994910936238,
+              28.999999999999847,
+              50.20000000000001
+            ],
+            "volume_mm3": 2.6816470588182804
+          },
+          {
+            "a": "PathPCB",
+            "area_mm2": 1171.8400000000001,
+            "b": "PathHousing",
+            "bbox": {
+              "max": [
+                5.6,
+                5.600000000000001,
+                105.53000000000002
+              ],
+              "min": [
+                -5.600000000000001,
+                -45.6,
+                105.33000000000001
+              ]
+            },
+            "center": [
+              1.8569801780931162e-16,
+              -20.0,
+              105.43
+            ],
+            "volume_mm3": 114.68800000000162
+          },
+          {
+            "a": "PathPCB",
+            "area_mm2": 1871.770200000001,
+            "b": "PathConnector",
+            "bbox": {
+              "max": [
+                10.005000000000003,
+                9.661999999999999,
+                106.65
+              ],
+              "min": [
+                -10.005000000000003,
+                -36.44800000000001,
+                106.44999999999999
+              ]
+            },
+            "center": [
+              4.476856963571802e-14,
+              -13.392999999999763,
+              106.55
+            ],
+            "volume_mm3": 184.53222000001028
+          },
+          {
+            "a": "PathHousing",
+            "area_mm2": 739.2579999999995,
+            "b": "PathLens",
+            "bbox": {
+              "max": [
+                3.675,
+                3.6750000000000043,
+                101.4
+              ],
+              "min": [
+                -3.675,
+                -43.675000000000004,
+                101.00500000000001
+              ]
+            },
+            "center": [
+              -8.614588467761567e-18,
+              -19.999999999999993,
+              101.20250000000001
+            ],
+            "volume_mm3": 137.46888749999863
+          }
+        ],
+        "ms": 334.406,
+        "pairs_candidate": 12,
+        "pairs_cleared": 3,
+        "pairs_intersected": 9,
+        "pairs_not_checked": 0,
+        "skipped_pairs": 0,
+        "slowest": [
+          {
+            "a": "LockingKey",
+            "b": "Rest",
+            "boolean_ms": 276.148,
+            "ms": 329.41,
+            "tessellate_ms": 1.104
+          },
+          {
+            "a": "LaserModule",
+            "b": "Rest",
+            "boolean_ms": 99.688,
+            "ms": 155.024,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Rest",
+            "boolean_ms": 54.216,
+            "ms": 106.508,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "LockingKey",
+            "boolean_ms": 10.136,
+            "ms": 11.062,
+            "tessellate_ms": 0.909
+          },
+          {
+            "a": "PathPCB",
+            "b": "PathConnector",
+            "boolean_ms": 9.873,
+            "ms": 10.467,
+            "tessellate_ms": 0.584
+          },
+          {
+            "a": "PathPCB",
+            "b": "PathHousing",
+            "boolean_ms": 5.351,
+            "ms": 6.076,
+            "tessellate_ms": 0.715
+          },
+          {
+            "a": "PathHousing",
+            "b": "PathLens",
+            "boolean_ms": 5.047,
+            "ms": 5.805,
+            "tessellate_ms": 0.744
+          },
+          {
+            "a": "SpineCamera",
+            "b": "PathPCB",
+            "boolean_ms": 4.861,
+            "ms": 4.868,
+            "tessellate_ms": 0.0
+          }
+        ],
+        "tessellate_ms": 4.056,
+        "threads": 9,
+        "truncated": false,
+        "unchecked": []
+      },
+      {
+        "boolean_ms": 39.178,
+        "budget_exceeded": false,
+        "budget_s": 120.0,
+        "checked": 8,
+        "count": 4,
+        "interferences": [
+          {
+            "a": "SpineCamera",
+            "area_mm2": 82.11920412194354,
+            "b": "LockingKey",
+            "bbox": {
+              "max": [
+                3.552713678800501e-15,
+                31.088235294117645,
+                51.2
+              ],
+              "min": [
+                -10.000000000000007,
+                26.911764705882355,
+                49.2
+              ]
+            },
+            "center": [
+              -6.6666666666666705,
+              29.000000000000014,
+              50.2
+            ],
+            "volume_mm3": 1.764705882352904
+          },
+          {
+            "a": "PathPCB",
+            "area_mm2": 1171.8400000000001,
+            "b": "PathHousing",
+            "bbox": {
+              "max": [
+                5.6,
+                5.600000000000001,
+                105.53000000000002
+              ],
+              "min": [
+                -5.600000000000001,
+                -45.6,
+                105.33000000000001
+              ]
+            },
+            "center": [
+              1.8569801780931162e-16,
+              -20.0,
+              105.43
+            ],
+            "volume_mm3": 114.68800000000162
+          },
+          {
+            "a": "PathPCB",
+            "area_mm2": 1871.770200000001,
+            "b": "PathConnector",
+            "bbox": {
+              "max": [
+                10.005000000000003,
+                9.661999999999999,
+                106.65
+              ],
+              "min": [
+                -10.005000000000003,
+                -36.44800000000001,
+                106.44999999999999
+              ]
+            },
+            "center": [
+              4.476856963571802e-14,
+              -13.392999999999763,
+              106.55
+            ],
+            "volume_mm3": 184.53222000001028
+          },
+          {
+            "a": "PathHousing",
+            "area_mm2": 739.2579999999995,
+            "b": "PathLens",
+            "bbox": {
+              "max": [
+                3.675,
+                3.6750000000000043,
+                101.4
+              ],
+              "min": [
+                -3.675,
+                -43.675000000000004,
+                101.00500000000001
+              ]
+            },
+            "center": [
+              -8.614588467761567e-18,
+              -19.999999999999993,
+              101.20250000000001
+            ],
+            "volume_mm3": 137.46888749999863
+          }
+        ],
+        "ms": 12.42,
+        "pairs_candidate": 11,
+        "pairs_cleared": 5,
+        "pairs_intersected": 6,
+        "pairs_not_checked": 0,
+        "skipped_pairs": 0,
+        "slowest": [
+          {
+            "a": "SpineCamera",
+            "b": "LockingKey",
+            "boolean_ms": 10.035,
+            "ms": 11.036,
+            "tessellate_ms": 0.983
+          },
+          {
+            "a": "PathPCB",
+            "b": "PathConnector",
+            "boolean_ms": 9.799,
+            "ms": 10.43,
+            "tessellate_ms": 0.621
+          },
+          {
+            "a": "PathHousing",
+            "b": "PathLens",
+            "boolean_ms": 5.315,
+            "ms": 6.048,
+            "tessellate_ms": 0.723
+          },
+          {
+            "a": "PathPCB",
+            "b": "PathHousing",
+            "boolean_ms": 5.252,
+            "ms": 5.972,
+            "tessellate_ms": 0.705
+          },
+          {
+            "a": "SpineCamera",
+            "b": "PathConnector",
+            "boolean_ms": 4.497,
+            "ms": 4.504,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "PathPCB",
+            "boolean_ms": 4.279,
+            "ms": 4.286,
+            "tessellate_ms": 0.0
+          }
+        ],
+        "tessellate_ms": 3.032,
+        "threads": 6,
+        "truncated": false,
+        "unchecked": []
+      }
+    ],
+    "independent_band_check": {
+      "pair": [
+        "Rest",
+        "LaserBand"
+      ],
+      "method": "Open CASCADE solid intersection of STEP exports",
+      "intersection_volume_mm3": 15.182658700084259,
+      "expected": "Intentional reused printed compression-band press fit",
+      "rest_valid": true,
+      "rest_shells_closed": true,
+      "band_valid": true,
+      "rest_sha256": "fbfc1bd9723f2e44667e198e7c7dde8cee10c17c8d3f970da43e03175ac0a7b2"
+    }
+  }
+}

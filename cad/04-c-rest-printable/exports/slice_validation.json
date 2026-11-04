@@ -1,0 +1,44 @@
+{
+  "tool": "OrcaSlicer 2.4.2",
+  "reference_profile": "Bambu Lab A1 mini / 0.4 mm / Generic PETG",
+  "process": "0.2 mm, four walls, 30% infill, automatic supports; preoriented STLs",
+  "scope": "Geometry slicing check only. No physical print; reference profile is not a claim about the user printer. G-code retained only in /tmp.",
+  "parts": {
+    "camera_cassette.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "camera_keeper.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "fit_coupon.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "laser_clip.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "laser_pin_19mm.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "locking_pin_20mm.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "rest.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "tower_standard_105mm.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "tower_wide_55mm.stl": {
+      "exit_code": 0,
+      "sliced": true
+    }
+  }
+}

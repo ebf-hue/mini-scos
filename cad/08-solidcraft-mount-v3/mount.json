@@ -1,0 +1,2847 @@
+{
+  "format": "solidcraft/40",
+  "name": "mount",
+  "units": "mm",
+  "params": [
+    {
+      "name": "working_distance",
+      "expr": "55 mm",
+      "unit": "mm",
+      "comment": "Mechanical range 55..105 mm. Use 55 for Wide; 105 for Standard. Focus requires bench testing.",
+      "model": false
+    },
+    {
+      "name": "board_z",
+      "expr": "43 mm + working_distance + 7.43 mm",
+      "unit": "mm",
+      "comment": "Derived nominal board front Z",
+      "model": false
+    },
+    {
+      "name": "tray_z",
+      "expr": "board_z + 5.5 mm",
+      "unit": "mm",
+      "comment": "Derived tray underside Z",
+      "model": false
+    }
+  ],
+  "features": [
+    {
+      "id": 1,
+      "name": "RestCProfile",
+      "suppressed": false,
+      "type": "sketch",
+      "plane": {
+        "type": "custom",
+        "plane": {
+          "origin": [
+            0.0,
+            35.0,
+            0.0
+          ],
+          "x_dir": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "y_dir": [
+            -0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "a1.start",
+            "pos": [
+              47.27077214458598,
+              -8.335112528012656
+            ],
+            "fixed": false
+          },
+          {
+            "id": "a1.end",
+            "pos": [
+              -47.27077214458598,
+              -8.33511252801264
+            ],
+            "fixed": false
+          },
+          {
+            "id": "a1.center",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "a2.start",
+            "pos": [
+              -42.34673337952494,
+              -7.466871639678004
+            ],
+            "fixed": false
+          },
+          {
+            "id": "a2.end",
+            "pos": [
+              42.34673337952494,
+              -7.4668716396779855
+            ],
+            "fixed": false
+          },
+          {
+            "id": "a2.center",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -47.27077214458598,
+              -8.335112528012656
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              -42.34673337952494,
+              -7.466871639678004
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.start",
+            "pos": [
+              42.34673337952494,
+              -7.466871639678004
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              47.27077214458598,
+              -8.335112528012656
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "a1",
+            "type": "arc",
+            "c": 3,
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "a2",
+            "type": "arc",
+            "c": 6,
+            "a": 5,
+            "b": 4,
+            "construction": false,
+            "reversed": true,
+            "fixed": true
+          },
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 7,
+            "b": 8,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 9,
+            "b": 10,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "a": 2,
+          "l": 2
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "WideOpenRest",
+      "suppressed": false,
+      "body_names": [
+        "Rest"
+      ],
+      "param_names": [
+        "d1"
+      ],
+      "type": "extrude",
+      "sketch": 1,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "70",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "new_body"
+    },
+    {
+      "id": 3,
+      "name": "OpticalWindowSketch",
+      "suppressed": false,
+      "param_names": [
+        "d2"
+      ],
+      "type": "sketch",
+      "plane": {
+        "type": "offset",
+        "base": {
+          "type": "origin",
+          "name": "XY"
+        },
+        "distance": "29"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -17.0,
+              -15.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              17.0,
+              -15.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              17.0,
+              15.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -17.0,
+              15.0
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "OpticalWindow",
+      "suppressed": false,
+      "param_names": [
+        "d3"
+      ],
+      "type": "extrude",
+      "sketch": 3,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "28",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "cut",
+      "targets": [
+        "Rest"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "SpineSocketLanding",
+      "suppressed": false,
+      "param_names": [
+        "d4",
+        "d5",
+        "d6"
+      ],
+      "participants": [
+        "Rest"
+      ],
+      "type": "box",
+      "corner": [
+        -16.0,
+        23.0,
+        44.0
+      ],
+      "length": "32",
+      "width": "12",
+      "height": "11",
+      "operation": "join"
+    },
+    {
+      "id": 6,
+      "name": "RoundedCradleRoot",
+      "suppressed": false,
+      "body_names": [
+        "CradleTool"
+      ],
+      "param_names": [
+        "d7",
+        "d8"
+      ],
+      "type": "cylinder",
+      "base": [
+        -26.0,
+        -16.0,
+        48.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": "11",
+      "height": "32",
+      "operation": "new_body"
+    },
+    {
+      "id": 7,
+      "name": "RoundedCradleEnds",
+      "suppressed": false,
+      "param_names": [
+        "d9"
+      ],
+      "edge_refs": [
+        {
+          "dir": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": [
+            -36.99491714070735,
+            -16.0,
+            37.00029552885293
+          ],
+          "max": [
+            -15.005082859292642,
+            16.0,
+            58.99970447114708
+          ]
+        },
+        {
+          "dir": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "min": [
+            -36.99491714070735,
+            -16.0,
+            37.00029552885293
+          ],
+          "max": [
+            -15.005082859292642,
+            16.0,
+            58.99970447114708
+          ]
+        }
+      ],
+      "edge_names": [
+        "F6:bottom|F6:side#2",
+        "F6:side#2|F6:top"
+      ],
+      "type": "fillet",
+      "edges": [
+        [
+          -15.0,
+          -16.0,
+          48.0
+        ],
+        [
+          -15.0,
+          16.0,
+          48.0
+        ]
+      ],
+      "radius": "2"
+    },
+    {
+      "id": 8,
+      "name": "Combine1",
+      "suppressed": false,
+      "type": "combine",
+      "target": "Rest",
+      "tools": [
+        "CradleTool"
+      ],
+      "operation": "join",
+      "keep_tools": false
+    },
+    {
+      "id": 9,
+      "name": "IntegratedLaserCollar",
+      "suppressed": false,
+      "param_names": [
+        "d10",
+        "d11"
+      ],
+      "participants": [
+        "Rest"
+      ],
+      "type": "cylinder",
+      "base": [
+        -16.464290429555803,
+        0.0,
+        54.5621532777801
+      ],
+      "axis": [
+        -0.42261826174069944,
+        0.0,
+        0.9063077870366499
+      ],
+      "radius": "7",
+      "height": "12",
+      "operation": "join"
+    },
+    {
+      "id": 10,
+      "name": "ReinforcedLowerCollar",
+      "suppressed": false,
+      "param_names": [
+        "d12",
+        "d13"
+      ],
+      "participants": [
+        "Rest"
+      ],
+      "type": "cylinder",
+      "base": [
+        -16.252981298685455,
+        0.0,
+        54.10899938426178
+      ],
+      "axis": [
+        -0.42261826174069944,
+        0.0,
+        0.9063077870366499
+      ],
+      "radius": "8.5",
+      "height": "8",
+      "operation": "join"
+    },
+    {
+      "id": 11,
+      "name": "LaserBoreSketch",
+      "suppressed": false,
+      "type": "sketch",
+      "plane": {
+        "type": "custom",
+        "plane": {
+          "origin": [
+            0.01782177833147358,
+            0.0,
+            19.216149583350756
+          ],
+          "x_dir": [
+            0.9063077870366499,
+            0.0,
+            0.42261826174069944
+          ],
+          "y_dir": [
+            0.0,
+            1.0,
+            -0.0
+          ]
+        }
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "c1.center",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "c1",
+            "type": "circle",
+            "c": 1,
+            "r": 5.1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "c": 1
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "LaserBarrelBore",
+      "suppressed": false,
+      "param_names": [
+        "d14"
+      ],
+      "type": "extrude",
+      "sketch": 11,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "90",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "cut",
+      "targets": [
+        "Rest"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "CollarComplianceSlit",
+      "suppressed": false,
+      "type": "sketch",
+      "plane": {
+        "type": "custom",
+        "plane": {
+          "origin": [
+            -16.041672167815104,
+            0.0,
+            53.65584549074345
+          ],
+          "x_dir": [
+            0.9063077870366499,
+            0.0,
+            0.42261826174069944
+          ],
+          "y_dir": [
+            0.0,
+            1.0,
+            -0.0
+          ]
+        }
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -1.5,
+              0.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              1.5,
+              0.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              1.5,
+              12.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -1.5,
+              12.0
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "OpenLaserCollar",
+      "suppressed": false,
+      "param_names": [
+        "d15"
+      ],
+      "type": "extrude",
+      "sketch": 13,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "14",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "cut",
+      "targets": [
+        "Rest"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "SpineTenonSocketSketch",
+      "suppressed": false,
+      "param_names": [
+        "d16"
+      ],
+      "type": "sketch",
+      "plane": {
+        "type": "offset",
+        "base": {
+          "type": "origin",
+          "name": "XY"
+        },
+        "distance": "45"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -10.2,
+              25.8
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              10.2,
+              25.8
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              10.2,
+              32.2
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -10.2,
+              32.2
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "SpineTenonSocket",
+      "suppressed": false,
+      "param_names": [
+        "d17"
+      ],
+      "type": "extrude",
+      "sketch": 15,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "12",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "cut",
+      "targets": [
+        "Rest"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "ConcealedKeySlotRestSketch",
+      "suppressed": false,
+      "param_names": [
+        "d18"
+      ],
+      "type": "sketch",
+      "plane": {
+        "type": "offset",
+        "base": {
+          "type": "origin",
+          "name": "XY"
+        },
+        "distance": "49"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -22.0,
+              27.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              22.0,
+              27.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              22.0,
+              31.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -22.0,
+              31.0
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "ConcealedKeySlotRest",
+      "suppressed": false,
+      "param_names": [
+        "d19"
+      ],
+      "type": "extrude",
+      "sketch": 17,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "2.4",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "cut",
+      "targets": [
+        "Rest"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "SpineBaseSection",
+      "suppressed": false,
+      "param_names": [
+        "d20"
+      ],
+      "type": "sketch",
+      "plane": {
+        "type": "offset",
+        "base": {
+          "type": "origin",
+          "name": "XY"
+        },
+        "distance": "55"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -16.0,
+              25.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              16.0,
+              25.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              16.0,
+              33.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -16.0,
+              33.0
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "SpineTopSection",
+      "suppressed": false,
+      "param_names": [
+        "d21"
+      ],
+      "type": "sketch",
+      "plane": {
+        "type": "offset",
+        "base": {
+          "type": "origin",
+          "name": "XY"
+        },
+        "distance": "tray_z + 3 mm"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -13.0,
+              11.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              13.0,
+              11.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              13.0,
+              17.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -13.0,
+              17.5
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "SingleTaperedSpine",
+      "suppressed": false,
+      "body_names": [
+        "SpineCamera"
+      ],
+      "type": "loft",
+      "sections": [
+        {
+          "sketch": 19,
+          "profiles": {
+            "type": "all"
+          }
+        },
+        {
+          "sketch": 20,
+          "profiles": {
+            "type": "all"
+          }
+        }
+      ],
+      "operation": "new_body"
+    },
+    {
+      "id": 22,
+      "name": "ConcealedTenon",
+      "suppressed": false,
+      "param_names": [
+        "d22",
+        "d23",
+        "d24"
+      ],
+      "participants": [
+        "SpineCamera"
+      ],
+      "type": "box",
+      "corner": [
+        -10.0,
+        26.0,
+        45.3
+      ],
+      "length": "20",
+      "width": "6",
+      "height": "10",
+      "operation": "join"
+    },
+    {
+      "id": 23,
+      "name": "ConcealedKeySlotSpineSketch",
+      "suppressed": false,
+      "param_names": [
+        "d25"
+      ],
+      "type": "sketch",
+      "plane": {
+        "type": "offset",
+        "base": {
+          "type": "origin",
+          "name": "XY"
+        },
+        "distance": "49"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -22.0,
+              27.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              22.0,
+              27.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              22.0,
+              31.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -22.0,
+              31.0
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 24,
+      "name": "ConcealedKeySlotSpine",
+      "suppressed": false,
+      "param_names": [
+        "d26"
+      ],
+      "type": "extrude",
+      "sketch": 23,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "2.4",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "cut",
+      "targets": [
+        "SpineCamera"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "SlimTrayTop",
+      "suppressed": false,
+      "param_names": [
+        "d27",
+        "d28",
+        "d29"
+      ],
+      "participants": [
+        "SpineCamera"
+      ],
+      "type": "box",
+      "corner": [
+        -15.5,
+        -18.4,
+        "tray_z"
+      ],
+      "length": "31",
+      "width": "32",
+      "height": "3",
+      "operation": "join"
+    },
+    {
+      "id": 26,
+      "name": "TrayAccessWindowSketch",
+      "suppressed": false,
+      "param_names": [
+        "d30"
+      ],
+      "type": "sketch",
+      "plane": {
+        "type": "offset",
+        "base": {
+          "type": "origin",
+          "name": "XY"
+        },
+        "distance": "tray_z - 1 mm"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -11.0,
+              -14.9
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              11.0,
+              -14.9
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              11.0,
+              10.1
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -11.0,
+              10.1
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 27,
+      "name": "TrayAccessWindow",
+      "suppressed": false,
+      "param_names": [
+        "d31"
+      ],
+      "type": "extrude",
+      "sketch": 26,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "6",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "cut",
+      "targets": [
+        "SpineCamera"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "LeftBoardEdgeWall",
+      "suppressed": false,
+      "param_names": [
+        "d32",
+        "d33",
+        "d34"
+      ],
+      "participants": [
+        "SpineCamera"
+      ],
+      "type": "box",
+      "corner": [
+        -15.700000000000001,
+        -16.0,
+        "board_z - 1.4 mm"
+      ],
+      "length": "2.8",
+      "width": "29",
+      "height": "9.9",
+      "operation": "join"
+    },
+    {
+      "id": 29,
+      "name": "LeftBoardLowerLip",
+      "suppressed": false,
+      "param_names": [
+        "d35",
+        "d36",
+        "d37"
+      ],
+      "participants": [
+        "SpineCamera"
+      ],
+      "type": "box",
+      "corner": [
+        -15.5,
+        -16.0,
+        "board_z - 1.4 mm"
+      ],
+      "length": "4",
+      "width": "29",
+      "height": "1.2",
+      "operation": "join"
+    },
+    {
+      "id": 30,
+      "name": "LeftBoardUpperLip",
+      "suppressed": false,
+      "param_names": [
+        "d38",
+        "d39",
+        "d40"
+      ],
+      "participants": [
+        "SpineCamera"
+      ],
+      "type": "box",
+      "corner": [
+        -15.5,
+        -16.0,
+        "board_z + 1.52 mm"
+      ],
+      "length": "4",
+      "width": "29",
+      "height": "1.2",
+      "operation": "join"
+    },
+    {
+      "id": 31,
+      "name": "RightBoardEdgeWall",
+      "suppressed": false,
+      "param_names": [
+        "d41",
+        "d42",
+        "d43"
+      ],
+      "participants": [
+        "SpineCamera"
+      ],
+      "type": "box",
+      "corner": [
+        12.9,
+        -16.0,
+        "board_z - 1.4 mm"
+      ],
+      "length": "2.8",
+      "width": "29",
+      "height": "9.9",
+      "operation": "join"
+    },
+    {
+      "id": 32,
+      "name": "RightBoardLowerLip",
+      "suppressed": false,
+      "param_names": [
+        "d44",
+        "d45",
+        "d46"
+      ],
+      "participants": [
+        "SpineCamera"
+      ],
+      "type": "box",
+      "corner": [
+        11.5,
+        -16.0,
+        "board_z - 1.4 mm"
+      ],
+      "length": "4",
+      "width": "29",
+      "height": "1.2",
+      "operation": "join"
+    },
+    {
+      "id": 33,
+      "name": "RightBoardUpperLip",
+      "suppressed": false,
+      "param_names": [
+        "d47",
+        "d48",
+        "d49"
+      ],
+      "participants": [
+        "SpineCamera"
+      ],
+      "type": "box",
+      "corner": [
+        11.5,
+        -16.0,
+        "board_z + 1.52 mm"
+      ],
+      "length": "4",
+      "width": "29",
+      "height": "1.2",
+      "operation": "join"
+    },
+    {
+      "id": 34,
+      "name": "LeftRearBoardStop",
+      "suppressed": false,
+      "param_names": [
+        "d50",
+        "d51",
+        "d52"
+      ],
+      "participants": [
+        "SpineCamera"
+      ],
+      "type": "box",
+      "corner": [
+        -13.0,
+        9.9,
+        "board_z - 0.3 mm"
+      ],
+      "length": "3",
+      "width": "1.2",
+      "height": "2.1",
+      "operation": "join"
+    },
+    {
+      "id": 35,
+      "name": "RightRearBoardStop",
+      "suppressed": false,
+      "param_names": [
+        "d53",
+        "d54",
+        "d55"
+      ],
+      "participants": [
+        "SpineCamera"
+      ],
+      "type": "box",
+      "corner": [
+        10.0,
+        9.9,
+        "board_z - 0.3 mm"
+      ],
+      "length": "3",
+      "width": "1.2",
+      "height": "2.1",
+      "operation": "join"
+    },
+    {
+      "id": 36,
+      "name": "FrontLoadingGateGuideSketch",
+      "suppressed": false,
+      "param_names": [
+        "d56"
+      ],
+      "type": "sketch",
+      "plane": {
+        "type": "offset",
+        "base": {
+          "type": "origin",
+          "name": "XY"
+        },
+        "distance": "board_z + 0.1 mm"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -20.0,
+              -17.3
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              20.0,
+              -17.3
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              20.0,
+              -14.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -20.0,
+              -14.5
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 37,
+      "name": "FrontLoadingGateGuide",
+      "suppressed": false,
+      "param_names": [
+        "d57"
+      ],
+      "type": "extrude",
+      "sketch": 36,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "2.4",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "cut",
+      "targets": [
+        "SpineCamera"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "RearRibbonExitSketch",
+      "suppressed": false,
+      "param_names": [
+        "d58"
+      ],
+      "type": "sketch",
+      "plane": {
+        "type": "offset",
+        "base": {
+          "type": "origin",
+          "name": "XY"
+        },
+        "distance": "board_z + 2 mm"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -8.5,
+              5.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              8.5,
+              5.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              8.5,
+              50.5
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -8.5,
+              50.5
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 39,
+      "name": "RearRibbonExit",
+      "suppressed": false,
+      "param_names": [
+        "d59"
+      ],
+      "type": "extrude",
+      "sketch": 38,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "2.1",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "cut",
+      "targets": [
+        "SpineCamera"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "SlidingBoardKeeper",
+      "suppressed": false,
+      "body_names": [
+        "Keeper"
+      ],
+      "param_names": [
+        "d60",
+        "d61",
+        "d62"
+      ],
+      "type": "box",
+      "corner": [
+        -17.5,
+        -17.1,
+        "board_z + 0.3 mm"
+      ],
+      "length": "35",
+      "width": "2.4",
+      "height": "2",
+      "operation": "new_body"
+    },
+    {
+      "id": 41,
+      "name": "KeeperEndStop",
+      "suppressed": false,
+      "param_names": [
+        "d63",
+        "d64",
+        "d65"
+      ],
+      "participants": [
+        "Keeper"
+      ],
+      "type": "box",
+      "corner": [
+        -19.5,
+        -18.4,
+        "board_z + 0.3 mm"
+      ],
+      "length": "3",
+      "width": "5",
+      "height": "2",
+      "operation": "join"
+    },
+    {
+      "id": 42,
+      "name": "KeeperRetentionNib",
+      "suppressed": false,
+      "param_names": [
+        "d66",
+        "d67",
+        "d68"
+      ],
+      "participants": [
+        "Keeper"
+      ],
+      "type": "box",
+      "corner": [
+        16.0,
+        -17.1,
+        "board_z + 2.3 mm"
+      ],
+      "length": "1.5",
+      "width": "2.4",
+      "height": "0.7",
+      "operation": "join"
+    },
+    {
+      "id": 43,
+      "name": "FlatKeySketch",
+      "suppressed": false,
+      "param_names": [
+        "d69"
+      ],
+      "type": "sketch",
+      "plane": {
+        "type": "offset",
+        "base": {
+          "type": "origin",
+          "name": "XY"
+        },
+        "distance": "49.2"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              -17.0,
+              26.85
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              17.0,
+              27.15
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              17.0,
+              30.85
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              -17.0,
+              31.15
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 44,
+      "name": "FlatFrictionKey",
+      "suppressed": false,
+      "body_names": [
+        "LockingKey"
+      ],
+      "param_names": [
+        "d70"
+      ],
+      "type": "extrude",
+      "sketch": 43,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "2",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "new_body"
+    },
+    {
+      "id": 45,
+      "name": "KeyPullTab",
+      "suppressed": false,
+      "param_names": [
+        "d71",
+        "d72",
+        "d73"
+      ],
+      "participants": [
+        "LockingKey"
+      ],
+      "type": "box",
+      "corner": [
+        -19.0,
+        26.0,
+        49.2
+      ],
+      "length": "2",
+      "width": "6",
+      "height": "2",
+      "operation": "join"
+    },
+    {
+      "id": 46,
+      "name": "LaserBandProfile",
+      "suppressed": false,
+      "type": "sketch",
+      "plane": {
+        "type": "custom",
+        "plane": {
+          "origin": [
+            -20.47916391609245,
+            0.0,
+            63.17207725462828
+          ],
+          "x_dir": [
+            0.9063077870366499,
+            0.0,
+            0.42261826174069944
+          ],
+          "y_dir": [
+            0.0,
+            1.0,
+            -0.0
+          ]
+        }
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "c1.center",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "c2.center",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "c1",
+            "type": "circle",
+            "c": 1,
+            "r": 8.5,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "c2",
+            "type": "circle",
+            "c": 2,
+            "r": 6.85,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "c": 2
+        }
+      }
+    },
+    {
+      "id": 47,
+      "name": "LaserCompressionBand",
+      "suppressed": false,
+      "body_names": [
+        "LaserBand"
+      ],
+      "param_names": [
+        "d74"
+      ],
+      "type": "extrude",
+      "sketch": 46,
+      "profiles": {
+        "type": "curves",
+        "loops": [
+          [
+            "c1"
+          ]
+        ]
+      },
+      "extent": {
+        "distance": "3",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "new_body"
+    },
+    {
+      "id": 48,
+      "name": "FitCollarProfile",
+      "suppressed": false,
+      "type": "sketch",
+      "plane": {
+        "type": "custom",
+        "plane": {
+          "origin": [
+            120.0,
+            0.0,
+            0.0
+          ],
+          "x_dir": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "y_dir": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        }
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "c1.center",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "c2.center",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "c1",
+            "type": "circle",
+            "c": 1,
+            "r": 7.0,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "c2",
+            "type": "circle",
+            "c": 2,
+            "r": 5.1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "c": 2
+        }
+      }
+    },
+    {
+      "id": 49,
+      "name": "FirstPrintFitCollar",
+      "suppressed": false,
+      "body_names": [
+        "FitCollar"
+      ],
+      "param_names": [
+        "d75"
+      ],
+      "type": "extrude",
+      "sketch": 48,
+      "profiles": {
+        "type": "curves",
+        "loops": [
+          [
+            "c1"
+          ]
+        ]
+      },
+      "extent": {
+        "distance": "12",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "new_body"
+    },
+    {
+      "id": 50,
+      "name": "FitCollarSlitSketch",
+      "suppressed": false,
+      "param_names": [
+        "d76"
+      ],
+      "type": "sketch",
+      "plane": {
+        "type": "offset",
+        "base": {
+          "type": "origin",
+          "name": "XY"
+        },
+        "distance": "-1"
+      },
+      "sketch": {
+        "points": [
+          {
+            "id": "origin",
+            "pos": [
+              0.0,
+              0.0
+            ],
+            "fixed": true
+          },
+          {
+            "id": "l1.start",
+            "pos": [
+              118.5,
+              0.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l1.end",
+            "pos": [
+              121.5,
+              0.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l2.end",
+            "pos": [
+              121.5,
+              12.0
+            ],
+            "fixed": false
+          },
+          {
+            "id": "l3.end",
+            "pos": [
+              118.5,
+              12.0
+            ],
+            "fixed": false
+          }
+        ],
+        "curves": [
+          {
+            "id": "l1",
+            "type": "line",
+            "a": 1,
+            "b": 2,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l2",
+            "type": "line",
+            "a": 2,
+            "b": 3,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l3",
+            "type": "line",
+            "a": 3,
+            "b": 4,
+            "construction": false,
+            "fixed": true
+          },
+          {
+            "id": "l4",
+            "type": "line",
+            "a": 4,
+            "b": 1,
+            "construction": false,
+            "fixed": true
+          }
+        ],
+        "constraints": [],
+        "counters": {
+          "l": 4
+        }
+      }
+    },
+    {
+      "id": 51,
+      "name": "FitCollarSlit",
+      "suppressed": false,
+      "param_names": [
+        "d77"
+      ],
+      "type": "extrude",
+      "sketch": 50,
+      "profiles": {
+        "type": "all"
+      },
+      "extent": {
+        "distance": "14",
+        "convention": "total_distance",
+        "direction": "positive"
+      },
+      "operation": "cut",
+      "targets": [
+        "FitCollar"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "CameraPCBReference",
+      "suppressed": false,
+      "body_names": [
+        "CameraPCB"
+      ],
+      "param_names": [
+        "d78",
+        "d79",
+        "d80"
+      ],
+      "type": "box",
+      "corner": [
+        -12.5,
+        -14.399999999999999,
+        "board_z"
+      ],
+      "length": "25",
+      "width": "23.862",
+      "height": "1.12",
+      "operation": "new_body"
+    },
+    {
+      "id": 53,
+      "name": "LensHousingReference",
+      "suppressed": false,
+      "body_names": [
+        "CameraLens"
+      ],
+      "param_names": [
+        "d81",
+        "d82",
+        "d83"
+      ],
+      "type": "box",
+      "corner": [
+        -5.4,
+        -5.4,
+        "board_z - 4.325 mm"
+      ],
+      "length": "10.8",
+      "width": "10.8",
+      "height": "4.325",
+      "operation": "new_body"
+    },
+    {
+      "id": 54,
+      "name": "WideLensClearanceEnvelope",
+      "suppressed": false,
+      "param_names": [
+        "d84",
+        "d85"
+      ],
+      "participants": [
+        "CameraLens"
+      ],
+      "type": "cylinder",
+      "base": [
+        0.0,
+        0.0,
+        "board_z - 7.43 mm"
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": "3.475",
+      "height": "3.3",
+      "operation": "join"
+    },
+    {
+      "id": 55,
+      "name": "RearConnectorReference",
+      "suppressed": false,
+      "body_names": [
+        "CameraConnector"
+      ],
+      "param_names": [
+        "d86",
+        "d87",
+        "d88"
+      ],
+      "type": "box",
+      "corner": [
+        -9.805,
+        3.7520000000000002,
+        "board_z + 1.12 mm"
+      ],
+      "length": "19.61",
+      "width": "5.71",
+      "height": "2.75",
+      "operation": "new_body"
+    },
+    {
+      "id": 56,
+      "name": "RibbonReference",
+      "suppressed": false,
+      "body_names": [
+        "Ribbon"
+      ],
+      "param_names": [
+        "d89",
+        "d90",
+        "d91"
+      ],
+      "type": "box",
+      "corner": [
+        -7.5,
+        9.462,
+        "board_z + 2.5 mm"
+      ],
+      "length": "15",
+      "width": "34",
+      "height": "0.3",
+      "operation": "new_body"
+    },
+    {
+      "id": 57,
+      "name": "Adafruit1054Envelope",
+      "suppressed": false,
+      "body_names": [
+        "LaserModule"
+      ],
+      "param_names": [
+        "d92",
+        "d93"
+      ],
+      "type": "cylinder",
+      "base": [
+        -12.449416943019159,
+        0.0,
+        45.952229300931926
+      ],
+      "axis": [
+        -0.42261826174069944,
+        0.0,
+        0.9063077870366499
+      ],
+      "radius": "5",
+      "height": "31",
+      "operation": "new_body"
+    },
+    {
+      "id": 58,
+      "name": "ForearmClearanceGauge",
+      "suppressed": false,
+      "body_names": [
+        "ArmGauge"
+      ],
+      "param_names": [
+        "d94",
+        "d95"
+      ],
+      "type": "cylinder",
+      "base": [
+        0.0,
+        -90.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": "41",
+      "height": "180",
+      "operation": "new_body"
+    },
+    {
+      "id": 59,
+      "name": "PCBFrontInsertionSweep",
+      "suppressed": false,
+      "body_names": [
+        "PathPCB"
+      ],
+      "param_names": [
+        "d96",
+        "d97",
+        "d98"
+      ],
+      "type": "box",
+      "corner": [
+        -12.7,
+        -54.6,
+        "board_z - 0.1 mm"
+      ],
+      "length": "25.4",
+      "width": "64.262",
+      "height": "1.32",
+      "operation": "new_body"
+    },
+    {
+      "id": 60,
+      "name": "HousingFrontInsertionSweep",
+      "suppressed": false,
+      "body_names": [
+        "PathHousing"
+      ],
+      "param_names": [
+        "d99",
+        "d100",
+        "d101"
+      ],
+      "type": "box",
+      "corner": [
+        -5.6,
+        -45.6,
+        "board_z - 4.425 mm"
+      ],
+      "length": "11.2",
+      "width": "51.2",
+      "height": "4.525",
+      "operation": "new_body"
+    },
+    {
+      "id": 61,
+      "name": "LensFrontInsertionSweep",
+      "suppressed": false,
+      "body_names": [
+        "PathLens"
+      ],
+      "param_names": [
+        "d102",
+        "d103",
+        "d104"
+      ],
+      "type": "box",
+      "corner": [
+        -3.675,
+        -43.675,
+        "board_z - 7.53 mm"
+      ],
+      "length": "7.35",
+      "width": "47.35",
+      "height": "3.5",
+      "operation": "new_body"
+    },
+    {
+      "id": 62,
+      "name": "ConnectorFrontInsertionSweep",
+      "suppressed": false,
+      "body_names": [
+        "PathConnector"
+      ],
+      "param_names": [
+        "d105",
+        "d106",
+        "d107"
+      ],
+      "type": "box",
+      "corner": [
+        -10.005,
+        -36.448,
+        "board_z + 1.02 mm"
+      ],
+      "length": "20.01",
+      "width": "46.11",
+      "height": "2.95",
+      "operation": "new_body"
+    }
+  ],
+  "next_id": 63,
+  "next_component_color_index": 0,
+  "favorites": [
+    "working_distance"
+  ],
+  "appearances": {
+    "bodies": {
+      "ArmGauge": {
+        "name": "Custom",
+        "color": [
+          199,
+          171,
+          148
+        ],
+        "opacity": 1.0
+      },
+      "CameraConnector": {
+        "name": "Custom",
+        "color": [
+          216,
+          207,
+          182
+        ],
+        "opacity": 1.0
+      },
+      "CameraLens": {
+        "name": "Custom",
+        "color": [
+          37,
+          45,
+          50
+        ],
+        "opacity": 1.0
+      },
+      "CameraPCB": {
+        "name": "Custom",
+        "color": [
+          51,
+          118,
+          80
+        ],
+        "opacity": 1.0
+      },
+      "Keeper": {
+        "name": "Custom",
+        "color": [
+          110,
+          133,
+          138
+        ],
+        "opacity": 1.0
+      },
+      "LaserBand": {
+        "name": "Custom",
+        "color": [
+          171,
+          181,
+          183
+        ],
+        "opacity": 1.0
+      },
+      "LaserModule": {
+        "name": "Custom",
+        "color": [
+          174,
+          157,
+          112
+        ],
+        "opacity": 1.0
+      },
+      "LockingKey": {
+        "name": "Custom",
+        "color": [
+          171,
+          181,
+          183
+        ],
+        "opacity": 1.0
+      },
+      "Rest": {
+        "name": "Custom",
+        "color": [
+          110,
+          133,
+          138
+        ],
+        "opacity": 1.0
+      },
+      "Ribbon": {
+        "name": "Custom",
+        "color": [
+          209,
+          214,
+          217
+        ],
+        "opacity": 1.0
+      },
+      "SpineCamera": {
+        "name": "Custom",
+        "color": [
+          110,
+          133,
+          138
+        ],
+        "opacity": 1.0
+      }
+    }
+  },
+  "visibility": {
+    "hidden_bodies": [
+      "ArmGauge",
+      "FitCollar",
+      "PathPCB",
+      "PathHousing",
+      "PathLens",
+      "PathConnector"
+    ],
+    "hidden_occurrences": [],
+    "hidden_origin": [
+      "O",
+      "X",
+      "Y",
+      "Z",
+      "XY",
+      "XZ",
+      "YZ"
+    ],
+    "hidden_sketches": [
+      1,
+      3,
+      11,
+      13,
+      15,
+      17,
+      19,
+      20,
+      23,
+      26,
+      36,
+      38,
+      43,
+      46,
+      48,
+      50
+    ],
+    "shown_sketches": []
+  }
+}

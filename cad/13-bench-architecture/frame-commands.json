@@ -1,0 +1,423 @@
+[
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 160,
+      "width": 150,
+      "height": 6,
+      "corner": [
+        -80.0,
+        -75.0,
+        0
+      ],
+      "operation": "new",
+      "name": "Base",
+      "body_name": "Base"
+    }
+  },
+  {
+    "command": "solid.fillet",
+    "params": {
+      "body": "Base",
+      "edges": [
+        [
+          -80,
+          -75,
+          3
+        ],
+        [
+          -80,
+          75,
+          3
+        ],
+        [
+          80,
+          -75,
+          3
+        ],
+        [
+          80,
+          75,
+          3
+        ]
+      ],
+      "radius": 7,
+      "name": "BaseCorners"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 18,
+      "width": 26,
+      "height": 174,
+      "corner": [
+        -75.0,
+        17.0,
+        6
+      ],
+      "operation": "new",
+      "name": "BridgeFrame",
+      "body_name": "BridgeFrame"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 150,
+      "width": 20,
+      "height": 16,
+      "corner": [
+        -75.0,
+        20.0,
+        164
+      ],
+      "operation": "join",
+      "name": "BridgeCrossbar",
+      "targets": [
+        "BridgeFrame"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 18,
+      "width": 26,
+      "height": 174,
+      "corner": [
+        57.0,
+        17.0,
+        6
+      ],
+      "operation": "join",
+      "name": "BridgeRightPost",
+      "targets": [
+        "BridgeFrame"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 34,
+      "width": 6.4,
+      "height": 8,
+      "corner": [
+        -17.0,
+        18.8,
+        166.8
+      ],
+      "operation": "cut",
+      "name": "CameraCarrierSocket",
+      "targets": [
+        "BridgeFrame"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 24.4,
+      "width": 6.4,
+      "height": 12.4,
+      "corner": [
+        -56.2,
+        19.8,
+        167.8
+      ],
+      "operation": "cut",
+      "name": "LaserCarrierSocket",
+      "targets": [
+        "BridgeFrame"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 78,
+      "width": 24,
+      "height": 24,
+      "corner": [
+        -39.0,
+        -61.0,
+        6
+      ],
+      "operation": "new",
+      "name": "ArmCradle1",
+      "body_name": "ArmCradle1"
+    }
+  },
+  {
+    "command": "solid.fillet",
+    "params": {
+      "body": "ArmCradle1",
+      "edges": [
+        [
+          -39,
+          -61,
+          18
+        ],
+        [
+          -39,
+          -37,
+          18
+        ],
+        [
+          39,
+          -61,
+          18
+        ],
+        [
+          39,
+          -37,
+          18
+        ]
+      ],
+      "radius": 3,
+      "name": "ArmCradle1Corners"
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "ArmCradle1Opening",
+      "plane": {
+        "origin": [
+          0,
+          -62,
+          36
+        ],
+        "x_dir": [
+          1,
+          0,
+          0
+        ],
+        "y_dir": [
+          0,
+          0,
+          -1
+        ]
+      }
+    }
+  },
+  {
+    "command": "sketch.ellipse",
+    "params": {
+      "center": [
+        0,
+        0
+      ],
+      "major": [
+        35.3,
+        0
+      ],
+      "minor_radius": 25.3
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "distance": 26,
+      "operation": "cut",
+      "targets": [
+        "ArmCradle1"
+      ],
+      "name": "ArmCradle1ConcaveSupport"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 78,
+      "width": 24,
+      "height": 24,
+      "corner": [
+        -39.0,
+        37.0,
+        6
+      ],
+      "operation": "new",
+      "name": "ArmCradle2",
+      "body_name": "ArmCradle2"
+    }
+  },
+  {
+    "command": "solid.fillet",
+    "params": {
+      "body": "ArmCradle2",
+      "edges": [
+        [
+          -39,
+          37,
+          18
+        ],
+        [
+          -39,
+          61,
+          18
+        ],
+        [
+          39,
+          37,
+          18
+        ],
+        [
+          39,
+          61,
+          18
+        ]
+      ],
+      "radius": 3,
+      "name": "ArmCradle2Corners"
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "ArmCradle2Opening",
+      "plane": {
+        "origin": [
+          0,
+          36,
+          36
+        ],
+        "x_dir": [
+          1,
+          0,
+          0
+        ],
+        "y_dir": [
+          0,
+          0,
+          -1
+        ]
+      }
+    }
+  },
+  {
+    "command": "sketch.ellipse",
+    "params": {
+      "center": [
+        0,
+        0
+      ],
+      "major": [
+        35.3,
+        0
+      ],
+      "minor_radius": 25.3
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "distance": 26,
+      "operation": "cut",
+      "targets": [
+        "ArmCradle2"
+      ],
+      "name": "ArmCradle2ConcaveSupport"
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "ArmReferenceProfile",
+      "plane": {
+        "origin": [
+          0,
+          -104,
+          36
+        ],
+        "x_dir": [
+          1,
+          0,
+          0
+        ],
+        "y_dir": [
+          0,
+          0,
+          -1
+        ]
+      }
+    }
+  },
+  {
+    "command": "sketch.ellipse",
+    "params": {
+      "center": [
+        0,
+        0
+      ],
+      "major": [
+        35,
+        0
+      ],
+      "minor_radius": 25
+    }
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "distance": 208,
+      "operation": "new",
+      "body_name": "ArmReference",
+      "name": "ForearmReference"
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "Base"
+      ],
+      "color": "#d7dbdf",
+      "opacity": 1
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "BridgeFrame"
+      ],
+      "color": "#707b86",
+      "opacity": 1
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "ArmCradle1",
+        "ArmCradle2"
+      ],
+      "color": "#abb5be",
+      "opacity": 1
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "ArmReference"
+      ],
+      "color": "#d7b18c",
+      "opacity": 1
+    }
+  }
+]

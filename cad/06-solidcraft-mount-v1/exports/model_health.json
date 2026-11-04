@@ -1,0 +1,93 @@
+{
+  "native_features": 55,
+  "feature_errors": 0,
+  "feature_warnings": 0,
+  "sketches": [
+    {
+      "name": "RestCProfile",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "OpticalWindowSketch",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "LowLaserShoulderSketch",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "LaserBoreSketch",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "CollarComplianceSlit",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "SpineTenonSocketSketch",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "ConcealedKeySlotRestSketch",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "SpineBaseSection",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "SpineTopSection",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "ConcealedKeySlotSpineSketch",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "TrayAccessWindowSketch",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "KeeperGuideSketch",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "RearRibbonExitSketch",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "FlatKeySketch",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "LaserBandProfile",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "FitCollarProfile",
+      "dof": 0,
+      "fully_constrained": true
+    },
+    {
+      "name": "FitCollarSlitSketch",
+      "dof": 0,
+      "fully_constrained": true
+    }
+  ],
+  "method": "Native SolidCraft inspect_design, before cosmetic sketch visibility changes"
+}

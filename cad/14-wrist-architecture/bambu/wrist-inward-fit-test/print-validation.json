@@ -1,0 +1,77 @@
+{
+  "plate_count": 1,
+  "printed_objects": {
+    "WristSaddle.stl": 30490,
+    "LaserCap.stl": 12100,
+    "CameraKeeper.stl": 11116
+  },
+  "mesh_checks": {
+    "WristSaddle": {
+      "orientation": "Flat Y end on bed",
+      "size_mm": [
+        76.00000019999999,
+        42.40000010000024,
+        56.00000020000001
+      ],
+      "bed_contact_mm2": 185.97122071684964,
+      "triangles": 30490,
+      "watertight": true,
+      "one_connected_mesh": true
+    },
+    "LaserCap": {
+      "orientation": "Flat annular end on bed; cradle axis vertical",
+      "size_mm": [
+        11.300000000002953,
+        17.0,
+        18.000000000001627
+      ],
+      "bed_contact_mm2": 71.01570193439724,
+      "triangles": 12100,
+      "watertight": true,
+      "one_connected_mesh": true
+    },
+    "CameraKeeper": {
+      "orientation": "Broad XZ face on bed",
+      "size_mm": [
+        33.5,
+        7.400000000000006,
+        5.600000000000004
+      ],
+      "bed_contact_mm2": 139.12000000000012,
+      "triangles": 11116,
+      "watertight": true,
+      "one_connected_mesh": true
+    }
+  },
+  "profile_checks": {
+    "printer_model": "Bambu Lab A1 mini",
+    "layer_height": "0.2",
+    "wall_loops": "4",
+    "sparse_infill_density": "30%",
+    "enable_support": "1",
+    "support_on_build_plate_only": "1"
+  },
+  "cli_estimated_seconds": 6345,
+  "cli_pla_g": 32.48,
+  "bambu_ui_estimate": {
+    "time": "1h44m",
+    "pla_g": 32.47
+  },
+  "slicer_mesh_repairs": 0,
+  "outside_build_volume": false,
+  "notices": [
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "2",
+      "error_code": "10018003"
+    },
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "3",
+      "error_code": "1000C003"
+    }
+  ],
+  "sliced_gcode_present": true,
+  "printer_job_sent": false,
+  "classification": "first physical fit-test print; retention and optics not physically validated"
+}

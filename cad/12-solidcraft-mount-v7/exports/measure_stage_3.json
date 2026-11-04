@@ -1,0 +1,631 @@
+{
+  "bodies": [
+    {
+      "area_mm2": 366.6600000000001,
+      "bbox": {
+        "max": [
+          17.5,
+          -13.399999999999999,
+          108.43
+        ],
+        "min": [
+          -19.5,
+          -18.4,
+          105.73
+        ]
+      },
+      "center_of_mass": [
+        -2.126456161863886,
+        -15.900000000000002,
+        106.74738197424894
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 30,
+      "face_types": {
+        "plane": 12
+      },
+      "faces": 12,
+      "kernel": {
+        "edges": 30,
+        "faces": 12,
+        "shells": 1,
+        "vertices": 20
+      },
+      "mass_g": 0.2524788000000001,
+      "material": "Default",
+      "name": "Keeper",
+      "vertices": 20,
+      "volume_mm3": 195.72000000000006
+    },
+    {
+      "area_mm2": 462.80529401460814,
+      "bbox": {
+        "max": [
+          17.000000000000007,
+          32.0,
+          51.2
+        ],
+        "min": [
+          -19.0,
+          26.0,
+          49.2
+        ]
+      },
+      "center_of_mass": [
+        -1.8499999999999965,
+        29.0,
+        50.20000000000001
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 24,
+      "face_types": {
+        "plane": 10
+      },
+      "faces": 10,
+      "kernel": {
+        "edges": 24,
+        "faces": 10,
+        "shells": 1,
+        "vertices": 16
+      },
+      "mass_g": 0.38184,
+      "material": "Default",
+      "name": "LockingKey",
+      "vertices": 16,
+      "volume_mm3": 296.0
+    },
+    {
+      "area_mm2": 448.4679748675609,
+      "bbox": {
+        "max": [
+          -12.775547726280926,
+          8.5,
+          69.48325584053418
+        ],
+        "min": [
+          -29.45063489112607,
+          -8.500000000000005,
+          59.57982202983233
+        ]
+      },
+      "center_of_mass": [
+        -21.1130913087035,
+        -2.2767008482780977e-14,
+        64.53153893518325
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 0.3079245879897173,
+      "material": "Default",
+      "name": "LaserBand",
+      "vertices": 4,
+      "volume_mm3": 238.70123099978082
+    },
+    {
+      "area_mm2": 1019.5031208946157,
+      "bbox": {
+        "max": [
+          127.00000000000001,
+          6.837397165588669,
+          12.000000000000007
+        ],
+        "min": [
+          112.99999999999999,
+          -6.999999999999999,
+          0.0
+        ]
+      },
+      "center_of_mass": [
+        120.00000000000001,
+        -0.5186374877894342,
+        6.000000000000001
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 12,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 4
+      },
+      "faces": 6,
+      "kernel": {
+        "edges": 24,
+        "faces": 10,
+        "shells": 1,
+        "vertices": 16
+      },
+      "mass_g": 1.0287743467349095,
+      "material": "Default",
+      "name": "FitCollar",
+      "vertices": 8,
+      "volume_mm3": 797.4994935929532
+    },
+    {
+      "area_mm2": 1302.5508800000002,
+      "bbox": {
+        "max": [
+          12.5,
+          9.462,
+          106.55000000000001
+        ],
+        "min": [
+          -12.5,
+          -14.399999999999999,
+          105.42999999999999
+        ]
+      },
+      "center_of_mass": [
+        0.0,
+        -2.468999999999999,
+        105.99000000000001
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 12,
+      "face_types": {
+        "plane": 6
+      },
+      "faces": 6,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 0.8618954400000035,
+      "material": "Default",
+      "name": "CameraPCB",
+      "vertices": 8,
+      "volume_mm3": 668.1360000000027
+    },
+    {
+      "area_mm2": 487.91246520808534,
+      "bbox": {
+        "max": [
+          5.4,
+          5.4,
+          105.43
+        ],
+        "min": [
+          -5.4,
+          -5.4,
+          97.99999999999994
+        ]
+      },
+      "center_of_mass": [
+        9.542607396242737e-16,
+        -2.6156676427968565e-16,
+        102.56433239850519
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 14,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 7
+      },
+      "faces": 8,
+      "kernel": {
+        "edges": 18,
+        "faces": 9,
+        "shells": 1,
+        "vertices": 12
+      },
+      "mass_g": 0.8026964651153431,
+      "material": "Default",
+      "name": "CameraLens",
+      "vertices": 10,
+      "volume_mm3": 622.2453217948396
+    },
+    {
+      "area_mm2": 363.20619999999997,
+      "bbox": {
+        "max": [
+          9.805000000000003,
+          9.462,
+          109.30000000000001
+        ],
+        "min": [
+          -9.805000000000003,
+          3.7520000000000002,
+          106.55000000000001
+        ]
+      },
+      "center_of_mass": [
+        2.461345225618524e-16,
+        6.607,
+        107.92500000000001
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 12,
+      "face_types": {
+        "plane": 6
+      },
+      "faces": 6,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 0.39722457225,
+      "material": "Default",
+      "name": "CameraConnector",
+      "vertices": 8,
+      "volume_mm3": 307.926025
+    },
+    {
+      "area_mm2": 1049.3999999999999,
+      "bbox": {
+        "max": [
+          7.5,
+          43.462,
+          108.23
+        ],
+        "min": [
+          -7.5,
+          9.462,
+          107.93
+        ]
+      },
+      "center_of_mass": [
+        2.476837423128913e-16,
+        26.462,
+        108.08
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 12,
+      "face_types": {
+        "plane": 6
+      },
+      "faces": 6,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 0.19736999999999813,
+      "material": "Default",
+      "name": "Ribbon",
+      "vertices": 8,
+      "volume_mm3": 152.99999999999855
+    },
+    {
+      "area_mm2": 1130.906820234854,
+      "bbox": {
+        "max": [
+          -7.917947991956718,
+          4.999865668703214,
+          76.16082937363956
+        ],
+        "min": [
+          -30.08205200804286,
+          -4.999865668703216,
+          43.83917062635957
+        ]
+      },
+      "center_of_mass": [
+        -18.999999999999897,
+        -4.0517067138647793e-16,
+        59.99999999999978
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 3.1402855557626546,
+      "material": "Default",
+      "name": "LaserModule",
+      "vertices": 2,
+      "volume_mm3": 2434.329888188104
+    },
+    {
+      "area_mm2": 56928.911018403276,
+      "bbox": {
+        "max": [
+          40.99936680474276,
+          90.00000000000004,
+          40.998898483366354
+        ],
+        "min": [
+          -40.99936680474276,
+          -90.00000000000006,
+          -40.998898483366354
+        ]
+      },
+      "center_of_mass": [
+        -7.425594409261679e-16,
+        1.4671013158989447e-15,
+        2.4177837466582275e-16
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 1226.0844399570383,
+      "material": "Default",
+      "name": "ArmGauge",
+      "vertices": 2,
+      "volume_mm3": 950453.0542302622
+    },
+    {
+      "area_mm2": 3501.217279999998,
+      "bbox": {
+        "max": [
+          12.7,
+          9.661999999999999,
+          106.65
+        ],
+        "min": [
+          -12.7,
+          -54.6,
+          105.33000000000001
+        ]
+      },
+      "center_of_mass": [
+        4.924760076212133e-16,
+        -22.469,
+        105.99000000000001
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 12,
+      "face_types": {
+        "plane": 6
+      },
+      "faces": 6,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 2.7794034734399857,
+      "material": "Default",
+      "name": "PathPCB",
+      "vertices": 8,
+      "volume_mm3": 2154.5763359999887
+    },
+    {
+      "area_mm2": 1711.6000000000008,
+      "bbox": {
+        "max": [
+          5.6,
+          5.600000000000001,
+          105.53000000000002
+        ],
+        "min": [
+          -5.600000000000001,
+          -45.6,
+          101.00500000000001
+        ]
+      },
+      "center_of_mass": [
+        -1.8716940651928534e-16,
+        -20.0,
+        103.26750000000001
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 12,
+      "face_types": {
+        "plane": 6
+      },
+      "faces": 6,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 3.3473126400000037,
+      "material": "Default",
+      "name": "PathHousing",
+      "vertices": 8,
+      "volume_mm3": 2594.816000000003
+    },
+    {
+      "area_mm2": 1078.945,
+      "bbox": {
+        "max": [
+          3.675,
+          3.6750000000000043,
+          101.4
+        ],
+        "min": [
+          -3.675,
+          -43.675,
+          97.9
+        ]
+      },
+      "center_of_mass": [
+        0.0,
+        -19.999999999999996,
+        99.65
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 12,
+      "face_types": {
+        "plane": 6
+      },
+      "faces": 6,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 1.5713215875,
+      "material": "Default",
+      "name": "PathLens",
+      "vertices": 8,
+      "volume_mm3": 1218.07875
+    },
+    {
+      "area_mm2": 2235.4302000000007,
+      "bbox": {
+        "max": [
+          10.005,
+          9.661999999999999,
+          109.4
+        ],
+        "min": [
+          -10.005,
+          -36.448,
+          106.44999999999999
+        ]
+      },
+      "center_of_mass": [
+        0.0,
+        -13.393,
+        107.925
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 12,
+      "face_types": {
+        "plane": 6
+      },
+      "faces": 6,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 3.5111868160500044,
+      "material": "Default",
+      "name": "PathConnector",
+      "vertices": 8,
+      "volume_mm3": 2721.8502450000033
+    },
+    {
+      "area_mm2": 26921.685286460735,
+      "bbox": {
+        "max": [
+          47.9999988031185,
+          35.000000000014246,
+          68.39617081190273
+        ],
+        "min": [
+          -47.999998803139256,
+          -34.99999999999999,
+          -8.335112528014077
+        ]
+      },
+      "center_of_mass": [
+        -1.8450997282663357,
+        0.8350225415655288,
+        27.14465714221887
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 100,
+      "face_types": {
+        "cylinder": 5,
+        "other": 2,
+        "plane": 31
+      },
+      "faces": 38,
+      "kernel": {
+        "edges": 159,
+        "faces": 39,
+        "shells": 1,
+        "vertices": 124
+      },
+      "mass_g": 73.60638761003145,
+      "material": "Default",
+      "name": "Rest",
+      "vertices": 67,
+      "volume_mm3": 57059.21520157476
+    },
+    {
+      "area_mm2": 8949.419200159953,
+      "bbox": {
+        "max": [
+          22.0,
+          32.2,
+          113.93
+        ],
+        "min": [
+          -22.0,
+          -18.4,
+          45.3
+        ]
+      },
+      "center_of_mass": [
+        0.17425784406234832,
+        17.431848615647837,
+        81.80036569643767
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 240,
+      "face_types": {
+        "cylinder": 1,
+        "other": 3,
+        "plane": 79
+      },
+      "faces": 83,
+      "kernel": {
+        "edges": 246,
+        "faces": 84,
+        "shells": 1,
+        "vertices": 165
+      },
+      "mass_g": 19.0532872877222,
+      "material": "Default",
+      "name": "SpineCamera",
+      "vertices": 160,
+      "volume_mm3": 14769.990145521086
+    }
+  ],
+  "body_count": 16,
+  "total": {
+    "area_mm2": 107958.62074024371,
+    "edges": 512,
+    "faces": 209,
+    "mass_g": 1337.3238291396344,
+    "open_bodies_skipped": 0,
+    "vertices": 345,
+    "volume_mm3": 1036685.1388679337
+  }
+}

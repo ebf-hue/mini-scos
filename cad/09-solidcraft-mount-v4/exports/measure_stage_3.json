@@ -1,0 +1,168 @@
+{
+  "bodies": [
+    {
+      "area_mm2": 26095.304672414008,
+      "bbox": {
+        "max": [
+          47.99999880312904,
+          35.000000000014225,
+          68.39612886662057
+        ],
+        "min": [
+          -47.99999880313922,
+          -34.99999999999996,
+          -8.335112528012651
+        ]
+      },
+      "center_of_mass": [
+        -1.4581463388848808,
+        0.833686256107362,
+        26.25424338207531
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 114,
+      "face_types": {
+        "cylinder": 12,
+        "other": 1,
+        "plane": 31
+      },
+      "faces": 44,
+      "kernel": {
+        "edges": 189,
+        "faces": 73,
+        "shells": 1,
+        "vertices": 118
+      },
+      "mass_g": 71.52709092742298,
+      "material": "Default",
+      "name": "Rest",
+      "vertices": 74,
+      "volume_mm3": 55447.35730807983
+    },
+    {
+      "area_mm2": 8196.581155469348,
+      "bbox": {
+        "max": [
+          15.999999999999996,
+          33.0,
+          113.92999999999849
+        ],
+        "min": [
+          -16.0,
+          -18.400000000000002,
+          45.29999999999998
+        ]
+      },
+      "center_of_mass": [
+        -3.6241395183222635e-12,
+        18.747225163791864,
+        84.22359234885377
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 228,
+      "face_types": {
+        "plane": 79
+      },
+      "faces": 79,
+      "kernel": {
+        "edges": 228,
+        "faces": 79,
+        "shells": 1,
+        "vertices": 152
+      },
+      "mass_g": 19.73619933268676,
+      "material": "Default",
+      "name": "SpineCamera",
+      "vertices": 152,
+      "volume_mm3": 15299.379327664154
+    },
+    {
+      "area_mm2": 366.6600000000001,
+      "bbox": {
+        "max": [
+          17.5,
+          -13.399999999999999,
+          108.43
+        ],
+        "min": [
+          -19.5,
+          -18.4,
+          105.73
+        ]
+      },
+      "center_of_mass": [
+        -2.126456161863886,
+        -15.900000000000002,
+        106.74738197424894
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 30,
+      "face_types": {
+        "plane": 12
+      },
+      "faces": 12,
+      "kernel": {
+        "edges": 30,
+        "faces": 12,
+        "shells": 1,
+        "vertices": 20
+      },
+      "mass_g": 0.2524788000000001,
+      "material": "Default",
+      "name": "Keeper",
+      "vertices": 20,
+      "volume_mm3": 195.72000000000006
+    },
+    {
+      "area_mm2": 462.80529401460814,
+      "bbox": {
+        "max": [
+          17.000000000000007,
+          32.0,
+          51.2
+        ],
+        "min": [
+          -19.0,
+          26.0,
+          49.2
+        ]
+      },
+      "center_of_mass": [
+        -1.8499999999999965,
+        29.0,
+        50.20000000000001
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 24,
+      "face_types": {
+        "plane": 10
+      },
+      "faces": 10,
+      "kernel": {
+        "edges": 24,
+        "faces": 10,
+        "shells": 1,
+        "vertices": 16
+      },
+      "mass_g": 0.38184,
+      "material": "Default",
+      "name": "LockingKey",
+      "vertices": 16,
+      "volume_mm3": 296.0
+    }
+  ],
+  "body_count": 4,
+  "total": {
+    "area_mm2": 35121.35112189797,
+    "edges": 396,
+    "faces": 145,
+    "mass_g": 91.89760906010973,
+    "open_bodies_skipped": 0,
+    "vertices": 262,
+    "volume_mm3": 71238.45663574399
+  }
+}

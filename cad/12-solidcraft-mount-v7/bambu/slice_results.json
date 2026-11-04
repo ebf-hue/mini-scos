@@ -1,0 +1,18 @@
+{
+  "mount_wide": {
+    "exit_code": 0,
+    "parts": [
+      "Rest",
+      "SpineCamera"
+    ],
+    "project": "bambu/mount_wide/mount_wide.3mf"
+  },
+  "mount_standard": {
+    "exit_code": 0,
+    "parts": [
+      "Rest",
+      "SpineCamera_standard"
+    ],
+    "project": "bambu/mount_standard/mount_standard.3mf"
+  }
+}

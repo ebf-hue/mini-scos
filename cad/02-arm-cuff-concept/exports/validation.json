@@ -1,0 +1,170 @@
+{
+  "arm_reference": {
+    "valid": true,
+    "bbox_mm": [
+      280.0,
+      80.0,
+      62.0
+    ]
+  },
+  "lower_cuff": {
+    "valid": true,
+    "bbox_mm": [
+      76.0,
+      113.0,
+      38.0
+    ]
+  },
+  "upper_cuff": {
+    "valid": true,
+    "bbox_mm": [
+      108.0,
+      113.0,
+      42.0
+    ]
+  },
+  "optical_pod": {
+    "valid": true,
+    "bbox_mm": [
+      110.0,
+      72.0,
+      102.0
+    ]
+  },
+  "pod_lid": {
+    "valid": true,
+    "bbox_mm": [
+      110.0,
+      72.0,
+      4.0
+    ]
+  },
+  "camera_housing_HQ_proxy": {
+    "valid": true,
+    "bbox_mm": [
+      38.0,
+      40.7,
+      13.06
+    ]
+  },
+  "camera_PCB_HQ_proxy": {
+    "valid": true,
+    "bbox_mm": [
+      38.0,
+      38.5,
+      4.6
+    ]
+  },
+  "16mm_lens_envelope": {
+    "valid": true,
+    "bbox_mm": [
+      40.6,
+      40.6,
+      50.0
+    ]
+  },
+  "lens_glass": {
+    "valid": true,
+    "bbox_mm": [
+      29.4,
+      29.4,
+      1.0
+    ]
+  },
+  "macro_spacer_UNRESOLVED": {
+    "valid": true,
+    "bbox_mm": [
+      30.0,
+      30.0,
+      9.0
+    ]
+  },
+  "filter_frame": {
+    "valid": true,
+    "bbox_mm": [
+      48.0,
+      48.0,
+      3.0
+    ]
+  },
+  "red_gel": {
+    "valid": true,
+    "bbox_mm": [
+      27.6,
+      27.6,
+      0.35
+    ]
+  },
+  "laser_clamp": {
+    "valid": true,
+    "bbox_mm": [
+      26.88,
+      18.0,
+      30.22
+    ]
+  },
+  "laser_clamp_support": {
+    "valid": true,
+    "bbox_mm": [
+      22.0,
+      24.0,
+      32.0
+    ]
+  },
+  "camera_mount": {
+    "valid": true,
+    "bbox_mm": [
+      48.0,
+      48.0,
+      3.0
+    ]
+  },
+  "ribbon_reference": {
+    "valid": true,
+    "bbox_mm": [
+      16.0,
+      1.0,
+      44.0
+    ]
+  },
+  "Adafruit1054_0": {
+    "valid": true,
+    "bbox_mm": [
+      22.92,
+      10.0,
+      33.95
+    ]
+  },
+  "Adafruit1054_1": {
+    "valid": true,
+    "bbox_mm": [
+      21.11,
+      8.0,
+      33.11
+    ]
+  },
+  "Adafruit1054_2": {
+    "valid": true,
+    "bbox_mm": [
+      2.76,
+      2.8,
+      1.89
+    ]
+  },
+  "Adafruit1054_3": {
+    "valid": true,
+    "bbox_mm": [
+      3.9,
+      1.5,
+      6.07
+    ]
+  },
+  "Adafruit1054_4": {
+    "valid": true,
+    "bbox_mm": [
+      3.9,
+      1.5,
+      6.07
+    ]
+  }
+}

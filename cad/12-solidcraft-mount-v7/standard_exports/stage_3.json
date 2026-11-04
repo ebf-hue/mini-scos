@@ -1,0 +1,533 @@
+{
+  "completed": 42,
+  "ok": true,
+  "results": [
+    {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "frame": "world",
+      "name": "LaserBandProfile",
+      "projected": null,
+      "sketch": 13
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [
+          "c1"
+        ],
+        "dimensions": [],
+        "points": [
+          "c1.center"
+        ]
+      },
+      "sketch": {
+        "dof": 3,
+        "solved": true
+      }
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [
+          "c2"
+        ],
+        "dimensions": [],
+        "points": [
+          "c2.center"
+        ]
+      },
+      "sketch": {
+        "dof": 6,
+        "solved": true
+      }
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "result": {
+        "changed": 2,
+        "fixed": true
+      },
+      "sketch": {
+        "dof": 0,
+        "solved": true
+      }
+    },
+    {
+      "dof": 0,
+      "failing": [],
+      "profiles": 2,
+      "status": "solved"
+    },
+    {
+      "profiles": 2,
+      "sketch": 13
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "LaserBand"
+      ],
+      "feature": 14,
+      "ms": 0.6931660000000001,
+      "name": "LaserCompressionBand",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "frame": "world",
+      "name": "FitCollarProfile",
+      "projected": null,
+      "sketch": 15
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [
+          "c1"
+        ],
+        "dimensions": [],
+        "points": [
+          "c1.center"
+        ]
+      },
+      "sketch": {
+        "dof": 3,
+        "solved": true
+      }
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [
+          "c2"
+        ],
+        "dimensions": [],
+        "points": [
+          "c2.center"
+        ]
+      },
+      "sketch": {
+        "dof": 6,
+        "solved": true
+      }
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "result": {
+        "changed": 2,
+        "fixed": true
+      },
+      "sketch": {
+        "dof": 0,
+        "solved": true
+      }
+    },
+    {
+      "dof": 0,
+      "failing": [],
+      "profiles": 2,
+      "status": "solved"
+    },
+    {
+      "profiles": 2,
+      "sketch": 15
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "FitCollar"
+      ],
+      "feature": 16,
+      "ms": 0.840667,
+      "name": "FirstPrintFitCollar",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "FitCollarSlitSketch",
+      "projected": null,
+      "sketch": 17
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [
+          "l1",
+          "l2",
+          "l3",
+          "l4"
+        ],
+        "dimensions": [],
+        "points": [
+          "l1.start",
+          "l1.end",
+          "l2.end",
+          "l3.end"
+        ]
+      },
+      "sketch": {
+        "dof": 8,
+        "solved": true
+      }
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "result": {
+        "changed": 4,
+        "fixed": true
+      },
+      "sketch": {
+        "dof": 0,
+        "solved": true
+      }
+    },
+    {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    },
+    {
+      "profiles": 1,
+      "sketch": 17
+    },
+    {
+      "changed_bodies": [
+        "FitCollar"
+      ],
+      "created_bodies": [],
+      "feature": 18,
+      "ms": 7.940708,
+      "name": "FitCollarSlit",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "CameraPCB"
+      ],
+      "feature": 19,
+      "ms": 0.446375,
+      "name": "CameraPCBReference",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "CameraLens"
+      ],
+      "feature": 20,
+      "ms": 0.394917,
+      "name": "LensHousingReference",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [
+        "CameraLens"
+      ],
+      "created_bodies": [],
+      "feature": 21,
+      "ms": 44.577042,
+      "name": "WideLensClearanceEnvelope",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "CameraConnector"
+      ],
+      "feature": 22,
+      "ms": 0.280916,
+      "name": "RearConnectorReference",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "Ribbon"
+      ],
+      "feature": 23,
+      "ms": 0.415125,
+      "name": "RibbonReference",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "LaserModule"
+      ],
+      "feature": 24,
+      "ms": 0.535708,
+      "name": "Adafruit1054Envelope",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "ArmGauge"
+      ],
+      "feature": 25,
+      "ms": 0.732833,
+      "name": "ForearmClearanceGauge",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "PathPCB"
+      ],
+      "feature": 26,
+      "ms": 0.2915,
+      "name": "PCBFrontInsertionSweep",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "PathHousing"
+      ],
+      "feature": 27,
+      "ms": 0.336917,
+      "name": "HousingFrontInsertionSweep",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "PathLens"
+      ],
+      "feature": 28,
+      "ms": 0.352625,
+      "name": "LensFrontInsertionSweep",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "PathConnector"
+      ],
+      "feature": 29,
+      "ms": 0.355167,
+      "name": "ConnectorFrontInsertionSweep",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "appearance": {
+        "color": "#6e858a",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "Rest",
+        "SpineCamera",
+        "Keeper"
+      ],
+      "components": [],
+      "faces": []
+    },
+    {
+      "appearance": {
+        "color": "#abb5b7",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "LockingKey",
+        "LaserBand"
+      ],
+      "components": [],
+      "faces": []
+    },
+    {
+      "appearance": {
+        "color": "#337650",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "CameraPCB"
+      ],
+      "components": [],
+      "faces": []
+    },
+    {
+      "appearance": {
+        "color": "#252d32",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "CameraLens"
+      ],
+      "components": [],
+      "faces": []
+    },
+    {
+      "appearance": {
+        "color": "#d8cfb6",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "CameraConnector"
+      ],
+      "components": [],
+      "faces": []
+    },
+    {
+      "appearance": {
+        "color": "#d1d6d9",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "Ribbon"
+      ],
+      "components": [],
+      "faces": []
+    },
+    {
+      "appearance": {
+        "color": "#ae9d70",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "LaserModule"
+      ],
+      "components": [],
+      "faces": []
+    },
+    {
+      "appearance": {
+        "color": "#c7ab94",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "ArmGauge"
+      ],
+      "components": [],
+      "faces": []
+    },
+    {
+      "changed": 6,
+      "visibility": {
+        "hidden_bodies": [
+          "ArmGauge",
+          "FitCollar",
+          "PathPCB",
+          "PathHousing",
+          "PathLens",
+          "PathConnector"
+        ],
+        "hidden_occurrences": [],
+        "hidden_origin": [],
+        "hidden_sketches": [],
+        "shown_sketches": []
+      },
+      "visible": false
+    },
+    {
+      "changed": 4,
+      "visibility": {
+        "hidden_bodies": [
+          "ArmGauge",
+          "FitCollar",
+          "PathPCB",
+          "PathHousing",
+          "PathLens",
+          "PathConnector"
+        ],
+        "hidden_occurrences": [],
+        "hidden_origin": [],
+        "hidden_sketches": [
+          10,
+          13,
+          15,
+          17
+        ],
+        "shown_sketches": []
+      },
+      "visible": false
+    },
+    {
+      "changed": 7,
+      "visibility": {
+        "hidden_bodies": [
+          "ArmGauge",
+          "FitCollar",
+          "PathPCB",
+          "PathHousing",
+          "PathLens",
+          "PathConnector"
+        ],
+        "hidden_occurrences": [],
+        "hidden_origin": [
+          "O",
+          "X",
+          "Y",
+          "Z",
+          "XY",
+          "XZ",
+          "YZ"
+        ],
+        "hidden_sketches": [
+          10,
+          13,
+          15,
+          17
+        ],
+        "shown_sketches": []
+      },
+      "visible": false
+    }
+  ]
+}

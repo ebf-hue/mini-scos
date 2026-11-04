@@ -1,0 +1,5 @@
+{
+  "solid_count": 37,
+  "all_solids_valid": true,
+  "checks": "Individual shape validity and STEP reimport. No whole-assembly fit or collision certification."
+}

@@ -1,0 +1,16 @@
+{
+  "rest_inner_radius_mm": 43,
+  "rest_wall_mm": 5,
+  "rest_width_mm": 70,
+  "rest_lower_edge_z_mm": -8,
+  "nominal_target_z_mm": 43,
+  "camera_working_distance_mm": 110,
+  "camera_pcb_width_mm": 25,
+  "camera_pcb_length_mm": 23.862,
+  "camera_hole_x_mm": [-10.5, 10.5],
+  "camera_hole_y_mm": [-12.4, 0.1],
+  "camera_mount_clearance_diameter_mm": 2.4,
+  "laser_bore_diameter_mm": 10.4,
+  "laser_angle_degrees": 25,
+  "laser_center_mm": [-24, 0, 78]
+}

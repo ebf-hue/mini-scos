@@ -1,0 +1,35 @@
+{
+  "tool": "OrcaSlicer 2.4.2",
+  "reference_profile": "Bambu A1 mini 0.4 / Generic PETG / 0.2 mm, 4 walls, 30% infill, auto supports",
+  "scope": "Slicing validation, not physical print or user printer configuration; G-code only in /tmp.",
+  "files": {
+    "FitCollar.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "Keeper.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "LaserBand.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "LockingKey.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "Rest.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "SpineCamera.stl": {
+      "exit_code": 0,
+      "sliced": true
+    },
+    "SpineCamera_standard.stl": {
+      "exit_code": 0,
+      "sliced": true
+    }
+  }
+}

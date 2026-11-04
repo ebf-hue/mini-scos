@@ -1,0 +1,553 @@
+[
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "FootBottom",
+      "plane": "XY",
+      "offset": 55
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        -22.0,
+        12
+      ],
+      "p1": [
+        22.0,
+        35.0
+      ],
+      "connect": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "FootTop",
+      "plane": "XY",
+      "offset": 58
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        -22.0,
+        12
+      ],
+      "p1": [
+        22.0,
+        34.21092821992194
+      ],
+      "connect": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.loft",
+    "params": {
+      "name": "CameraFoot",
+      "sections": [
+        {
+          "sketch": "FootBottom"
+        },
+        {
+          "sketch": "FootTop"
+        }
+      ],
+      "operation": "new",
+      "body_name": "Foot"
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "ApronBottom",
+      "plane": "XY",
+      "offset": 110.93
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        -22.0,
+        10
+      ],
+      "p1": [
+        22.0,
+        52
+      ],
+      "connect": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "ApronTop",
+      "plane": "XY",
+      "offset": 113.93
+    }
+  },
+  {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+      "p0": [
+        -22.0,
+        10
+      ],
+      "p1": [
+        22.0,
+        51.21092821992194
+      ],
+      "connect": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.loft",
+    "params": {
+      "name": "CameraApron",
+      "sections": [
+        {
+          "sketch": "ApronBottom"
+        },
+        {
+          "sketch": "ApronTop"
+        }
+      ],
+      "operation": "new",
+      "body_name": "Apron"
+    }
+  },
+  {
+    "command": "solid.cylinder",
+    "params": {
+      "name": "RoundCameraSpine",
+      "radius": 12,
+      "height": 31.982002674391964,
+      "base": [
+        0,
+        32.39069058870017,
+        70
+      ],
+      "axis": [
+        0,
+        -0.2543721272063665,
+        0.9671064165336245
+      ],
+      "body_name": "SpineShell"
+    }
+  },
+  {
+    "command": "face.delete",
+    "params": {
+      "body": "SpineShell",
+      "faces": [
+        [
+          0,
+          32.39069058870017,
+          70
+        ],
+        [
+          0,
+          24.255360536095377,
+          100.93
+        ]
+      ],
+      "heal": false
+    }
+  },
+  {
+    "command": "surface.offset",
+    "params": {
+      "body": "Foot",
+      "faces": [
+        [
+          0,
+          23,
+          58
+        ]
+      ],
+      "distance": 0
+    }
+  },
+  {
+    "command": "surface.offset",
+    "params": {
+      "body": "Apron",
+      "faces": [
+        [
+          0,
+          31,
+          110.93
+        ]
+      ],
+      "distance": 0
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "FootBlendBoundary",
+      "plane": "XY",
+      "offset": 58
+    }
+  },
+  {
+    "command": "sketch.circle.center",
+    "params": {
+      "center": [
+        0,
+        23
+      ],
+      "radius": 10,
+      "connect": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "c1"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "surface.trim",
+    "params": {
+      "body": "Body1",
+      "curves": {
+        "sketch": "FootBlendBoundary"
+      },
+      "keep": [
+        21,
+        14,
+        58
+      ]
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "TrayBlendBoundary",
+      "plane": "XY",
+      "offset": 110.93
+    }
+  },
+  {
+    "command": "sketch.circle.center",
+    "params": {
+      "center": [
+        0,
+        31
+      ],
+      "radius": 20,
+      "connect": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "c1"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "surface.trim",
+    "params": {
+      "body": "Body2",
+      "curves": {
+        "sketch": "TrayBlendBoundary"
+      },
+      "keep": [
+        21,
+        11,
+        110.93
+      ]
+    }
+  },
+  {
+    "command": "surface.blend",
+    "params": {
+      "from": {
+        "body": "Body1",
+        "edges": [
+          [
+            -9.220895440183284,
+            19.16177778936772,
+            57.9999999999999
+          ]
+        ]
+      },
+      "to": {
+        "body": "SpineShell",
+        "edges": [
+          [
+            -6.904867347122091,
+            41.88227751848226,
+            72.49651446481627
+          ],
+          [
+            6.904867347122088,
+            22.899103658918058,
+            67.50348553518371
+          ]
+        ]
+      },
+      "continuity": [
+        "g2",
+        "g2"
+      ],
+      "bulge": [
+        0,
+        0
+      ],
+      "seam": [
+        [
+          10,
+          23,
+          58
+        ],
+        [
+          12,
+          32.39069058870017,
+          70
+        ]
+      ],
+      "align": [
+        [
+          0,
+          23,
+          58
+        ],
+        [
+          0,
+          29.846969316636503,
+          79.67106416533625
+        ]
+      ],
+      "name": "CameraFootSurfaceBlend",
+      "body_name": "LowerBlend"
+    }
+  },
+  {
+    "command": "surface.blend",
+    "params": {
+      "from": {
+        "body": "Body2",
+        "edges": [
+          [
+            -4.765056504714213,
+            11.582497384513996,
+            110.93000000000019
+          ]
+        ]
+      },
+      "to": {
+        "body": "SpineShell",
+        "edges": [
+          [
+            -6.904867347122087,
+            33.74694746587747,
+            103.42651446481626
+          ],
+          [
+            6.90486734712209,
+            14.763773606313277,
+            98.43348553518373
+          ]
+        ]
+      },
+      "continuity": [
+        "g2",
+        "g2"
+      ],
+      "bulge": [
+        0,
+        0
+      ],
+      "seam": [
+        [
+          20,
+          31,
+          110.93
+        ],
+        [
+          12,
+          24.255360536095377,
+          100.93
+        ]
+      ],
+      "align": [
+        [
+          0,
+          31,
+          110.93
+        ],
+        [
+          0,
+          26.79908180815904,
+          91.25893583466376
+        ]
+      ],
+      "name": "CameraTraySurfaceBlend",
+      "body_name": "UpperBlend"
+    }
+  },
+  {
+    "command": "face.delete",
+    "params": {
+      "body": "Foot",
+      "faces": [
+        [
+          0,
+          23,
+          58
+        ]
+      ],
+      "heal": false
+    }
+  },
+  {
+    "command": "face.delete",
+    "params": {
+      "body": "Apron",
+      "faces": [
+        [
+          0,
+          31,
+          110.93
+        ]
+      ],
+      "heal": false
+    }
+  },
+  {
+    "command": "surface.stitch",
+    "params": {
+      "bodies": [
+        "Foot",
+        "Body1",
+        "LowerBlend",
+        "SpineShell",
+        "UpperBlend",
+        "Body2",
+        "Apron"
+      ],
+      "tolerance": 0.01
+    }
+  },
+  {
+    "command": "body.rename",
+    "params": {
+      "body": "Foot",
+      "name": "SpineCamera"
+    }
+  },
+  {
+    "command": "browser.visibility",
+    "params": {
+      "folder": "sketches",
+      "visible": false
+    }
+  }
+]

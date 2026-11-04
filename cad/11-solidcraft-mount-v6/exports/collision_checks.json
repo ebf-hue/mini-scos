@@ -1,0 +1,896 @@
+{
+  "wide": {
+    "interferences": [
+      {
+        "a": "SpineCamera",
+        "area_mm2": 82.11920412194354,
+        "b": "LockingKey",
+        "bbox": {
+          "max": [
+            3.552713678800501e-15,
+            31.088235294117645,
+            51.2
+          ],
+          "min": [
+            -10.000000000000007,
+            26.911764705882355,
+            49.2
+          ]
+        },
+        "center": [
+          -6.6666666666666705,
+          29.000000000000014,
+          50.2
+        ],
+        "volume_mm3": 1.764705882352904
+      },
+      {
+        "a": "LockingKey",
+        "area_mm2": 50.007256037706455,
+        "b": "Rest",
+        "bbox": {
+          "max": [
+            -10.2,
+            31.14117647058815,
+            51.20000000000001
+          ],
+          "min": [
+            -15.999999999991013,
+            26.858823529411847,
+            49.19999999999999
+          ]
+        },
+        "center": [
+          -13.313994910936238,
+          28.999999999999847,
+          50.20000000000001
+        ],
+        "volume_mm3": 2.6816470588182804
+      },
+      {
+        "a": "Rest",
+        "b": "LaserBand",
+        "volume_mm3": 15.182658700084259,
+        "method": "Open CASCADE solid intersection of STEP exports"
+      }
+    ],
+    "count": 3,
+    "unchecked": [],
+    "budget_exceeded": false,
+    "truncated": false,
+    "native_reports": [
+      {
+        "boolean_ms": 602.839,
+        "budget_exceeded": false,
+        "budget_s": 120.0,
+        "checked": 11,
+        "count": 2,
+        "interferences": [
+          {
+            "a": "SpineCamera",
+            "area_mm2": 82.11920412194354,
+            "b": "LockingKey",
+            "bbox": {
+              "max": [
+                3.552713678800501e-15,
+                31.088235294117645,
+                51.2
+              ],
+              "min": [
+                -10.000000000000007,
+                26.911764705882355,
+                49.2
+              ]
+            },
+            "center": [
+              -6.6666666666666705,
+              29.000000000000014,
+              50.2
+            ],
+            "volume_mm3": 1.764705882352904
+          },
+          {
+            "a": "LockingKey",
+            "area_mm2": 50.007256037706455,
+            "b": "Rest",
+            "bbox": {
+              "max": [
+                -10.2,
+                31.14117647058815,
+                51.20000000000001
+              ],
+              "min": [
+                -15.999999999991013,
+                26.858823529411847,
+                49.19999999999999
+              ]
+            },
+            "center": [
+              -13.313994910936238,
+              28.999999999999847,
+              50.20000000000001
+            ],
+            "volume_mm3": 2.6816470588182804
+          }
+        ],
+        "ms": 341.795,
+        "pairs_candidate": 15,
+        "pairs_cleared": 3,
+        "pairs_intersected": 12,
+        "pairs_not_checked": 0,
+        "skipped_pairs": 0,
+        "slowest": [
+          {
+            "a": "LockingKey",
+            "b": "Rest",
+            "boolean_ms": 279.941,
+            "ms": 333.354,
+            "tessellate_ms": 1.019
+          },
+          {
+            "a": "LaserModule",
+            "b": "Rest",
+            "boolean_ms": 169.444,
+            "ms": 224.319,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Rest",
+            "boolean_ms": 89.8,
+            "ms": 142.249,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "LockingKey",
+            "boolean_ms": 13.056,
+            "ms": 14.061,
+            "tessellate_ms": 0.984
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraLens",
+            "boolean_ms": 8.013,
+            "ms": 11.63,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Keeper",
+            "boolean_ms": 8.69,
+            "ms": 8.7,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "CameraPCB",
+            "b": "CameraLens",
+            "boolean_ms": 4.906,
+            "ms": 8.64,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Ribbon",
+            "boolean_ms": 8.196,
+            "ms": 8.222,
+            "tessellate_ms": 0.0
+          }
+        ],
+        "tessellate_ms": 2.004,
+        "threads": 12,
+        "truncated": false,
+        "unchecked": []
+      },
+      {
+        "boolean_ms": 46.276,
+        "budget_exceeded": false,
+        "budget_s": 120.0,
+        "checked": 11,
+        "count": 1,
+        "interferences": [
+          {
+            "a": "SpineCamera",
+            "area_mm2": 82.11920412194354,
+            "b": "LockingKey",
+            "bbox": {
+              "max": [
+                3.552713678800501e-15,
+                31.088235294117645,
+                51.2
+              ],
+              "min": [
+                -10.000000000000007,
+                26.911764705882355,
+                49.2
+              ]
+            },
+            "center": [
+              -6.6666666666666705,
+              29.000000000000014,
+              50.2
+            ],
+            "volume_mm3": 1.764705882352904
+          }
+        ],
+        "ms": 12.124,
+        "pairs_candidate": 13,
+        "pairs_cleared": 4,
+        "pairs_intersected": 9,
+        "pairs_not_checked": 0,
+        "skipped_pairs": 0,
+        "slowest": [
+          {
+            "a": "SpineCamera",
+            "b": "LockingKey",
+            "boolean_ms": 9.642,
+            "ms": 10.634,
+            "tessellate_ms": 0.974
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraLens",
+            "boolean_ms": 6.209,
+            "ms": 9.542,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "CameraPCB",
+            "b": "CameraLens",
+            "boolean_ms": 3.773,
+            "ms": 7.05,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraPCB",
+            "boolean_ms": 6.237,
+            "ms": 6.246,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraConnector",
+            "boolean_ms": 5.423,
+            "ms": 5.43,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Ribbon",
+            "boolean_ms": 5.319,
+            "ms": 5.339,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Keeper",
+            "boolean_ms": 4.821,
+            "ms": 4.832,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "CameraPCB",
+            "b": "CameraConnector",
+            "boolean_ms": 2.617,
+            "ms": 2.622,
+            "tessellate_ms": 0.0
+          }
+        ],
+        "tessellate_ms": 0.974,
+        "threads": 9,
+        "truncated": false,
+        "unchecked": []
+      }
+    ],
+    "independent_band_check": {
+      "pair": [
+        "Rest",
+        "LaserBand"
+      ],
+      "method": "Open CASCADE solid intersection of STEP exports",
+      "intersection_volume_mm3": 15.182658700084259,
+      "expected": "Intentional reused printed compression-band press fit",
+      "rest_valid": true,
+      "rest_shells_closed": true,
+      "band_valid": true,
+      "rest_sha256": "fbfc1bd9723f2e44667e198e7c7dde8cee10c17c8d3f970da43e03175ac0a7b2"
+    }
+  },
+  "standard": {
+    "interferences": [
+      {
+        "a": "SpineCamera",
+        "area_mm2": 82.11920412194354,
+        "b": "LockingKey",
+        "bbox": {
+          "max": [
+            7.105427357601002e-15,
+            31.088235294117645,
+            51.2
+          ],
+          "min": [
+            -10.000000000000007,
+            26.911764705882355,
+            49.2
+          ]
+        },
+        "center": [
+          -6.666666666666678,
+          29.0,
+          50.2
+        ],
+        "volume_mm3": 1.764705882352916
+      },
+      {
+        "a": "LockingKey",
+        "area_mm2": 50.007256037706455,
+        "b": "Rest",
+        "bbox": {
+          "max": [
+            -10.2,
+            31.14117647058815,
+            51.20000000000001
+          ],
+          "min": [
+            -15.999999999991013,
+            26.858823529411847,
+            49.19999999999999
+          ]
+        },
+        "center": [
+          -13.313994910936238,
+          28.999999999999847,
+          50.20000000000001
+        ],
+        "volume_mm3": 2.6816470588182804
+      },
+      {
+        "a": "Rest",
+        "b": "LaserBand",
+        "volume_mm3": 15.182658700084259,
+        "method": "Open CASCADE solid intersection of STEP exports"
+      }
+    ],
+    "count": 3,
+    "unchecked": [],
+    "budget_exceeded": false,
+    "truncated": false,
+    "native_reports": [
+      {
+        "boolean_ms": 622.817,
+        "budget_exceeded": false,
+        "budget_s": 120.0,
+        "checked": 11,
+        "count": 2,
+        "interferences": [
+          {
+            "a": "SpineCamera",
+            "area_mm2": 82.11920412194354,
+            "b": "LockingKey",
+            "bbox": {
+              "max": [
+                7.105427357601002e-15,
+                31.088235294117645,
+                51.2
+              ],
+              "min": [
+                -10.000000000000007,
+                26.911764705882355,
+                49.2
+              ]
+            },
+            "center": [
+              -6.666666666666678,
+              29.0,
+              50.2
+            ],
+            "volume_mm3": 1.764705882352916
+          },
+          {
+            "a": "LockingKey",
+            "area_mm2": 50.007256037706455,
+            "b": "Rest",
+            "bbox": {
+              "max": [
+                -10.2,
+                31.14117647058815,
+                51.20000000000001
+              ],
+              "min": [
+                -15.999999999991013,
+                26.858823529411847,
+                49.19999999999999
+              ]
+            },
+            "center": [
+              -13.313994910936238,
+              28.999999999999847,
+              50.20000000000001
+            ],
+            "volume_mm3": 2.6816470588182804
+          }
+        ],
+        "ms": 333.181,
+        "pairs_candidate": 15,
+        "pairs_cleared": 3,
+        "pairs_intersected": 12,
+        "pairs_not_checked": 0,
+        "skipped_pairs": 0,
+        "slowest": [
+          {
+            "a": "LockingKey",
+            "b": "Rest",
+            "boolean_ms": 271.048,
+            "ms": 324.626,
+            "tessellate_ms": 1.106
+          },
+          {
+            "a": "LaserModule",
+            "b": "Rest",
+            "boolean_ms": 165.52,
+            "ms": 221.238,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Rest",
+            "boolean_ms": 132.683,
+            "ms": 184.773,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "LockingKey",
+            "boolean_ms": 13.137,
+            "ms": 14.107,
+            "tessellate_ms": 0.949
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraLens",
+            "boolean_ms": 6.461,
+            "ms": 9.846,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "CameraPCB",
+            "b": "CameraLens",
+            "boolean_ms": 4.241,
+            "ms": 7.795,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Keeper",
+            "boolean_ms": 6.985,
+            "ms": 6.994,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraConnector",
+            "boolean_ms": 6.852,
+            "ms": 6.861,
+            "tessellate_ms": 0.0
+          }
+        ],
+        "tessellate_ms": 2.055,
+        "threads": 12,
+        "truncated": false,
+        "unchecked": []
+      },
+      {
+        "boolean_ms": 48.827,
+        "budget_exceeded": false,
+        "budget_s": 120.0,
+        "checked": 11,
+        "count": 1,
+        "interferences": [
+          {
+            "a": "SpineCamera",
+            "area_mm2": 82.11920412194354,
+            "b": "LockingKey",
+            "bbox": {
+              "max": [
+                7.105427357601002e-15,
+                31.088235294117645,
+                51.2
+              ],
+              "min": [
+                -10.000000000000007,
+                26.911764705882355,
+                49.2
+              ]
+            },
+            "center": [
+              -6.666666666666678,
+              29.0,
+              50.2
+            ],
+            "volume_mm3": 1.764705882352916
+          }
+        ],
+        "ms": 16.563,
+        "pairs_candidate": 13,
+        "pairs_cleared": 4,
+        "pairs_intersected": 9,
+        "pairs_not_checked": 0,
+        "skipped_pairs": 0,
+        "slowest": [
+          {
+            "a": "SpineCamera",
+            "b": "CameraLens",
+            "boolean_ms": 5.764,
+            "ms": 12.135,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "LockingKey",
+            "boolean_ms": 10.54,
+            "ms": 11.826,
+            "tessellate_ms": 1.268
+          },
+          {
+            "a": "CameraPCB",
+            "b": "CameraLens",
+            "boolean_ms": 3.723,
+            "ms": 10.184,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraPCB",
+            "boolean_ms": 6.478,
+            "ms": 6.487,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Keeper",
+            "boolean_ms": 5.499,
+            "ms": 5.509,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraConnector",
+            "boolean_ms": 5.475,
+            "ms": 5.488,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Ribbon",
+            "boolean_ms": 4.855,
+            "ms": 4.864,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "CameraPCB",
+            "b": "CameraConnector",
+            "boolean_ms": 3.371,
+            "ms": 3.372,
+            "tessellate_ms": 0.0
+          }
+        ],
+        "tessellate_ms": 1.268,
+        "threads": 9,
+        "truncated": false,
+        "unchecked": []
+      }
+    ],
+    "independent_band_check": {
+      "pair": [
+        "Rest",
+        "LaserBand"
+      ],
+      "method": "Open CASCADE solid intersection of STEP exports",
+      "intersection_volume_mm3": 15.182658700084259,
+      "expected": "Intentional reused printed compression-band press fit",
+      "rest_valid": true,
+      "rest_shells_closed": true,
+      "band_valid": true,
+      "rest_sha256": "fbfc1bd9723f2e44667e198e7c7dde8cee10c17c8d3f970da43e03175ac0a7b2"
+    }
+  },
+  "wide_restored": {
+    "interferences": [
+      {
+        "a": "SpineCamera",
+        "area_mm2": 82.11920412194354,
+        "b": "LockingKey",
+        "bbox": {
+          "max": [
+            3.552713678800501e-15,
+            31.088235294117645,
+            51.2
+          ],
+          "min": [
+            -10.000000000000007,
+            26.911764705882355,
+            49.2
+          ]
+        },
+        "center": [
+          -6.6666666666666705,
+          29.000000000000014,
+          50.2
+        ],
+        "volume_mm3": 1.764705882352904
+      },
+      {
+        "a": "LockingKey",
+        "area_mm2": 50.007256037706455,
+        "b": "Rest",
+        "bbox": {
+          "max": [
+            -10.2,
+            31.14117647058815,
+            51.20000000000001
+          ],
+          "min": [
+            -15.999999999991013,
+            26.858823529411847,
+            49.19999999999999
+          ]
+        },
+        "center": [
+          -13.313994910936238,
+          28.999999999999847,
+          50.20000000000001
+        ],
+        "volume_mm3": 2.6816470588182804
+      },
+      {
+        "a": "Rest",
+        "b": "LaserBand",
+        "volume_mm3": 15.182658700084259,
+        "method": "Open CASCADE solid intersection of STEP exports"
+      }
+    ],
+    "count": 3,
+    "unchecked": [],
+    "budget_exceeded": false,
+    "truncated": false,
+    "native_reports": [
+      {
+        "boolean_ms": 562.911,
+        "budget_exceeded": false,
+        "budget_s": 120.0,
+        "checked": 11,
+        "count": 2,
+        "interferences": [
+          {
+            "a": "SpineCamera",
+            "area_mm2": 82.11920412194354,
+            "b": "LockingKey",
+            "bbox": {
+              "max": [
+                3.552713678800501e-15,
+                31.088235294117645,
+                51.2
+              ],
+              "min": [
+                -10.000000000000007,
+                26.911764705882355,
+                49.2
+              ]
+            },
+            "center": [
+              -6.6666666666666705,
+              29.000000000000014,
+              50.2
+            ],
+            "volume_mm3": 1.764705882352904
+          },
+          {
+            "a": "LockingKey",
+            "area_mm2": 50.007256037706455,
+            "b": "Rest",
+            "bbox": {
+              "max": [
+                -10.2,
+                31.14117647058815,
+                51.20000000000001
+              ],
+              "min": [
+                -15.999999999991013,
+                26.858823529411847,
+                49.19999999999999
+              ]
+            },
+            "center": [
+              -13.313994910936238,
+              28.999999999999847,
+              50.20000000000001
+            ],
+            "volume_mm3": 2.6816470588182804
+          }
+        ],
+        "ms": 354.223,
+        "pairs_candidate": 15,
+        "pairs_cleared": 3,
+        "pairs_intersected": 12,
+        "pairs_not_checked": 0,
+        "skipped_pairs": 0,
+        "slowest": [
+          {
+            "a": "LockingKey",
+            "b": "Rest",
+            "boolean_ms": 295.805,
+            "ms": 349.125,
+            "tessellate_ms": 1.316
+          },
+          {
+            "a": "LaserModule",
+            "b": "Rest",
+            "boolean_ms": 108.109,
+            "ms": 163.834,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Rest",
+            "boolean_ms": 62.793,
+            "ms": 114.18,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "LockingKey",
+            "boolean_ms": 18.677,
+            "ms": 19.62,
+            "tessellate_ms": 0.922
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraLens",
+            "boolean_ms": 9.55,
+            "ms": 14.077,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraPCB",
+            "boolean_ms": 13.972,
+            "ms": 13.982,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraConnector",
+            "boolean_ms": 13.877,
+            "ms": 13.885,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Keeper",
+            "boolean_ms": 12.712,
+            "ms": 12.72,
+            "tessellate_ms": 0.0
+          }
+        ],
+        "tessellate_ms": 2.237,
+        "threads": 12,
+        "truncated": false,
+        "unchecked": []
+      },
+      {
+        "boolean_ms": 48.039,
+        "budget_exceeded": false,
+        "budget_s": 120.0,
+        "checked": 11,
+        "count": 1,
+        "interferences": [
+          {
+            "a": "SpineCamera",
+            "area_mm2": 82.11920412194354,
+            "b": "LockingKey",
+            "bbox": {
+              "max": [
+                3.552713678800501e-15,
+                31.088235294117645,
+                51.2
+              ],
+              "min": [
+                -10.000000000000007,
+                26.911764705882355,
+                49.2
+              ]
+            },
+            "center": [
+              -6.6666666666666705,
+              29.000000000000014,
+              50.2
+            ],
+            "volume_mm3": 1.764705882352904
+          }
+        ],
+        "ms": 13.458,
+        "pairs_candidate": 13,
+        "pairs_cleared": 4,
+        "pairs_intersected": 9,
+        "pairs_not_checked": 0,
+        "skipped_pairs": 0,
+        "slowest": [
+          {
+            "a": "SpineCamera",
+            "b": "LockingKey",
+            "boolean_ms": 10.761,
+            "ms": 12.109,
+            "tessellate_ms": 1.33
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraLens",
+            "boolean_ms": 6.693,
+            "ms": 10.234,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "CameraPCB",
+            "b": "CameraLens",
+            "boolean_ms": 3.808,
+            "ms": 7.037,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraPCB",
+            "boolean_ms": 5.862,
+            "ms": 5.871,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Keeper",
+            "boolean_ms": 5.703,
+            "ms": 5.714,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "CameraConnector",
+            "boolean_ms": 5.499,
+            "ms": 5.511,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "SpineCamera",
+            "b": "Ribbon",
+            "boolean_ms": 4.312,
+            "ms": 4.321,
+            "tessellate_ms": 0.0
+          },
+          {
+            "a": "CameraPCB",
+            "b": "CameraConnector",
+            "boolean_ms": 2.997,
+            "ms": 2.998,
+            "tessellate_ms": 0.0
+          }
+        ],
+        "tessellate_ms": 1.33,
+        "threads": 9,
+        "truncated": false,
+        "unchecked": []
+      }
+    ],
+    "independent_band_check": {
+      "pair": [
+        "Rest",
+        "LaserBand"
+      ],
+      "method": "Open CASCADE solid intersection of STEP exports",
+      "intersection_volume_mm3": 15.182658700084259,
+      "expected": "Intentional reused printed compression-band press fit",
+      "rest_valid": true,
+      "rest_shells_closed": true,
+      "band_valid": true,
+      "rest_sha256": "fbfc1bd9723f2e44667e198e7c7dde8cee10c17c8d3f970da43e03175ac0a7b2"
+    }
+  }
+}

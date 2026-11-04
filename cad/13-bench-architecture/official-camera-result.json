@@ -1,0 +1,168 @@
+{
+  "completed": 10,
+  "ok": true,
+  "results": [
+    {
+      "component": 42,
+      "component_name": "OfficialCM3_PCB",
+      "created_bodies": [
+        "Open CASCADE STEP translator 7.9 1"
+      ],
+      "feature": 44,
+      "name": "OfficialCM3_PCB",
+      "occurrence": 43,
+      "path": "/Users/soconnor/Documents/Projects/ec601/mini-scos/cad/bench-architecture/sources/OfficialCM3_PCB.step",
+      "system": "Open CASCADE 7.9",
+      "warnings": []
+    },
+    {
+      "appearance": {
+        "color": "#168f59",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [],
+      "components": [
+        42
+      ],
+      "faces": []
+    },
+    {
+      "component": 45,
+      "component_name": "OfficialCM3_LensHousing",
+      "created_bodies": [
+        "Open CASCADE STEP translator 7.9 2.1",
+        "Open CASCADE STEP translator 7.9 2.2",
+        "Open CASCADE STEP translator 7.9 2.3",
+        "Open CASCADE STEP translator 7.9 2.4"
+      ],
+      "feature": 55,
+      "name": "OfficialCM3_LensHousing",
+      "occurrence": 46,
+      "path": "/Users/soconnor/Documents/Projects/ec601/mini-scos/cad/bench-architecture/sources/OfficialCM3_LensHousing.step",
+      "rigid_joints": 4,
+      "subcomponents": 4,
+      "system": "Open CASCADE 7.9",
+      "warnings": []
+    },
+    {
+      "appearance": {
+        "color": "#22272c",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [],
+      "components": [
+        45
+      ],
+      "faces": []
+    },
+    {
+      "component": 60,
+      "component_name": "OfficialCM3_Connector",
+      "created_bodies": [
+        "Open CASCADE STEP translator 7.9 3"
+      ],
+      "feature": 62,
+      "name": "OfficialCM3_Connector",
+      "occurrence": 61,
+      "path": "/Users/soconnor/Documents/Projects/ec601/mini-scos/cad/bench-architecture/sources/OfficialCM3_Connector.step",
+      "system": "Open CASCADE 7.9",
+      "warnings": []
+    },
+    {
+      "appearance": {
+        "color": "#e3ddc9",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [],
+      "components": [
+        60
+      ],
+      "faces": []
+    },
+    {
+      "component": 63,
+      "component_name": "OfficialCM3_Detail",
+      "created_bodies": [
+        "Open CASCADE STEP translator 7.9 4.1",
+        "Open CASCADE STEP translator 7.9 4.2"
+      ],
+      "feature": 69,
+      "name": "OfficialCM3_Detail",
+      "occurrence": 64,
+      "path": "/Users/soconnor/Documents/Projects/ec601/mini-scos/cad/bench-architecture/sources/OfficialCM3_Detail.step",
+      "rigid_joints": 2,
+      "subcomponents": 2,
+      "system": "Open CASCADE 7.9",
+      "warnings": []
+    },
+    {
+      "appearance": {
+        "color": "#bca66c",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [],
+      "components": [
+        63
+      ],
+      "faces": []
+    },
+    {
+      "changed": 3,
+      "visibility": {
+        "hidden_bodies": [],
+        "hidden_joints": [
+          56,
+          57,
+          58,
+          59,
+          70,
+          71
+        ],
+        "hidden_occurrences": [],
+        "hidden_origin": [],
+        "hidden_sketches": [
+          10,
+          14,
+          16
+        ],
+        "shown_sketches": []
+      },
+      "visible": false
+    },
+    {
+      "changed": 7,
+      "visibility": {
+        "hidden_bodies": [],
+        "hidden_joints": [
+          56,
+          57,
+          58,
+          59,
+          70,
+          71
+        ],
+        "hidden_occurrences": [],
+        "hidden_origin": [
+          "O",
+          "X",
+          "Y",
+          "Z",
+          "XY",
+          "XZ",
+          "YZ"
+        ],
+        "hidden_sketches": [
+          10,
+          14,
+          16
+        ],
+        "shown_sketches": []
+      },
+      "visible": false
+    }
+  ]
+}

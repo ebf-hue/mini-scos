@@ -1,0 +1,46 @@
+{
+  "monster-single-colour": {
+    "estimate_seconds": 5736,
+    "weight_g": 19.6,
+    "plate_count": 1,
+    "physical_objects": 1,
+    "material_parts": 1,
+    "outside_print_area": false,
+    "supports": true,
+    "mesh_repairs": 0,
+    "warnings": [
+      {
+        "msg": "not_support_traditional_timelapse",
+        "level": "2",
+        "error_code": "10018003"
+      },
+      {
+        "msg": "not_support_traditional_timelapse",
+        "level": "3",
+        "error_code": "1000C003"
+      }
+    ],
+    "material_colors": [
+      "#759347"
+    ],
+    "sha256": "d7f62521719e5d3fa54bc4a28936d984a366b166e93f2b3ec103f0308dd80e7a"
+  },
+  "monster-four-colour": {
+    "estimate_seconds": 16818,
+    "weight_g": 51.2,
+    "plate_count": 1,
+    "physical_objects": 1,
+    "material_parts": 4,
+    "outside_print_area": false,
+    "supports": true,
+    "mesh_repairs": 0,
+    "warnings": [],
+    "material_colors": [
+      "#759347",
+      "#EFE0BA",
+      "#14171B",
+      "#A15C50"
+    ],
+    "sha256": "0c450c3b13e853e1e3041454737372b3974f54a47d53c531dd176626c0e5334e"
+  }
+}

@@ -1,0 +1,134 @@
+{
+    "error_string": "Success.",
+    "export_time": 232,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 36,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 136.10020446777344,
+                "Bridge": 192.8677978515625,
+                "Custom": 355.0345764160156,
+                "Flush": 28.0,
+                "Gap infill": 163.9944610595703,
+                "Inner wall": 2865.685546875,
+                "Internal solid infill": 459.68109130859375,
+                "Outer wall": 1157.752197265625,
+                "Overhang wall": 109.5610580444336,
+                "Sparse infill": 2049.8115234375,
+                "Support": 706.7702026367188,
+                "Support interface": 62.25621032714844,
+                "Top surface": 235.62966918945313,
+                "Travel": 1654.6304931640625,
+                "Undefined": 1636.2576904296875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 75.99897766113281,
+                    "total_used_g": 75.99897766113281
+                }
+            ],
+            "generate_support_material_time": 460,
+            "id": 1,
+            "infill_time": 106,
+            "layer_filament_change": 0,
+            "main_predication": 9766.2177734375,
+            "make_perimeters_time": 194,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 76.73075103759766,
+                        "height": 70.0,
+                        "width": 95.99488830566406,
+                        "x": 12.000001907348633,
+                        "y": 8.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Rest.stl",
+                    "triangle_count": 16876
+                },
+                {
+                    "bbox": {
+                        "depth": 32.0,
+                        "height": 35.9646110534668,
+                        "width": 124.5470199584961,
+                        "x": 18.0,
+                        "y": 125.0,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "SpineCamera_standard.stl",
+                    "triangle_count": 404
+                },
+                {
+                    "bbox": {
+                        "depth": 6.0,
+                        "height": 2.0,
+                        "width": 36.0,
+                        "x": 16.0,
+                        "y": 105.0,
+                        "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "LockingKey.stl",
+                    "triangle_count": 44
+                },
+                {
+                    "bbox": {
+                        "depth": 5.0,
+                        "height": 2.700000047683716,
+                        "width": 37.0,
+                        "x": 120.0,
+                        "y": 100.0,
+                        "z": 0.0
+                    },
+                    "id": 17,
+                    "name": "Keeper.stl",
+                    "triangle_count": 36
+                },
+                {
+                    "bbox": {
+                        "depth": 17.0,
+                        "height": 3.0,
+                        "width": 17.0,
+                        "x": 150.0,
+                        "y": 52.0,
+                        "z": 0.0
+                    },
+                    "id": 21,
+                    "name": "LaserBand.stl",
+                    "triangle_count": 6592
+                }
+            ],
+            "sliced_time": 1540,
+            "sliced_time_with_cache": 574,
+            "total_predication": 10158.8798828125,
+            "triangle_count": 23952,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 30.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1S 0.4 nozzle",
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

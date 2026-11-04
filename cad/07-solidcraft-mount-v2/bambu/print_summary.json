@@ -1,0 +1,36 @@
+{
+  "mount_wide_single": {
+    "single_plate": true,
+    "objects": [
+      {
+        "identify_id": "47",
+        "name": "Rest.stl",
+        "skipped": "false"
+      },
+      {
+        "identify_id": "58",
+        "name": "SpineCamera.stl",
+        "skipped": "false"
+      }
+    ],
+    "estimated_seconds": 9837,
+    "grams": 70.72
+  },
+  "mount_standard_single": {
+    "single_plate": true,
+    "objects": [
+      {
+        "identify_id": "47",
+        "name": "Rest.stl",
+        "skipped": "false"
+      },
+      {
+        "identify_id": "58",
+        "name": "SpineCamera_standard.stl",
+        "skipped": "false"
+      }
+    ],
+    "estimated_seconds": 10327,
+    "grams": 77.15
+  }
+}

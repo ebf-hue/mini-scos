@@ -1,20 +1,20 @@
 # Hardware and Filter Prototype
 
-Shortlist checked October 5, 2026. The team confirmed the camera is the official Raspberry Pi Global Shutter Camera (IMX296), with a C/CS mount. These are purchase recommendations; nothing has been ordered.
+Shortlist originally checked October 5, 2026. The delivered IMX296 CS-mount camera matches the user-supplied STEP used in the current CAD. Earlier official Raspberry Pi camera specifications below describe the original purchase assumption and should not be treated as confirmed specifications for this module. The camera, lens and laser have since arrived. Prices are historical shortlist figures.
 
 ## First purchase
 
 | Part | Listed price, USD | Reason and limitation |
 |---|---:|---|
 | [Adafruit 1054: 650 nm, 5 mW laser module](https://www.adafruit.com/product/1054) | $5.95, in stock | Integrated driver; 2.8–5.2 V input, 25 mA maximum. Cheap visible-light source for an enclosed inanimate-target experiment. Spectral linewidth/coherence length is unspecified, so suitability for diffuse SCOS remains unverified. |
-| [PiShop 877-1: 6 mm CS-mount lens](https://www.pishop.us/product/6mm-wide-angle-lens-for-raspberry-pi-hq-camera-cs/) | $34.00, in stock | Compatible mount; manual focus and aperture. Minimum object distance is 0.20 m. This is a bench-test lens, not a confirmed solution for a compact skin-contact jig. |
+| [PiShop 782-1: 16 mm C-mount telephoto lens](https://www.pishop.us/product/16mm-telephoto-lens-for-raspberry-pi-hq-camera-cs/) | $62.50, in stock | Compatible using the camera's C-to-CS adapter; manual focus and F1.4–16 aperture. Minimum object distance is 0.20 m. Narrower field of view than the 6 mm option at the same distance. This is a bench-test lens, not a confirmed solution for a compact skin-contact jig. |
 | Optional [Rosco #27 Medium Red sheet, 20 × 24 inches](https://www.bhphotovideo.com/c/product/43960-REG/Rosco_RS2711_27_Filter_Medium.html) | $11.50, in stock | Cut small samples for a removable camera-side filter holder. Broad red transmission, not a narrow 650 nm bandpass or a protective laser filter. |
 
-Laser plus lens: **$39.95**. With the gel: **$51.45**, before shipping, tax, power accessories, and mounting materials. Prices and stock can change.
+Laser plus lens: **$68.45**. With the gel: **$79.95**, before shipping, tax, power accessories, and mounting materials. Prices and stock can change.
 
 The [official camera specification](https://www.raspberrypi.com/products/raspberry-pi-global-shutter-camera/) confirms RAW10 output, a color sensor, 3.45 micrometre pixels, and an integrated IR-cut filter. Start with visible red illumination while retaining that filter. Near-infrared work would require a separate compatibility decision.
 
-Fit the CS lens without the C-to-CS spacer. Start at a target distance of at least 20 cm and verify focus on the actual assembly. Use a small illuminated region of interest. Sweep the iris to determine whether the speckle is adequately sampled; mount compatibility alone does not establish useful measurements. Close-focus extensions or another lens may be needed for a later compact geometry.
+Fit the 16 mm C-mount lens with the camera's included C-to-CS spacer. Despite the product page title ending in "CS," its specifications identify a C-mount lens. Start at a target distance of at least 20 cm and verify focus on the actual assembly. Use a small illuminated region of interest. Sweep the F1.4–16 iris to determine whether the speckle is adequately sampled; mount compatibility alone does not establish useful measurements. Close-focus extensions or another lens may be needed for a later compact geometry.
 
 Power the laser module from a suitable regulated supply through a manual switch. Do not drive its power from a GPIO signal pin. The supplier labels it Class IIIa: use a contained beam path and an inanimate target, prevent eye exposure and specular reflections, and assess exposure and campus requirements before any skin test. A printed enclosure or red gel is not certified laser protection.
 
@@ -38,4 +38,8 @@ An observed response to moving paper would establish motion-sensitive speckle, n
 
 ## Jig direction
 
-First prototype: rigid camera support, adjustable laser clamp sized around its 10 mm diameter, target holder at 20 cm or farther, light-blocking hood, and interchangeable filter cartridges. Confirm the delivered lens's front dimensions before making a snap-fit holder. Do not lock in a skin-contact geometry until the focus and speckle tests pass.
+First prototype: rigid camera support, adjustable laser clamp sized around its 10 mm diameter, target holder at 20 cm or farther, light-blocking hood, and interchangeable filter cartridges. The selected lens is listed as 39 × 50 mm and 133.7 g; allow clearance and support its weight. Confirm the delivered lens's front dimensions before making a snap-fit holder. Do not lock in a skin-contact geometry until the focus and speckle tests pass.
+
+## Delivered lens and mount feedback — November 4
+
+The delivered 16 mm lens has protruding manual adjustment knobs omitted from the cylindrical CAD envelope. They obstruct lens-attached insertion and focus adjustment in the current frame. The board retainers also need relief above surface-mount components. The requested next revision uses a 5 × 5 mm radial insertion notch, holders contacting verified bare PCB areas, and an adjustable support with open access to the lens controls. Dimensions and physical fit remain to be checked.

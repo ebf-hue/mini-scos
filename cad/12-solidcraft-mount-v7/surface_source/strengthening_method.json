@@ -1,0 +1,12 @@
+{
+  "method": "Affine lateral widening of the proven V6 surface blend and lower collar; rest and upper band seat retain their geometry",
+  "width_scale": 2,
+  "lower_collar_outer_dimensions_mm": [
+    17,
+    34
+  ],
+  "arm_rest_width_mm": 70,
+  "original_extra_volume_mm3": 2816.065835725819,
+  "widened_extra_volume_mm3": 5639.515144799965,
+  "valid_closed_solid": true
+}

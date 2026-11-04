@@ -1,0 +1,296 @@
+[
+  {
+    "command": "solid.cylinder",
+    "params": {
+      "name": "IntegratedLaserCollar",
+      "radius": 7,
+      "height": 12,
+      "base": [
+        -16.464290429555803,
+        0,
+        54.5621532777801
+      ],
+      "axis": [
+        -0.42261826174069944,
+        0,
+        0.9063077870366499
+      ],
+      "operation": "join",
+      "targets": [
+        "Rest"
+      ]
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "LaserBoreSketch",
+      "plane": {
+        "origin": [
+          0.01782177833147358,
+          0,
+          19.216149583350756
+        ],
+        "x_dir": [
+          0.9063077870366499,
+          0,
+          0.42261826174069944
+        ],
+        "y_dir": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "command": "sketch.circle.center",
+    "params": {
+      "center": [
+        0,
+        0
+      ],
+      "radius": 5.1,
+      "connect": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "c1"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "name": "LaserBarrelBore",
+      "distance": 90,
+      "operation": "cut",
+      "targets": [
+        "Rest"
+      ]
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "CollarComplianceSlit",
+      "plane": {
+        "origin": [
+          -16.041672167815104,
+          0,
+          53.65584549074345
+        ],
+        "x_dir": [
+          0.9063077870366499,
+          0,
+          0.42261826174069944
+        ],
+        "y_dir": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  },
+  {
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          -1.5,
+          0
+        ],
+        [
+          1.5,
+          0
+        ],
+        [
+          1.5,
+          12
+        ],
+        [
+          -1.5,
+          12
+        ]
+      ],
+      "closed": true,
+      "connect": false,
+      "infer": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "name": "OpenLaserCollar",
+      "distance": 14,
+      "operation": "cut",
+      "targets": [
+        "Rest"
+      ]
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "SpineTenonSocketSketch",
+      "plane": "XY",
+      "offset": 45
+    }
+  },
+  {
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          -10.2,
+          25.8
+        ],
+        [
+          10.2,
+          25.8
+        ],
+        [
+          10.2,
+          32.2
+        ],
+        [
+          -10.2,
+          32.2
+        ]
+      ],
+      "closed": true,
+      "connect": false,
+      "infer": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "name": "SpineTenonSocket",
+      "distance": 12,
+      "operation": "cut",
+      "targets": [
+        "Rest"
+      ]
+    }
+  },
+  {
+    "command": "sketch.create",
+    "params": {
+      "name": "ConcealedKeySlotRestSketch",
+      "plane": "XY",
+      "offset": 49
+    }
+  },
+  {
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          -22.0,
+          27.0
+        ],
+        [
+          22.0,
+          27.0
+        ],
+        [
+          22.0,
+          31.0
+        ],
+        [
+          -22.0,
+          31.0
+        ]
+      ],
+      "closed": true,
+      "connect": false,
+      "infer": false
+    }
+  },
+  {
+    "command": "sketch.constraint.fix",
+    "params": {
+      "entities": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "fixed": true
+    }
+  },
+  {
+    "command": "sketch.solve",
+    "params": {}
+  },
+  {
+    "command": "sketch.finish",
+    "params": {}
+  },
+  {
+    "command": "solid.extrude",
+    "params": {
+      "name": "ConcealedKeySlotRest",
+      "distance": 2.4,
+      "operation": "cut",
+      "targets": [
+        "Rest"
+      ]
+    }
+  }
+]

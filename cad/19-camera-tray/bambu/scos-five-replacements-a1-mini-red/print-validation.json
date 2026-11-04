@@ -1,0 +1,32 @@
+{
+  "parts": [
+    "WristBase",
+    "CameraPlate",
+    "CameraClipLeft",
+    "CameraClipRight",
+    "LaserBracket"
+  ],
+  "source_folder": "cad/camera-tray/parts",
+  "single_plate": true,
+  "printer": "Bambu Lab A1 mini",
+  "nozzle_mm": 0.4,
+  "layer_mm": 0.2,
+  "wall_loops": 4,
+  "infill_percent": 30,
+  "tree_supports": true,
+  "all_meshes_watertight": true,
+  "all_meshes_connected": true,
+  "gui_preview_observed": true,
+  "gui_estimate": "4h36m, 94.81 g",
+  "cli_estimate_seconds": 16847.8671875,
+  "filament_g": 94.80512237548828,
+  "slicer_warnings": "",
+  "print_sent": false,
+  "source_sha256": {
+    "WristBase": "aa6a4178a2fc833180321b12a2ee4e17d34c4c0c6f50957fdada1aafd7cb1646",
+    "CameraPlate": "32b97c794f6b0f2249d6ff7ad70a1d2e9a3576abbc956f756c889417e3ca015e",
+    "CameraClipLeft": "dedb1b843e09cf6451c1c214676baead90e5706fe878cbeaded75fffedad98e8",
+    "CameraClipRight": "cb630a089c626e5e71c8326266ca233b23c1131d0462196f6c5de65b98e32e70",
+    "LaserBracket": "ff36a0ce3bc976c79c73a509a1c3a295341ccd748b55c2a285dc16883c8bdba4"
+  }
+}

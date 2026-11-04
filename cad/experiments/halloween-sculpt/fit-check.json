@@ -1,0 +1,264 @@
+{
+  "method": "Implicit-surface sculpt, marching cubes, exact mounting shoes, manifold mesh booleans",
+  "grid_mm": 0.24,
+  "shoe_clearance_mm": 0.4,
+  "tooth_tip_radius_mm": 1.15,
+  "full_mesh": {
+    "watertight": true,
+    "positive_volume": true,
+    "connected_components": 1,
+    "triangles": 134686,
+    "volume_mm3": 15958.480764330618,
+    "bounds_mm": [
+      [
+        -41.81883239746094,
+        -56.39838409423828,
+        43.09540939331055
+      ],
+      [
+        41.82056427001953,
+        26.0,
+        79.39973449707031
+      ]
+    ]
+  },
+  "colour_overlap_mm3": {
+    "SkinAndMount / IvoryEyesAndFangs": 2.3353953793048277e-06,
+    "SkinAndMount / Pupils": 1.8495637495637615e-07,
+    "SkinAndMount / Gum": 1.5802175520699773e-06,
+    "IvoryEyesAndFangs / Pupils": 0.00026963719906329214,
+    "IvoryEyesAndFangs / Gum": 5.024783433782432e-07,
+    "Pupils / Gum": 0
+  },
+  "physical_fit": "Unverified; fit-test print required",
+  "assembly_overlap_mm3": {
+    "WristSaddle": 0.0,
+    "CameraKeeper": 0.0,
+    "LaserCap": 0.0,
+    "LaserHousing": 0.0,
+    "LaserInsert": 0.0,
+    "LaserAperture": 0.0,
+    "LaserWireRed": 0.0,
+    "LaserWireBlack": 0.0,
+    "BeamReference": 0.0,
+    "ArmReference": 0.0
+  },
+  "camera_insertion": {
+    "source_solids": 590,
+    "travel_mm": 35,
+    "method": "Conservative continuous swept component boxes",
+    "intersections": [],
+    "minimum_camera_z_mm": 80.3499999999999,
+    "attachment_max_z_mm": 79.39973449707031
+  },
+  "installation_samples": [
+    {
+      "forward_offset_mm": 0,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 2,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 4,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 6,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 8,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 10,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 12,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 14,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 16,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 18,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 20,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 22,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 24,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 26,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 28,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 30,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 32,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 34,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 36,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 38,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 40,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 42,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 44,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 46,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 48,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 50,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 52,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 54,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 56,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 58,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 60,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 62,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 64,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 66,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 68,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 70,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 72,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 74,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 76,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 78,
+      "collisions": {}
+    },
+    {
+      "forward_offset_mm": 80,
+      "collisions": {}
+    }
+  ],
+  "exported_colour_overlap_mm3": {
+    "SkinAndMount / IvoryEyesAndFangs": 2.3353953793048277e-06,
+    "SkinAndMount / Pupils": 1.8495637495637615e-07,
+    "SkinAndMount / Gum": 1.5802175520699773e-06,
+    "IvoryEyesAndFangs / Pupils": 0.0,
+    "IvoryEyesAndFangs / Gum": 5.024783433782432e-07,
+    "Pupils / Gum": 0.0
+  },
+  "exported_colour_components": {
+    "SkinAndMount": {
+      "components": 1,
+      "volumes_mm3": [
+        14531.045607683021
+      ]
+    },
+    "IvoryEyesAndFangs": {
+      "components": 10,
+      "volumes_mm3": [
+        71.7121286857389,
+        71.70897470563351,
+        70.02460155705178,
+        70.01352000105531,
+        56.456736423487335,
+        56.44973591611486,
+        26.175845767180125,
+        26.17567789368754,
+        7.105275682560361,
+        7.104242626370369
+      ]
+    },
+    "Pupils": {
+      "components": 2,
+      "volumes_mm3": [
+        9.601078781438687,
+        9.600344969087454
+      ]
+    },
+    "Gum": {
+      "components": 1,
+      "volumes_mm3": [
+        945.3069969488129
+      ]
+    }
+  }
+}

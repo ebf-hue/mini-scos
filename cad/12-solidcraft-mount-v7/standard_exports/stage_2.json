@@ -1,0 +1,121 @@
+{
+  "completed": 10,
+  "ok": true,
+  "results": [
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "Keeper"
+      ],
+      "feature": 7,
+      "ms": 0.50625,
+      "name": "SlidingBoardKeeper",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [
+        "Keeper"
+      ],
+      "created_bodies": [],
+      "feature": 8,
+      "ms": 5.167708,
+      "name": "KeeperEndStop",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [
+        "Keeper"
+      ],
+      "created_bodies": [],
+      "feature": 9,
+      "ms": 7.181959,
+      "name": "KeeperRetentionNib",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "FlatKeySketch",
+      "projected": null,
+      "sketch": 10
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [
+          "l1",
+          "l2",
+          "l3",
+          "l4"
+        ],
+        "dimensions": [],
+        "points": [
+          "l1.start",
+          "l1.end",
+          "l2.end",
+          "l3.end"
+        ]
+      },
+      "sketch": {
+        "dof": 8,
+        "solved": true
+      }
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "result": {
+        "changed": 4,
+        "fixed": true
+      },
+      "sketch": {
+        "dof": 0,
+        "solved": true
+      }
+    },
+    {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    },
+    {
+      "profiles": 1,
+      "sketch": 10
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "LockingKey"
+      ],
+      "feature": 11,
+      "ms": 0.571833,
+      "name": "FlatFrictionKey",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [
+        "LockingKey"
+      ],
+      "created_bodies": [],
+      "feature": 12,
+      "ms": 6.765708,
+      "name": "KeyPullTab",
+      "removed_bodies": [],
+      "warning": null
+    }
+  ]
+}

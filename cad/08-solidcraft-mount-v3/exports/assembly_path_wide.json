@@ -1,0 +1,219 @@
+{
+  "method": "40 mm straight translation from -Y to seated camera, gate/ribbon removed; conservative continuous envelopes for all module components",
+  "blocked_pairs": [],
+  "native_result": {
+    "boolean_ms": 1417.67,
+    "budget_exceeded": false,
+    "budget_s": 120.0,
+    "checked": 9,
+    "count": 6,
+    "interferences": [
+      {
+        "a": "Rest",
+        "area_mm2": 50.00725603777753,
+        "b": "LockingKey",
+        "bbox": {
+          "max": [
+            -10.199999999999996,
+            31.141176470588224,
+            51.2
+          ],
+          "min": [
+            -15.999999999999275,
+            26.858823529411772,
+            49.2
+          ]
+        },
+        "center": [
+          -13.313994910940917,
+          28.999999999999904,
+          50.2
+        ],
+        "volume_mm3": 2.681647058822968
+      },
+      {
+        "a": "Rest",
+        "area_mm2": 215.3410686341716,
+        "b": "LaserBand",
+        "bbox": {
+          "max": [
+            -14.135107384573312,
+            6.8373971695694395,
+            68.39612886662057
+          ],
+          "min": [
+            -27.87945994364863,
+            -6.999811936184522,
+            60.21381182718015
+          ]
+        },
+        "center": [
+          -21.008966242065018,
+          -0.5127655067001262,
+          64.3042120235611
+        ],
+        "volume_mm3": 15.180886034550687
+      },
+      {
+        "a": "SpineCamera",
+        "area_mm2": 82.11920412194354,
+        "b": "LockingKey",
+        "bbox": {
+          "max": [
+            3.552713678800501e-15,
+            31.088235294117645,
+            51.2
+          ],
+          "min": [
+            -10.000000000000007,
+            26.911764705882355,
+            49.2
+          ]
+        },
+        "center": [
+          -6.6666666666666705,
+          29.000000000000014,
+          50.2
+        ],
+        "volume_mm3": 1.764705882352904
+      },
+      {
+        "a": "PathPCB",
+        "area_mm2": 1171.8400000000001,
+        "b": "PathHousing",
+        "bbox": {
+          "max": [
+            5.6,
+            5.600000000000001,
+            105.53000000000002
+          ],
+          "min": [
+            -5.600000000000001,
+            -45.6,
+            105.33000000000001
+          ]
+        },
+        "center": [
+          1.8569801780931162e-16,
+          -20.0,
+          105.43
+        ],
+        "volume_mm3": 114.68800000000162
+      },
+      {
+        "a": "PathPCB",
+        "area_mm2": 1871.770200000001,
+        "b": "PathConnector",
+        "bbox": {
+          "max": [
+            10.005000000000003,
+            9.661999999999999,
+            106.65
+          ],
+          "min": [
+            -10.005000000000003,
+            -36.44800000000001,
+            106.44999999999999
+          ]
+        },
+        "center": [
+          4.476856963571802e-14,
+          -13.392999999999763,
+          106.55
+        ],
+        "volume_mm3": 184.53222000001028
+      },
+      {
+        "a": "PathHousing",
+        "area_mm2": 739.2579999999995,
+        "b": "PathLens",
+        "bbox": {
+          "max": [
+            3.675,
+            3.6750000000000043,
+            101.4
+          ],
+          "min": [
+            -3.675,
+            -43.675000000000004,
+            101.00500000000001
+          ]
+        },
+        "center": [
+          -8.614588467761567e-18,
+          -19.999999999999993,
+          101.20250000000001
+        ],
+        "volume_mm3": 137.46888749999863
+      }
+    ],
+    "ms": 847.114,
+    "pairs_candidate": 15,
+    "pairs_cleared": 5,
+    "pairs_intersected": 10,
+    "pairs_not_checked": 0,
+    "skipped_pairs": 0,
+    "slowest": [
+      {
+        "a": "Rest",
+        "b": "LaserBand",
+        "boolean_ms": 434.984,
+        "ms": 841.869,
+        "tessellate_ms": 236.804
+      },
+      {
+        "a": "Rest",
+        "b": "LockingKey",
+        "boolean_ms": 376.758,
+        "ms": 529.75,
+        "tessellate_ms": 1.359
+      },
+      {
+        "a": "Rest",
+        "b": "LaserModule",
+        "boolean_ms": 307.453,
+        "ms": 460.868,
+        "tessellate_ms": 0.0
+      },
+      {
+        "a": "Rest",
+        "b": "SpineCamera",
+        "boolean_ms": 256.657,
+        "ms": 410.955,
+        "tessellate_ms": 0.0
+      },
+      {
+        "a": "SpineCamera",
+        "b": "LockingKey",
+        "boolean_ms": 10.724,
+        "ms": 11.726,
+        "tessellate_ms": 0.982
+      },
+      {
+        "a": "PathPCB",
+        "b": "PathConnector",
+        "boolean_ms": 10.093,
+        "ms": 10.732,
+        "tessellate_ms": 0.628
+      },
+      {
+        "a": "PathHousing",
+        "b": "PathLens",
+        "boolean_ms": 6.031,
+        "ms": 6.722,
+        "tessellate_ms": 0.679
+      },
+      {
+        "a": "PathPCB",
+        "b": "PathHousing",
+        "boolean_ms": 5.678,
+        "ms": 6.521,
+        "tessellate_ms": 0.829
+      }
+    ],
+    "tessellate_ms": 241.281,
+    "threads": 10,
+    "truncated": false,
+    "unchecked": []
+  }
+}

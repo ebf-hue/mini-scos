@@ -1,0 +1,81 @@
+{
+  "scope": "Estimated headers with enlarged keepouts. Continuous rectangular sweeps for header clearance only; full hardware motion sampled separately. Not measured camera fit.",
+  "old_retainer_header_overlap_mm3": 12.295519999999946,
+  "new_retainer_header_overlap_mm3": 0.0,
+  "continuous_header_sweeps": [
+    {
+      "motion": "retainer_slide",
+      "header_x_mm": -14,
+      "obstacle": "CameraRetainer",
+      "overlap_mm3": 0.0
+    },
+    {
+      "motion": "camera_top_loading",
+      "header_x_mm": -14,
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "motion": "camera_top_loading",
+      "header_x_mm": -14,
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "motion": "camera_top_loading",
+      "header_x_mm": -14,
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "motion": "camera_top_loading",
+      "header_x_mm": -14,
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "motion": "camera_top_loading",
+      "header_x_mm": -14,
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    },
+    {
+      "motion": "retainer_slide",
+      "header_x_mm": 14,
+      "obstacle": "CameraRetainer",
+      "overlap_mm3": 0.0
+    },
+    {
+      "motion": "camera_top_loading",
+      "header_x_mm": 14,
+      "obstacle": "WristBase",
+      "overlap_mm3": 0.0
+    },
+    {
+      "motion": "camera_top_loading",
+      "header_x_mm": 14,
+      "obstacle": "BracedFrame",
+      "overlap_mm3": 0.0
+    },
+    {
+      "motion": "camera_top_loading",
+      "header_x_mm": 14,
+      "obstacle": "CameraPlate",
+      "overlap_mm3": 0.0
+    },
+    {
+      "motion": "camera_top_loading",
+      "header_x_mm": 14,
+      "obstacle": "LaserBracket",
+      "overlap_mm3": 0.0
+    },
+    {
+      "motion": "camera_top_loading",
+      "header_x_mm": 14,
+      "obstacle": "LaserCap",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

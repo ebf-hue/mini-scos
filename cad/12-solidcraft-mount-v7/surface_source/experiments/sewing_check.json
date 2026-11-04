@@ -1,0 +1,8 @@
+{
+  "tolerance_mm": 0.01,
+  "free_edges": 0,
+  "multiple_edges": 0,
+  "closed_shell": true,
+  "valid_solid": true,
+  "volume_mm3": 57578.00804217906
+}

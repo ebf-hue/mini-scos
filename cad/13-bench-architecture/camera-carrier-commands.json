@@ -1,0 +1,286 @@
+[
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 33.5,
+      "width": 8,
+      "height": 7.4,
+      "corner": [
+        -16.75,
+        16.0,
+        167
+      ],
+      "operation": "new",
+      "name": "CameraCarrier",
+      "body_name": "CameraCarrier"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 3.8,
+      "width": 30,
+      "height": 7.4,
+      "corner": [
+        -16.75,
+        -12.0,
+        167
+      ],
+      "operation": "join",
+      "name": "GuideWall-1",
+      "targets": [
+        "CameraCarrier"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 4.95,
+      "width": 30,
+      "height": 1.95,
+      "corner": [
+        -16.75,
+        -12.0,
+        167
+      ],
+      "operation": "join",
+      "name": "GuideLowerLip-1",
+      "targets": [
+        "CameraCarrier"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 4.95,
+      "width": 30,
+      "height": 1.95,
+      "corner": [
+        -16.75,
+        -12.0,
+        170.35
+      ],
+      "operation": "join",
+      "name": "GuideUpperLip-1",
+      "targets": [
+        "CameraCarrier"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 3.8,
+      "width": 30,
+      "height": 7.4,
+      "corner": [
+        12.95,
+        -12.0,
+        167
+      ],
+      "operation": "join",
+      "name": "GuideWall1",
+      "targets": [
+        "CameraCarrier"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 4.95,
+      "width": 30,
+      "height": 1.95,
+      "corner": [
+        11.8,
+        -12.0,
+        167
+      ],
+      "operation": "join",
+      "name": "GuideLowerLip1",
+      "targets": [
+        "CameraCarrier"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 4.95,
+      "width": 30,
+      "height": 1.95,
+      "corner": [
+        11.8,
+        -12.0,
+        170.35
+      ],
+      "operation": "join",
+      "name": "GuideUpperLip1",
+      "targets": [
+        "CameraCarrier"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 33.5,
+      "width": 2.2,
+      "height": 3.2,
+      "corner": [
+        -16.75,
+        -12.0,
+        167
+      ],
+      "operation": "new",
+      "name": "CameraKeeper",
+      "body_name": "CameraKeeper"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 36,
+      "width": 36,
+      "height": 3,
+      "corner": [
+        -18.0,
+        -18.0,
+        152
+      ],
+      "operation": "new",
+      "name": "FilterDrawer",
+      "body_name": "FilterDrawer"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 28,
+      "width": 28,
+      "height": 5,
+      "corner": [
+        -14.0,
+        -14.0,
+        151
+      ],
+      "operation": "cut",
+      "name": "FilterWindow",
+      "targets": [
+        "FilterDrawer"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 12,
+      "width": 12,
+      "height": 3,
+      "corner": [
+        17.0,
+        -6.0,
+        152
+      ],
+      "operation": "join",
+      "name": "FilterPullTab",
+      "targets": [
+        "FilterDrawer"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 27.5,
+      "width": 27.5,
+      "height": 0.6,
+      "corner": [
+        -13.75,
+        -13.75,
+        153
+      ],
+      "operation": "new",
+      "name": "FilterReference",
+      "body_name": "FilterReference"
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 3,
+      "width": 6,
+      "height": 12,
+      "corner": [
+        -18.0,
+        10.0,
+        155
+      ],
+      "operation": "join",
+      "name": "FilterSupport-1",
+      "targets": [
+        "CameraCarrier"
+      ]
+    }
+  },
+  {
+    "command": "solid.box",
+    "params": {
+      "length": 3,
+      "width": 6,
+      "height": 12,
+      "corner": [
+        15.0,
+        10.0,
+        155
+      ],
+      "operation": "join",
+      "name": "FilterSupport1",
+      "targets": [
+        "CameraCarrier"
+      ]
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "CameraCarrier"
+      ],
+      "color": "#547c89",
+      "opacity": 1
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "CameraKeeper"
+      ],
+      "color": "#d39b51",
+      "opacity": 1
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "FilterDrawer"
+      ],
+      "color": "#596570",
+      "opacity": 1
+    }
+  },
+  {
+    "command": "appearance.assign",
+    "params": {
+      "bodies": [
+        "FilterReference"
+      ],
+      "color": "#6ac5da",
+      "opacity": 0.28
+    }
+  }
+]

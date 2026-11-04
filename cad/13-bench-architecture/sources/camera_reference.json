@@ -1,0 +1,23 @@
+{
+  "source": "https://datasheets.raspberrypi.com/camera/camera-module-3-step.zip",
+  "original_solids": 590,
+  "display_groups": {
+    "OfficialCM3_PCB": [
+      442
+    ],
+    "OfficialCM3_LensHousing": [
+      537,
+      538,
+      540,
+      541
+    ],
+    "OfficialCM3_Connector": [
+      566
+    ],
+    "OfficialCM3_Detail": [
+      542,
+      567
+    ]
+  },
+  "guide_candidate_intersections": []
+}

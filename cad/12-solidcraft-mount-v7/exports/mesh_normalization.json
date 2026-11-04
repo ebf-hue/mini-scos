@@ -1,0 +1,43 @@
+{
+  "Rest": {
+    "input_triangles": 6672,
+    "output_triangles": 6558,
+    "zero_area_triangles_removed": 1,
+    "opposite_coincident_triangles_cancelled": 114,
+    "collinear_t_junctions_split": 0,
+    "micro_tessellation_closures": [
+      {
+        "span_mm": 0.045401036023775605,
+        "area_mm2": 2.447981383479113e-05
+      }
+    ],
+    "vertex_positions_changed": false,
+    "bounds_changed": false,
+    "signed_volume_drift_mm3": 0.0002983058657264337,
+    "all_edges_two_sided": true
+  },
+  "SpineCamera": {
+    "input_triangles": 118272,
+    "output_triangles": 118264,
+    "zero_area_triangles_removed": 5,
+    "opposite_coincident_triangles_cancelled": 4,
+    "collinear_t_junctions_split": 1,
+    "micro_tessellation_closures": [],
+    "vertex_positions_changed": false,
+    "bounds_changed": false,
+    "signed_volume_drift_mm3": 0.0,
+    "all_edges_two_sided": true
+  },
+  "SpineCamera_standard": {
+    "input_triangles": 135700,
+    "output_triangles": 135696,
+    "zero_area_triangles_removed": 0,
+    "opposite_coincident_triangles_cancelled": 4,
+    "collinear_t_junctions_split": 0,
+    "micro_tessellation_closures": [],
+    "vertex_positions_changed": false,
+    "bounds_changed": false,
+    "signed_volume_drift_mm3": 0.0,
+    "all_edges_two_sided": true
+  }
+}

@@ -1,1 +1,8 @@
 __pycache__/
+*.py[cod]
+*.bak
+*.lock
+*.log
+*.gcode
+.DS_Store
+/02-arm-cuff-concept/exports/v02/forearm_reference_mm.obj

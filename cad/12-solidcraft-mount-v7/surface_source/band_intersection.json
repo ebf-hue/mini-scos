@@ -1,0 +1,13 @@
+{
+  "pair": [
+    "Rest",
+    "LaserBand"
+  ],
+  "method": "Open CASCADE solid intersection of STEP exports",
+  "intersection_volume_mm3": 15.18265744301938,
+  "expected": "Intentional reused printed compression-band press fit",
+  "rest_valid": true,
+  "rest_shells_closed": true,
+  "band_valid": true,
+  "rest_sha256": "953b265e91ac85ef1dd9caa27076c5225541b0ff9f3cabdb1ad0c503ef4048c1"
+}

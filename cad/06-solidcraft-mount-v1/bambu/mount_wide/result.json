@@ -1,0 +1,161 @@
+{
+    "error_string": "Success.",
+    "export_time": 484,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 71,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 37.38481903076172,
+                "Bridge": 48.44687271118164,
+                "Custom": 354.76153564453125,
+                "Flush": 28.0,
+                "Gap infill": 51.487083435058594,
+                "Inner wall": 2371.20263671875,
+                "Internal solid infill": 137.18515014648438,
+                "Outer wall": 871.8507080078125,
+                "Overhang wall": 50.21659851074219,
+                "Sparse infill": 1598.0794677734375,
+                "Support": 493.1074523925781,
+                "Support interface": 27.461715698242188,
+                "Top surface": 71.98612976074219,
+                "Travel": 1423.44677734375,
+                "Undefined": 1405.1373291015625
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 55.37257385253906,
+                    "total_used_g": 55.37257385253906
+                }
+            ],
+            "generate_support_material_time": 395,
+            "id": 1,
+            "infill_time": 77,
+            "layer_filament_change": 0,
+            "main_predication": 7154.4365234375,
+            "make_perimeters_time": 171,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 76.73075103759766,
+                        "height": 70.0,
+                        "width": 95.9948959350586,
+                        "x": 42.0025634765625,
+                        "y": 72.11515045166016,
+                        "z": 0.0
+                    },
+                    "id": 95,
+                    "name": "Rest.stl",
+                    "triangle_count": 16876
+                },
+                {
+                    "bbox": {
+                        "depth": 4.999998092651367,
+                        "height": 2.700000047683716,
+                        "width": 37.000003814697266,
+                        "x": 100.99746704101563,
+                        "y": 43.11516189575195,
+                        "z": 0.0
+                    },
+                    "id": 117,
+                    "name": "Keeper.stl",
+                    "triangle_count": 36
+                },
+                {
+                    "bbox": {
+                        "depth": 23.28465461730957,
+                        "height": 3.0,
+                        "width": 23.28465461730957,
+                        "x": 56.85568618774414,
+                        "y": 27.973730087280273,
+                        "z": 0.0
+                    },
+                    "id": 139,
+                    "name": "LaserBand.stl",
+                    "triangle_count": 6592
+                }
+            ],
+            "sliced_time": 1229,
+            "sliced_time_with_cache": 420,
+            "total_predication": 7546.888671875,
+            "triangle_count": 23504,
+            "warning_message": ""
+        },
+        {
+            "feature_type_times": {
+                "Bottom surface": 56.28501510620117,
+                "Bridge": 73.60054779052734,
+                "Custom": 354.41278076171875,
+                "Flush": 28.0,
+                "Gap infill": 137.791259765625,
+                "Inner wall": 735.2723999023438,
+                "Internal solid infill": 184.48716735839844,
+                "Outer wall": 393.2730407714844,
+                "Overhang wall": 47.511619567871094,
+                "Sparse infill": 250.59619140625,
+                "Support": 288.8243408203125,
+                "Support interface": 6.763627052307129,
+                "Top surface": 144.29470825195313,
+                "Travel": 621.6343383789063,
+                "Undefined": 603.5481567382813
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 14.165767669677734,
+                    "total_used_g": 14.165767669677734
+                }
+            ],
+            "generate_support_material_time": 227,
+            "id": 2,
+            "infill_time": 26,
+            "layer_filament_change": 0,
+            "main_predication": 2912.434326171875,
+            "make_perimeters_time": 13,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 79.19286346435547,
+                        "height": 35.48223876953125,
+                        "width": 31.999988555908203,
+                        "x": 305.0000305175781,
+                        "y": 50.403568267822266,
+                        "z": 0.0
+                    },
+                    "id": 106,
+                    "name": "SpineCamera.stl",
+                    "triangle_count": 448
+                },
+                {
+                    "bbox": {
+                        "depth": 36.0,
+                        "height": 2.0,
+                        "width": 6.000010013580322,
+                        "x": 275.0,
+                        "y": 93.59645080566406,
+                        "z": 0.0
+                    },
+                    "id": 128,
+                    "name": "LockingKey.stl",
+                    "triangle_count": 44
+                }
+            ],
+            "sliced_time": 433,
+            "sliced_time_with_cache": 150,
+            "total_predication": 3304.760986328125,
+            "triangle_count": 492,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 30.0,
+    "wall_loops": 4
+}

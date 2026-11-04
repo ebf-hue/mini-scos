@@ -1,0 +1,10 @@
+{
+  "SpineCamera": {
+    "x_rotation_degrees": -104.73638393382367,
+    "bed_contact_mm2": 1504.0941506315644
+  },
+  "SpineCamera_standard": {
+    "x_rotation_degrees": -98.09843543126038,
+    "bed_contact_mm2": 2581.4119050458803
+  }
+}

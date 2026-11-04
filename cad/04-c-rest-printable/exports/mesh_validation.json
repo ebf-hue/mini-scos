@@ -1,0 +1,47 @@
+{
+  "camera_cassette.stl": {
+    "triangles": 1568,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "camera_keeper.stl": {
+    "triangles": 36,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "fit_coupon.stl": {
+    "triangles": 1560,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "laser_clip.stl": {
+    "triangles": 2026,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0016
+  },
+  "laser_pin_19mm.stl": {
+    "triangles": 3392,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "locking_pin_20mm.stl": {
+    "triangles": 3394,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "rest.stl": {
+    "triangles": 6088,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "tower_standard_105mm.stl": {
+    "triangles": 3644,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  },
+  "tower_wide_55mm.stl": {
+    "triangles": 3644,
+    "non_manifold_edges": 0,
+    "min_z_mm": 0.0
+  }
+}

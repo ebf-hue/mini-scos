@@ -1,0 +1,12 @@
+{
+  "kernel": "Open CASCADE",
+  "valid_solid": true,
+  "closed_shell": true,
+  "solid_count": 1,
+  "volume_mm3": 57121.309139361016,
+  "lower_collar_outer_dimensions_mm": [
+    17,
+    34
+  ],
+  "laser_bore_mm": 10.2
+}

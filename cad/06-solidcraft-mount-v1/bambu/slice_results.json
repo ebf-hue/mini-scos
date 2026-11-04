@@ -1,0 +1,33 @@
+{
+  "fit_test": {
+    "exit_code": 0,
+    "parts": [
+      "FitCollar",
+      "LaserBand",
+      "LockingKey"
+    ],
+    "project": "bambu/fit_test/fit_test.3mf"
+  },
+  "mount_wide": {
+    "exit_code": 0,
+    "parts": [
+      "Rest",
+      "SpineCamera",
+      "Keeper",
+      "LockingKey",
+      "LaserBand"
+    ],
+    "project": "bambu/mount_wide/mount_wide.3mf"
+  },
+  "mount_standard": {
+    "exit_code": 0,
+    "parts": [
+      "Rest",
+      "SpineCamera_standard",
+      "Keeper",
+      "LockingKey",
+      "LaserBand"
+    ],
+    "project": "bambu/mount_standard/mount_standard.3mf"
+  }
+}

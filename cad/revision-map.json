@@ -1,0 +1,28 @@
+{
+  "description": "CAD design sequence, not physical print revision numbers",
+  "current": "19-camera-tray",
+  "renames": {
+    "bench-fixture": "01-bench-fixture",
+    "arm-cuff-concept": "02-arm-cuff-concept",
+    "c-rest-module3": "03-c-rest-module3",
+    "c-rest-printable": "04-c-rest-printable",
+    "slim-c-rest": "05-slim-c-rest",
+    "solidcraft-mount": "06-solidcraft-mount-v1",
+    "solidcraft-mount-v2": "07-solidcraft-mount-v2",
+    "solidcraft-mount-v3": "08-solidcraft-mount-v3",
+    "solidcraft-mount-v4": "09-solidcraft-mount-v4",
+    "solidcraft-mount-v5": "10-solidcraft-mount-v5",
+    "solidcraft-mount-v6": "11-solidcraft-mount-v6",
+    "solidcraft-mount-v7": "12-solidcraft-mount-v7",
+    "bench-architecture": "13-bench-architecture",
+    "wrist-architecture": "14-wrist-architecture",
+    "tower-mechanical": "15-tower-mechanical",
+    "tower-dovetail": "16-tower-dovetail",
+    "tower-open-optics": "17-tower-open-optics",
+    "tower-recessed-clips": "18-tower-recessed-clips",
+    "camera-tray": "19-camera-tray",
+    "surface-blend-work": "experiments/surface-blend-work",
+    "halloween-monster": "experiments/halloween-monster",
+    "halloween-sculpt": "experiments/halloween-sculpt"
+  }
+}

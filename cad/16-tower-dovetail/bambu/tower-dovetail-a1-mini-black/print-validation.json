@@ -1,0 +1,23 @@
+{
+  "plates": 1,
+  "printed_parts": 6,
+  "printer": "Bambu Lab A1 mini",
+  "nozzle_mm": [
+    "0.4"
+  ],
+  "filament": [
+    "PLA"
+  ],
+  "color": [
+    "#000000"
+  ],
+  "estimated_seconds": 23838.74609375,
+  "estimated_grams": 143.31167602539062,
+  "slicer_warnings": "",
+  "not_sent_to_printer": true,
+  "bambu_gui_estimate": "6h30m",
+  "saved_project_verified": {
+    "objects": 6,
+    "embedded_gcode_plates": 1
+  }
+}

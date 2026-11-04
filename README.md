@@ -31,7 +31,7 @@ See the [setup and usage instructions](software/README.md#fresh-clone-setup) for
 
 ## CAD concepts
 
-The [CAD folder](cad/README.md) contains Fusion-compatible STEP assemblies, editable generators, and previews for an adjustable bench fixture and an open arm-saddle concept. These are unprinted designs; physical fit and optical performance remain untested.
+The [CAD folder](cad/README.md) lists the prototypes in design order. The current IMX296 wrist mount is [19-camera-tray](cad/19-camera-tray/README.md), with SolidCraft and STEP assemblies, screenshots, checks and a replacement print plate. The team completed four physical print revisions; the latest replacement geometry still needs a physical fit check, and optical performance remains unverified.
 
 ## Team ##
 - Elena Berrios eberrios@bu.edu

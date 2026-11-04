@@ -1,0 +1,311 @@
+{
+  "completed": 27,
+  "ok": true,
+  "results": [
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "Base"
+      ],
+      "feature": 1,
+      "ms": 0.717625,
+      "name": "Base",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [
+        "Base"
+      ],
+      "created_bodies": [],
+      "feature": 2,
+      "ms": 24.701791,
+      "name": "BaseCorners",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "BridgeFrame"
+      ],
+      "feature": 3,
+      "ms": 0.4185,
+      "name": "BridgeFrame",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [
+        "BridgeFrame"
+      ],
+      "created_bodies": [],
+      "feature": 4,
+      "ms": 5.373166,
+      "name": "BridgeCrossbar",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [
+        "BridgeFrame"
+      ],
+      "created_bodies": [],
+      "feature": 5,
+      "ms": 6.136125,
+      "name": "BridgeRightPost",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [
+        "BridgeFrame"
+      ],
+      "created_bodies": [],
+      "feature": 6,
+      "ms": 6.064375,
+      "name": "CameraCarrierSocket",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [
+        "BridgeFrame"
+      ],
+      "created_bodies": [],
+      "feature": 7,
+      "ms": 6.062292,
+      "name": "LaserCarrierSocket",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "ArmCradle1"
+      ],
+      "feature": 8,
+      "ms": 0.328167,
+      "name": "ArmCradle1",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [
+        "ArmCradle1"
+      ],
+      "created_bodies": [],
+      "feature": 9,
+      "ms": 31.756667000000004,
+      "name": "ArmCradle1Corners",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "frame": "world",
+      "name": "ArmCradle1Opening",
+      "projected": null,
+      "sketch": 10
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [
+          "e1"
+        ],
+        "dimensions": [],
+        "points": [
+          "p1",
+          "p2"
+        ]
+      },
+      "sketch": {
+        "dof": 5,
+        "solved": true
+      }
+    },
+    {
+      "profiles": 1,
+      "sketch": 10
+    },
+    {
+      "changed_bodies": [
+        "ArmCradle1"
+      ],
+      "created_bodies": [],
+      "feature": 11,
+      "ms": 184.031125,
+      "name": "ArmCradle1ConcaveSupport",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "ArmCradle2"
+      ],
+      "feature": 12,
+      "ms": 0.439416,
+      "name": "ArmCradle2",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "changed_bodies": [
+        "ArmCradle2"
+      ],
+      "created_bodies": [],
+      "feature": 13,
+      "ms": 30.659042,
+      "name": "ArmCradle2Corners",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "frame": "world",
+      "name": "ArmCradle2Opening",
+      "projected": null,
+      "sketch": 14
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [
+          "e1"
+        ],
+        "dimensions": [],
+        "points": [
+          "p1",
+          "p2"
+        ]
+      },
+      "sketch": {
+        "dof": 5,
+        "solved": true
+      }
+    },
+    {
+      "profiles": 1,
+      "sketch": 14
+    },
+    {
+      "changed_bodies": [
+        "ArmCradle2"
+      ],
+      "created_bodies": [],
+      "feature": 15,
+      "ms": 193.44245800000002,
+      "name": "ArmCradle2ConcaveSupport",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "frame": "world",
+      "name": "ArmReferenceProfile",
+      "projected": null,
+      "sketch": 16
+    },
+    {
+      "created": {
+        "constraints": [],
+        "curves": [
+          "e1"
+        ],
+        "dimensions": [],
+        "points": [
+          "p1",
+          "p2"
+        ]
+      },
+      "sketch": {
+        "dof": 5,
+        "solved": true
+      }
+    },
+    {
+      "profiles": 1,
+      "sketch": 16
+    },
+    {
+      "changed_bodies": [],
+      "created_bodies": [
+        "ArmReference"
+      ],
+      "feature": 17,
+      "ms": 2.01375,
+      "name": "ForearmReference",
+      "removed_bodies": [],
+      "warning": null
+    },
+    {
+      "appearance": {
+        "color": "#d7dbdf",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "Base"
+      ],
+      "components": [],
+      "faces": []
+    },
+    {
+      "appearance": {
+        "color": "#707b86",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "BridgeFrame"
+      ],
+      "components": [],
+      "faces": []
+    },
+    {
+      "appearance": {
+        "color": "#abb5be",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "ArmCradle1",
+        "ArmCradle2"
+      ],
+      "components": [],
+      "faces": []
+    },
+    {
+      "appearance": {
+        "color": "#d7b18c",
+        "name": "Custom",
+        "opacity": 1.0
+      },
+      "bodies": [
+        "ArmReference"
+      ],
+      "components": [],
+      "faces": []
+    }
+  ]
+}
