@@ -1,5 +1,5 @@
 # mini-scos
-This project builds a low-cost, DIY version of a SCOS sensor using affordable, hobbyist-grade hardware to demonstrate that the physics behind it can be observed and validated on a modest budget.
+This project builds a low-cost, DIY version of a SCOS sensor using affordable, hobbyist-grade hardware. The goal is to demonstrate that the physics behind SCOS can be observed and validated on a modest budget.
 
 ### Background ###
 #### SCOS ####
@@ -37,4 +37,4 @@ The [CAD folder](cad/README.md) lists the prototypes in design order. The curren
 - Elena Berrios eberrios@bu.edu
 - Sean O’Connor ssoc@bu.edu
 ## Acknowledgements and AI ##
-Generative AI tools were used to draft images and text.
+Generative AI tools were used to save time with drafting diagrams, code, and text. Content is always designed and reviewed by humans.
